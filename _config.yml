@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://cylong.cc
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -37,6 +37,7 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
+auto_spacing: true
 highlight:
   enable: true
   line_number: true
