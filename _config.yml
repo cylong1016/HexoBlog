@@ -5,7 +5,7 @@
 # Site
 title: 笑话人生cylong
 subtitle: 一个让cylong卖萌的地方
-description: 如果说现在努力已经晚了，你就会不努力了么？
+description: 我说来不及，你就不努力了么？
 author: cylong
 language: zh-Hans
 timezone:
@@ -14,7 +14,7 @@ timezone:
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://cylong.cc
 root: /
-permalink: :year/:month/:day/:title/
+permalink: blog/:year/:month/:day/:title/
 permalink_defaults:
 
 # Directory

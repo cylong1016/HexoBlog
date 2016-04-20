@@ -26,9 +26,10 @@ Next主题中文文档：
 # 联系我
 如果有志同道合的小伙伴，或者想找个基友什么的，欢迎联系！
 
-*   Email: cyl19941016@sina.com
-*   QQ: 948557407
-*   微信：cyl19941016
+*   <span class="fa fa-envelope"></span> Email: cyl19941016@sina.com
+*   <span class="fa fa-qq"></span> QQ: 948557407
+*   <span class="fa fa-wechat"></span> 微信：cyl19941016
+
 
 [1]: http://software.nju.edu.cn/ "南京大学软件学院"
 [2]: https://github.com/cylong1016/HexoBlog "HexoBlog"
