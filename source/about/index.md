@@ -30,6 +30,7 @@ Next主题中文文档：
 *   <span class="fa fa-qq"></span> QQ: 948557407
 *   <span class="fa fa-wechat"></span> 微信：cyl19941016
 
+---
 
 [1]: http://software.nju.edu.cn/ "南京大学软件学院"
 [2]: https://github.com/cylong1016/HexoBlog "HexoBlog"

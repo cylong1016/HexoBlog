@@ -18,7 +18,6 @@ since: 2016
 
 
 
-
 # ---------------------------------------------------------------
 # Menu Settings
 # ---------------------------------------------------------------
@@ -134,7 +133,6 @@ social_icons:
   Twitter: twitter
   Weibo: weibo
 
-
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
@@ -191,11 +189,11 @@ custom_logo:
 # Available value:
 #    normal | night | night eighties | night blue | night bright
 # https://github.com/chriskempson/tomorrow-theme
-highlight_theme: normal
+highlight_theme: night
 
 
 # Automatically scroll page to section which is under <!-- more --> mark.
-scroll_to_more: true
+scroll_to_more: false
 
 
 # Automatically Excerpt. Not recommand.
@@ -292,25 +290,25 @@ leancloud_visitors:
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
 busuanzi_count:
   # count values only if the other configs are false
-  enable: false
+  enable: true
   # custom uv span for the whole site
-  site_uv: true
-  site_uv_header: <i class="fa fa-user"></i>
-  site_uv_footer:
+  site_uv: false
+  site_uv_header: <i class="fa fa-user"> 访客数</i>
+  site_uv_footer: 人次
   # custom pv span for the whole site
   site_pv: true
-  site_pv_header: <i class="fa fa-eye"></i>
-  site_pv_footer:
+  site_pv_header: <i class="fa fa-eye"> 访问量</i>
+  site_pv_footer: 次
   # custom pv span for one page only
   page_pv: true
-  page_pv_header: <i class="fa fa-file-o"></i>
+  page_pv_header: 阅读次数
   page_pv_footer:
 
 # Tencent analytics ID
 # tencent_analytics:
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
-baidu_push: false
+baidu_push: true
 
 
 
