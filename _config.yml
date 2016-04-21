@@ -75,5 +75,14 @@ deploy:
 # Avatar
 avatar: /images/avatar.jpg
 
-# Comment
+# 多说评论功能
 duoshuo_shortname: cylong
+
+# 多说分享服务
+duoshuo_share: true
+
+# 多说热评文章 true 或者 false
+# duoshuo_hotartical: true
+
+# 百度统计
+baidu_analytics: b440370d4abaa5874e849558cbbc87e2
