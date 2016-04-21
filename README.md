@@ -1,5 +1,5 @@
 # HexoBlog
-个人博客的 Hexo 源码
+个人博客的 Hexo 源码。
 生成的 Public Html 源码请参考 <https://github.com/cylong1016/cylong1016.github.io>
 
 # 感谢
