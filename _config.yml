@@ -72,6 +72,7 @@ deploy:
   type: git
   repo: https://github.com/cylong1016/cylong1016.github.io.git
   branch: master
+
 # Avatar
 avatar: /images/avatar.jpg
 

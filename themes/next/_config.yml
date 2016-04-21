@@ -116,8 +116,11 @@ font:
 # Social Links
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
-#social:
-  #LinkLabel: Link
+social:
+  GitHub: https://github.com/cylong1016
+  Weibo: http://weibo.com/cyl19941016
+  Facebook: https://www.facebook.com/people/陈云龙/100007668136606
+  Twitter: https://twitter.com/cylong1994
 
 
 # Social Links Icons
@@ -130,8 +133,9 @@ social_icons:
   # Icon Mappings.
   # KeyMapsToSocalItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
-  Twitter: twitter
   Weibo: weibo
+  Facebook: facebook
+  Twitter: twitter
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
@@ -264,8 +268,8 @@ mathjax:
 # you can visit http://dev.duoshuo.com get duoshuo user id.
 duoshuo_info:
   ua_enable: true
-  admin_enable: false
-  user_id: 0
+  admin_enable: true
+  user_id: 6621595
   #admin_nickname: Author
 
 
@@ -292,12 +296,12 @@ busuanzi_count:
   # count values only if the other configs are false
   enable: true
   # custom uv span for the whole site
-  site_uv: false
+  site_uv: true
   site_uv_header: <i class="fa fa-user"> 访客数</i>
   site_uv_footer: 人次
   # custom pv span for the whole site
   site_pv: true
-  site_pv_header: <i class="fa fa-eye"> 访问量</i>
+  site_pv_header: <i class="fa fa-eye"> 站点总访问量</i>
   site_pv_footer: 次
   # custom pv span for one page only
   page_pv: true
