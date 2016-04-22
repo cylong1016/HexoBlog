@@ -121,6 +121,7 @@ social:
   Weibo: http://weibo.com/cyl19941016
   Facebook: https://www.facebook.com/people/陈云龙/100007668136606
   Twitter: https://twitter.com/cylong1994
+  Email: /about/#联系我
 
 
 # Social Links Icons
@@ -136,6 +137,7 @@ social_icons:
   Weibo: weibo
   Facebook: facebook
   Twitter: twitter
+  Email: envelope
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
