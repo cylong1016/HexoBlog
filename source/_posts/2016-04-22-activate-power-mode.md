@@ -1,8 +1,11 @@
 ---
-title: {{ title }}
-date: {{ date }}
+title: Atom 的炫酷插件 activate-power-mode
+date: 2016-04-22 20:00:43
 categories:
+    - Atom
 tags:
+    - atom
+    - 插件
 ---
 ---
 
