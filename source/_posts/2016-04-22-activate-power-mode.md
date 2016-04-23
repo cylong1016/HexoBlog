@@ -41,9 +41,24 @@ tags:
 
 之后重启 Atom ，使用右键选择 `Toggle` 或者 `Ctrl ＋ Alt ＋ O` 就启动插件了，体验炫酷的效果吧！
 
+## 插件修改
+
+刚开始用的时候感觉蛮好玩的，非常爽。然后用了不到一分钟，我就觉得眼睛要瞎了！估计在玩个几分钟就真的瞎了！！果然这个插件只适合玩玩，屏幕震动效果闪瞎我的双眼！要是能够把震动效果删除会不会好一点？如我所愿，果然能够修改，毕竟源代码都有了。 首先打开 `activate-power-mode\lib\activate-power-mode.coffee` 文件。找到以下代码：
+
+{% code %}
+    shake: ->
+    min = @getConfig "screenShake.minIntensity"
+    max = @getConfig "screenShake.maxIntensity"
+
+    x = @shakeIntensity min, max
+    y = @shakeIntensity min, max
+{% endcode %}
+
+将其中的 `x` 和 `y` 的值改为0就可以了。
+
 # 总结
 
-刚开始用的时候感觉蛮好玩的，非常爽。然后用了不到一分钟，我就觉得眼睛要瞎了！估计在玩个几分钟就真的瞎了！！果然这个插件只适合玩玩，屏幕震动效果闪瞎我的双眼！要是可以删除，只留下打字的气泡效果就感觉好多了。最后推荐下自己比较喜欢的编辑器 [Atom][] 吧 (●'◡'●)
+目前这个插件还有很多问题，我在用的时候就遇到些，比如关闭重启插件的时候，要重启下 Atom 。如果读者有更好的 Atom 插件或者这个插件的更好修改方式，欢迎留言或者 [联系我][]。最后推荐下自己比较喜欢的编辑器 [Atom][] 吧 (●'◡'●)
 
 ---
 
@@ -56,3 +71,4 @@ tags:
 [Atom]: https://atom.io/ "Atom"
 [activate-power-mode]: https://github.com/JoelBesada/activate-power-mode "activate-power-mode"
 [Node.js]: http://nodejs.org/ "Node.js"
+[联系我]: /about/#联系我
