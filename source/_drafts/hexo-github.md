@@ -1,6 +1,6 @@
 ---
-title: {{ title }}
-date: {{ date }}
+title: Hexo 博客部署到 GitHub 上
+date: 2016-04-25 19:19:24
 categories:
 tags:
 ---
