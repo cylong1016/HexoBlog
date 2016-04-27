@@ -122,6 +122,11 @@ date: 2016-04-25 19:27:11
 
 目前就先改这么多，更多的样式还在开发中，会不定期的更新。如果小伙伴有什么更好的样式，欢迎留言~
 
+# 参考资料
+
+> [多说使用帮助 - 多说开发者中心][5]
+> [讨论区 - 多说开发者中心][6]
+
 ---
 
 > 文章标题：<a href='{{ permalink }}' title='{{ title }}' >{{ title }}</a>
@@ -133,4 +138,6 @@ date: 2016-04-25 19:27:11
 [2]: http://theme-next.iissnan.com/third-party-services.html "第三方服务集成 - Next 使用文档"
 [3]: http://www.w3school.com.cn/css/index.asp "CSS 教程 - W3School"
 [4]: http://dev.duoshuo.com/docs/5497972ba1165bfd53cf4263 "多说分享组件自定义图标 - 多说开发者中心"
+[5]: http://dev.duoshuo.com/docs/ "多说使用帮助 - 多说开发者中心"
+[6]: http://dev.duoshuo.com/discussion "讨论区 - 多说开发者中心"
 [多说]: http://duoshuo.com/ "多说"

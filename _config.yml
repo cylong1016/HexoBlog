@@ -25,7 +25,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: README.md
 
 # Writing
 new_post_name: :year-:month-:day-:title.md # File name of new posts
@@ -70,7 +70,7 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/cylong1016/cylong1016.github.io.git
+  repo: git@github.com:cylong1016/cylong1016.github.io.git
   branch: master
 
 # Avatar
