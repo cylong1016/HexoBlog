@@ -62,7 +62,7 @@ date: 2016-04-19 22:52:53
 [2]: https://github.com/cylong1016/HexoBlog "HexoBlog"
 [3]: https://xuanwo.org/2015/03/26/hexo-intor/ "Xuanwo's Blog - 史上最详细的Hexo博客搭建图文教程"
 [4]: http://wsgzao.github.io/post/hexo-guide/ "HelloDog - 使用GitHub和Hexo搭建免费静态Blog"
-[5]: http://www.cylong.cc/blog/2016/04/19/hexo-git/ "Hexo + Git 搭建免费的个人博客 | 笑话人生"
+[5]: http://www.cylong.com/blog/2016/04/19/hexo-git/ "Hexo + Git 搭建免费的个人博客 | 笑话人生"
 [6]: https://www.zhihu.com/people/chen-yun-long-71-29 "陈云龙 - 知乎"
 [7]: http://weibo.com/cyl19941016 "笑话人生cylong的微博"
 [8]: https://www.facebook.com/people/陈云龙/100007668136606 "陈云龙 - Facebook"
