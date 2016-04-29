@@ -46,7 +46,7 @@ date: 2016-04-25 19:27:11
 1. 与上面相同
 2. 修改 `themes\landscape\layout\_partial\article.ejs` 模板，把：
 
-{% code %}
+{% code lang:html %}
     <% if (!index && post.comments && config.disqus_shortname){ %>
     <section id="comments">
         <div id="disqus_thread">
@@ -58,7 +58,7 @@ date: 2016-04-25 19:27:11
 
 改为：
 
-{% code %}
+{% code lang:html %}
     <% if (!index && post.comments && config.duoshuo_shortname){ %>
     <section id="comments">
         <!-- 多说评论框 start -->
@@ -116,11 +116,77 @@ date: 2016-04-25 19:27:11
         -webkit-border-radius: 27px;/*圆角效果：兼容webkit浏览器*/
         -moz-border-radius: 27px;
     }
+
+    /* 所有样式 */
+    * {
+        -webkit-border-radius: 0px !important;
+        border-radius: 0px !important;
+        box-shadow: inset 0 0 0px #fff !important;
+    }
+
+    /* 喜欢按钮 */
+    #ds-thread #ds-reset a.ds-like-thread-button {
+        border: 0px !important;
+        background: #E9E9E9 !important;
+    }
+
+    /* 被顶起来的评论 */
+    #ds-reset .ds-gradient-bg {
+        background: #E9E9E9 !important;
+    }
+
+    /* 评论框默认显示文字样式 */
+    #ds-thread #ds-reset .ds-textarea-wrapper textarea, #ds-thread #ds-reset .ds-textarea-wrapper .ds-hidden-text {
+        font-family: "Microsoft YaHei", Verdana, sans-serif !important;
+    }
+
+    /* 发布评论按钮 */
+    #ds-thread #ds-reset .ds-post-button {
+        font-family: "Microsoft YaHei", Verdana, sans-serif !important;
+        border: 0 none !important;
+        color: #FFFFFF !important;
+        background: none repeat scroll 0 0 #F3726D !important;
+        cursor: pointer !important;
+        display: inline-block !important;
+        text-transform: none !important;
+        transition: all 0.3s ease 0s !important;
+        -moz-transition: all 0.3s ease 0s !important;
+        -webkit-transition: all 0.3s ease 0s !important;
+        text-align: center !important;
+        text-shadow: 0 0px 0 #fff !important;
+    }
+
+    /* 发布评论按钮  hover */
+    #ds-thread #ds-reset .ds-post-button:hover {
+        background: none repeat scroll 0 0 #303030 !important;
+        color: white !important;
+    }
+
+    /* 评论框边框 */
+    .theme-next #ds-thread #ds-reset .ds-textarea-wrapper {
+        border-color: #DEDEDE !important;
+    }
+
+    /* 评论框下面框的边框(好绕啊！) */
+    #ds-thread #ds-reset .ds-post-toolbar {
+        border: 1px solid #DEDEDE !important;
+        background: #E9E9E9 !important;
+    }
+
+    /* 昵称 */
+    #ds-reset .ds-highlight {
+        color: #F3726D !important;
+    }
+
+    /* 顶 */
+    #ds-thread #ds-reset .ds-post-liked a.ds-post-likes {
+        color: #F3726D !important;
+    }
 {% endcode %}
 
 具体看那些组件不顺眼，要修改掉，在网页上右键，选择 `检查元素` 就可以看到相对应的类名和 ID 等等。如果不会 CSS，建议你去 [CSS 教程 - W3School][3] 简单的学习一下 CSS 的基本知识。
 
-目前就先改这么多，更多的样式还在开发中，会不定期的更新。如果小伙伴有什么更好的样式，欢迎留言~
+另外我发现 Next 主题也对多说的 CSS 样式做了些更改，CSS路径 `themes\next\source\css\_common\components\third-party\duoshuo.styl`，所以如果小伙伴用了其他主题，显示样式可能有点区别。 目前就先改这么多，更多的样式还在开发中，会不定期的更新。如果小伙伴有什么更好的样式，欢迎留言~
 
 # 参考资料
 
