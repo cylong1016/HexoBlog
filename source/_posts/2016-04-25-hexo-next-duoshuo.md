@@ -100,6 +100,27 @@ date: 2016-04-25 19:27:11
 
 > [多说分享组件自定义图标 - 多说开发者中心][4]
 
+## 多说评论显示 UA
+
+在每一条多说评论后显示评论者所使用的代理信息（如 操作系统、浏览器），效果如下：
+
+![多说评论显示 UA 示例](duoshuo_ua.png)
+
+启用此功能，需要编辑`主题配置文件` `_congig.yml` 如下：
+
+{% code %}
+    # Make duoshuo show UA
+    # user_id must NOT be null when admin_enable is true!
+    # you can visit http://dev.duoshuo.com get duoshuo user id.
+    duoshuo_info:
+      ua_enable: true
+      admin_enable: true
+      user_id: xxxxxx
+      admin_nickname: 权限汪
+{% endcode %}
+
+只要设置 `ua_enable` 为 true 即可显示 UA 信息。 `admin_enable` 是用于显示 `博主` 文字，表明评论者是博主【默认显示的是博主，我给改成权限汪了】，此字段需要同时配置 user_id。 请访问 [多说开发者中心][7]，登录并访问 `我的主页` 获取 user_id ， 此 ID 是网址最后那串数字。
+
 ## 自定义 CSS
 
 登陆 [多说][]，点击后台管理，在 `设置/基本设置/自定义CSS` 中可以修改多说的 CSS 样式，如图：
@@ -198,6 +219,8 @@ date: 2016-04-25 19:27:11
 
 > [多说使用帮助 - 多说开发者中心][5]
 > [讨论区 - 多说开发者中心][6]
+> [主题配置 - Next 使用文档][8]
+> [第三方服务集成 - Next 使用文档][9]
 
 ---
 
@@ -212,4 +235,7 @@ date: 2016-04-25 19:27:11
 [4]: http://dev.duoshuo.com/docs/5497972ba1165bfd53cf4263 "多说分享组件自定义图标 - 多说开发者中心"
 [5]: http://dev.duoshuo.com/docs/ "多说使用帮助 - 多说开发者中心"
 [6]: http://dev.duoshuo.com/discussion "讨论区 - 多说开发者中心"
+[7]: http://dev.duoshuo.com/ "多说开发者中心"
+[8]: http://theme-next.iissnan.com/theme-settings.html "主题配置 - Next 使用文档"
+[9]: http://theme-next.iissnan.com/third-party-services.html "第三方服务集成 - Next 使用文档"
 [多说]: http://duoshuo.com/ "多说"
