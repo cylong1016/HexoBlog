@@ -127,7 +127,7 @@ date: 2016-04-25 19:27:11
 
 ![多说 - 自定义 CSS](duoshuo_css.png)
 
-我的修改如下：
+我的修改如下（可是使用键盘上的上下左右查看看不到的代码）：
 
 {% code lang:css %}
     /* 设置圆形头像 */
@@ -147,8 +147,41 @@ date: 2016-04-25 19:27:11
 
     /* 喜欢按钮 */
     #ds-thread #ds-reset a.ds-like-thread-button {
-        border: 0px !important;
-        background: #E9E9E9 !important;
+        border: 1px solid #f3726d;
+        background: #fff !important;
+        text-shadow: 0 0px 0 #fff !important;
+    }
+
+    /* 点击喜欢后弹出的分享图标 */
+    .ds-service-link {
+        background: url("//static.duoshuo.com/images/service-icons-color-flat.png?v=2") no-repeat;
+        _background-image: url("//static.duoshuo.com/images/service-icons-color-flat.gif?v=2");
+    }
+
+    /* 上面那个分享图标我是想改成扁平化的，但是修改了后 */
+    /* 下面这几个图标的坐标位置属性（多说原生的代码）就无效了，不知道为什么，于是自己手动写上去了 */
+    #ds-reset .ds-qzone {
+        background-position: 0 -128px;
+    }
+
+    #ds-reset .ds-qqt {
+        background-position: 0 -64px;
+    }
+
+    #ds-reset .ds-renren {
+        background-position: 0 -32px;
+    }
+
+    #ds-reset .ds-kaixin {
+        background-position: 0 -80px;
+    }
+
+    #ds-reset .ds-douban {
+        background-position: 0 -96px;
+    }
+
+    #ds-reset .ds-baidu {
+        background-position: 0 -208px;
     }
 
     /* 被顶起来的评论 */
