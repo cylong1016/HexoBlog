@@ -10,7 +10,7 @@ date: 2016-04-19 22:52:53
 *   性别： 男
 *   个性： 是个呆头呆脑的逗逼程序猿。(●'◡'●)
 *   技能： 熟悉 Html/CSS/JavaScript、 PHP、 Java 开发，对 Android 也比较感兴趣。
-*   社区： 喜欢逛逛 [知乎][6]、[微博][7]、[Facebook][8]、[Twitter][9]，最近喜欢上了 [V2EX][10]。
+*   社区： 喜欢逛逛 [知乎][6]、[微博][7]、[Facebook][8]、[Twitter][9]，最近喜欢上了 [V2EX][10] 【欢迎 [点此][13] 注册】。
 *   休闲： 喜欢听歌、看电影、打乒乓球，也会去健身【虽然还是一碰就倒的身体】
 *   游戏： 喜欢玩三国杀、部落冲突，欢迎骚扰。
 *   现状： 目前是 [南京大学软件学院][1] 13级本科在校生。Web 开发方向
@@ -70,3 +70,4 @@ date: 2016-04-19 22:52:53
 [10]: https://www.v2ex.com/member/cylong "V2EX › cylong"
 [11]: https://hexo.io/zh-cn/docs/ "Hexo 中文文档"
 [12]: http://theme-next.iissnan.com/ "Next主题中文文档"
+[13]: http://www.v2ex.com/?r=cylong "V2EX"
