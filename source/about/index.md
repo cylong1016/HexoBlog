@@ -67,6 +67,6 @@ date: 2016-04-19 22:52:53
 [7]: http://weibo.com/cyl19941016 "笑话人生cylong的微博"
 [8]: https://www.facebook.com/people/陈云龙/100007668136606 "陈云龙 - Facebook"
 [9]: https://twitter.com/cylong1994 "陈云龙(@cylong1994) | Twitter"
-[10]: https://www.v2ex.com/member/cyl19941016 "V2EX › cyl19941016"
+[10]: https://www.v2ex.com/member/cylong "V2EX › cylong"
 [11]: https://hexo.io/zh-cn/docs/ "Hexo 中文文档"
 [12]: http://theme-next.iissnan.com/ "Next主题中文文档"
