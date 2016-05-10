@@ -2,11 +2,15 @@
 title: .gitignore 的使用
 date: 2016-05-09 18:16:49
 categories:
+    - Git
 tags:
+    - git
+    - github
+    - gitignore
 ---
 ---
 
-
+博主很懒，正在开发中~
 
 <!-- more -->
 
