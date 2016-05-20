@@ -1,16 +1,16 @@
 ---
 title: .gitignore 的使用
-date: 2016-05-09 18:16:49
 categories:
-    - Git
+  - Git
 tags:
-    - git
-    - github
-    - gitignore
+  - git
+  - github
+  - gitignore
+date: 2016-05-09 18:16:49
 ---
 ---
 
-博主很懒，正在开发中~
+博主很懒，正在开发中~ 今天一定要写完这篇文章！【2016-05-17】
 
 <!-- more -->
 
