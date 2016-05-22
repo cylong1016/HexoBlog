@@ -4,7 +4,6 @@ categories:
   - Git
 tags:
   - git
-  - github
   - gitignore
 date: 2016-05-19 18:16:49
 ---
