@@ -30,5 +30,5 @@ tags:
 > 文章链接：<a href='{{ permalink }}' title='{{ title }}' >{{ permalink }}</a>
 > 有问题或者建议欢迎在下方评论。欢迎转载、引用，但希望标明出处，感激不尽(●'◡'●)
 
-[1]: /blog/2016/05/22/google-baidu-search/ "如何在 Google 和百度里搜索到自己的网站"
+[1]: http://www.cylong.com/blog/2016/05/22/google-baidu-search/ "如何在 Google 和百度里搜索到自己的网站"
 [2]: http://zhanzhang.baidu.com/ "百度站长平台"

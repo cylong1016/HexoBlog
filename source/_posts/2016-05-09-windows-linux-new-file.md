@@ -61,4 +61,4 @@ date: 2016-05-09 18:48:52
 > 有问题或者建议欢迎在下方评论。欢迎转载、引用，但希望标明出处，感激不尽(●'◡'●)
 
 
-[1]: /blog/2016/05/19/gitignore/ ".gitignore 的使用"
+[1]: http://www.cylong.com/blog/2016/05/19/gitignore/ ".gitignore 的使用"

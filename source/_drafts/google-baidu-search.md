@@ -9,7 +9,7 @@ tags:
     - search
 ---
 ---
-我就试一试
+
 搭建完自己的博客或者有一个自己的网站什么的，总想着能在 Google 或者是百度里搜索到吧，这样就可以提高你的网站的知名度，说不定还会结 ♂ 交到志同道合的小伙伴呢 (●'◡'●)
 
 <!-- more -->
@@ -50,4 +50,4 @@ tags:
 
 [1]: https://www.google.com/webmasters/ "Google 网站站长"
 [2]: http://zhanzhang.baidu.com/ "百度站长平台"
-[3]: /blog/2016/05/22/github-baidu-spider-exception/ "解决 Github Pages 禁止百度爬虫抓取的问题"
+[3]: http://www.cylong.com/blog/2016/05/22/github-baidu-spider-exception/ "解决 Github Pages 禁止百度爬虫抓取的问题"

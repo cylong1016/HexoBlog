@@ -74,6 +74,6 @@ date: 2016-05-19 18:16:49
 > 文章链接：<a href='{{ permalink }}' title='{{ title }}' >{{ permalink }}</a>
 > 有问题或者建议欢迎在下方评论。欢迎转载、引用，但希望标明出处，感激不尽(●'◡'●)
 
-[1]: /blog/2016/05/09/windows-linux-new-file/ "Windows 使用 cmd(命令提示符)创建文件"
+[1]: http://www.cylong.com/blog/2016/05/09/windows-linux-new-file/ "Windows 使用 cmd(命令提示符)创建文件"
 [2]: http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013758404317281e54b6f5375640abbb11e67be4cd49e0000 "忽略特殊文件 - 廖雪峰的官方网站"
 [3]: https://segmentfault.com/a/1190000000522997 ".gitignore 文件使用说明 - change2hao"
