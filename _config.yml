@@ -93,3 +93,9 @@ google_analytics: UA-77162231-1
 
 # Swiftype Search Key
 swiftype_key: yAiLNHCfz_wxps7DgHzV
+
+# Sitemap Setting
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
