@@ -242,6 +242,11 @@ date: 2016-04-25 19:27:11
         background-image: url("//static.duoshuo.com/images/service-icons-color-flat.png") !important;
         _background-image: url("//static.duoshuo.com/images/service-icons-color-flat.gif") !important;
     }
+
+    /* 隐藏多说底部的版权 */
+    #ds-thread #ds-reset .ds-powered-by {
+        display: none;
+    }
 {% endcode %}
 
 我比较喜欢简洁扁平化的风格，所以做了上述的更改。小伙伴们具体看那些组件不顺眼，要修改掉，在网页上右键，选择 `检查元素` 就可以看到相对应的类名和 ID 等等。如果不会 CSS，建议你去 [CSS 教程 - W3School][3] 简单的学习一下 CSS 的基本知识。

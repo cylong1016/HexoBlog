@@ -41,15 +41,19 @@ date: 2016-04-19 22:52:53
 
 感谢：
 
-*   [Hexo][] 提供博客框架
-*   [Next][] 提供博客主题
-*   [多说][] 提供评论系统和分享服务
-*   [百度统计][] 提供统计功能
-*   [Swiftype][] 提供搜索服务
-*   [Google Analytics][] 提供 Google 分析
-*   [不蒜子][] 提供站点计数功能【总访问量，单页面访问量】
+> [Hexo][] 提供博客框架
+> [Next][] 提供博客主题
+> [多说][] 提供评论系统、分享服务、最近访客等等各种服务，详情请看 [多说开发者中心][16]
+> [百度统计][] 提供统计功能
+> [Swiftype][] 提供搜索服务
+> [Google Analytics][] 提供 Google 分析
+> [不蒜子][] 提供站点计数功能【总访问量，单页面访问量】
 
 ---
+
+最近访客
+
+<div class="ds-recent-visitors" data-num-items="1000" data-avatar-size="32" id="ds-recent-visitors"></div>
 
 [Hexo]: https://hexo.io/zh-cn/ "Hexo"
 [Next]: http://theme-next.iissnan.com/ "Next"
@@ -73,3 +77,4 @@ date: 2016-04-19 22:52:53
 [13]: http://www.v2ex.com/?r=cylong "V2EX"
 [14]: https://segmentfault.com/u/cylong "笑话人生 - SegmentFault"
 [15]: http://ask.githuber.cn/users/cylong1016/activity "Ask.GitHuber.cn"
+[16]: http://dev.duoshuo.com/docs "多说开发者中心"
