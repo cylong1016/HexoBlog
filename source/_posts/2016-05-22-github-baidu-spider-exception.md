@@ -37,17 +37,17 @@ date: 2016-05-22 16:24:44
 4. 进入你的项目，点击左侧的 `代码`，在选择 `Pages 服务`，选择 `部署分支`，默认是 `coding-pages`，然后点击 `立即开启`。
 5. 绑定自己的域名，如下图：
 ![Coding Pages](coding-pages.png)
-6. 到你的 DNS 服务商修改你的域名解析记录，这里不需要删除解析到 Github 的记录，像我下面这样配置就可以：
-![DNS 解析记录](dns-parse.png)
-这样正常访问还是访问到 Github 上，百度抓取的时候是抓取的 CODING 上的项目。我使用的是万网 DNS，有些小伙伴可能使用的是其他的 DNS 服务商，解析线路如果没有百度的话，可以换成国内、联通等等，具体哪个我也没有试过，只要百度能抓取成功就行。
-
-# 遇到的问题
-
-有时候发现设置线路为百度好像没用了？有时候可以，有时候有问题。。。然后换成联通，再最后我直接把解析到 Github 的记录删掉了，直接用默认线路解析到 CODING 上【放弃部署到 Github 上】。如果某一天 CODING 不存在了【我是不是想太多了→\_→】或者找到其他好办法，我再换成 Github 好了。
+6. 到你的 DNS 服务商修改你的域名解析记录，这里不需要删除解析到 Github 的记录，像我下面这样配置就可以，这样正常访问还是访问到 Github 上，百度抓取的时候是抓取的 CODING 上的项目。
+万网 DNS 设置：
+![DNS 解析记录 - 万网](dns-parse.png)
+DNSPod 设置：
+![DNS 解析记录 - DNSPod](dns-parse-dnspod.png)
+注意：我的域名在万网购买的，默认使用的是万网的 DNS，设置成百度后开始是好用的，后来就又抓取不到了。于是我就换成了 [DNSPod][6] 的服务，把线路类型设置成搜索引擎或者国内都可以。
 
 # 感谢
 
 > [解决 Github Pages 禁止百度爬虫的方法与可行性分析 - 咀嚼之味][3]
+> [解决百度爬虫无法抓取github pages - Lippi-浮生志][7]
 
 ---
 
@@ -61,3 +61,5 @@ date: 2016-05-22 16:24:44
 [3]: http://jerryzou.com/posts/feasibility-of-allowing-baiduSpider-for-Github-Pages/ "解决 Github Pages 禁止百度爬虫的方法与可行性分析 - 咀嚼之味"
 [4]: https://coding.net "CODING"
 [5]: https://gitcafe.com/ "Gitcafe"
+[6]: https://www.dnspod.cn/ "DNSPod-免费智能DNS解析服务商"
+[7]: http://www.ezlippi.com/blog/2016/02/baidu-spider-forbidden.html "解决百度爬虫无法抓取github pages - Lippi-浮生志"
