@@ -247,11 +247,44 @@ date: 2016-04-25 19:27:11
     #ds-thread #ds-reset .ds-powered-by {
         display: none;
     }
+
+    /* 最近访客的头像 */
+    #ds-recent-visitors .ds-avatar img {
+        border-radius: 27px !important;
+        -webkit-border-radius: 27px !important;
+        -moz-border-radius: 27px !important;
+    }
+
+    /* 最近访客的头像 */
+    #ds-recent-visitors .ds-avatar {
+        float: left
+    }
 {% endcode %}
 
 我比较喜欢简洁扁平化的风格，所以做了上述的更改。小伙伴们具体看那些组件不顺眼，要修改掉，在网页上右键，选择 `检查元素` 就可以看到相对应的类名和 ID 等等。如果不会 CSS，建议你去 [CSS 教程 - W3School][3] 简单的学习一下 CSS 的基本知识。
 
 另外我发现 Next 主题也对多说的 CSS 样式做了些更改，CSS路径 `themes\next\source\css\_common\components\third-party\duoshuo.styl`，所以如果小伙伴用了其他主题，显示样式可能有点区别。 目前就先改这么多，更多的样式还在开发中，会不定期的更新。如果小伙伴有什么更好的样式，欢迎留言~
+
+# 更新
+
+**2016-05-28 更新**
+## 添加站点最近访客功能
+
+你只需要在想要显示的地方添加如下代码即可：
+
+{% code lang:html %}
+    <div class="ds-recent-visitors"
+        data-num-items="36"
+        data-avatar-size="42"
+        id="ds-recent-visitors">
+    </div>
+{% endcode %}
+
+data-num-items：显示的最近访客数量
+data-avatar-size： 访客头像大小
+CSS 设置：请参考上面的自定义CSS
+
+当然，前提是你使用了多说评论功能，因为最近访客功能就是由多说提供的。我是直接写在了 `about/index.md` 文件中。[点此][10] 看看我的访客功能(●'◡'●)
 
 # 参考资料
 
@@ -276,4 +309,5 @@ date: 2016-04-25 19:27:11
 [7]: http://dev.duoshuo.com/ "多说开发者中心"
 [8]: http://theme-next.iissnan.com/theme-settings.html "主题配置 - Next 使用文档"
 [9]: http://theme-next.iissnan.com/third-party-services.html "第三方服务集成 - Next 使用文档"
+[10]: http://www.cylong.com/about/ "关于我 - 笑话人生"
 [多说]: http://duoshuo.com/ "多说"
