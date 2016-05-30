@@ -9,5 +9,5 @@ Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
 
-Sitemap: http://dkylin.com/sitemap.xml
-Sitemap: http://dkylin.com/baidusitemap.xml
+Sitemap: http://www.cylong.com/sitemap.xml
+Sitemap: http://www.cylong.com/baidusitemap.xml
