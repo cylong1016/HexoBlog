@@ -21,7 +21,7 @@ date: 2016-05-26 13:51:29
 
 1. 点击进入 [Shadowsocks][1]，进入首页后选择 `订购服务`。
 2. 之后选择你想要购买的服务，点击现在订购。我选择的是 `Shadowsocks.com 普通版`。需要注意的是，虽然显示的价格是美元，但是在后面支付的时候会自动转化为人民币。
-![Shadowsocks普通版](shadowsocks-basic.png)
+![Shadowsocks普通版](Shadowsocks-basic.png)
 3. 界面上选择你的付款年限，然后点击继续。
 4. 在结账页面，你需要填写各种信息，需要认真填写，这也是在创建账号。
 5. Shadowsocks 支持 Alipay 支付宝国际版。之后付款就可以了，现在大约是 104 块钱一年。我买的时候，订购服务时显示的还是人民币，99块钱一年。虽然贵了一点点，不过还是可以接受的。
@@ -41,20 +41,22 @@ date: 2016-05-26 13:51:29
 2. 解压后有一个 `Shadowsocks.exe` 文件。最好把这个文件放到一个目录下，比如新建一个 Shadowsocks 文件夹。
 3. 把刚刚下载的 `gui-config.json` 文件放到与 `Shadowsocks.exe` 相同的目录下。
 4. 双击 `Shadowsocks.exe`，会出现一个 GUI 界面，自动读取了 `gui-config.json` 文件中的内容。
+![Windows Shadowsocks 图形界面](Windows-Shadowsocks-gui.png)
 5. 在右下角托盘图标上会有一个好像纸飞机的 Shadowsocks 图标，`右键->启动系统代理`，就可以越过墙壁，浏览更多丰富多彩的内容啦~
+![Shadowsocks 菜单](Shadowsocks-menu.png)
 6. 另外建议设置成 `右键->开机启动`，这样不用每次开机手动启动了。还可以在 `右键->服务器` 中选择不同的服务器。
 
 ## Android 客户端
 
 1. 点击下载 [shadowsocks-nightly-2.10.3.apk][6]【写这篇博客时候的最新版本】，或者去 [Github - Shadowsocks Android][7] 上寻找其他版本。
-2. 把这个 apk 安装到手机上【可以传到手机里，打开这个 apk 就能安装了】。
-3. 安装完成后仍然需要配置，支持扫描二维码配置，但是需要下载一个客户端。
-4. 我不喜欢下太多的客户端，所以就手动配置，具体的值可以用记事本打开 `gui-config.json` 查看。
-5. 翻墙后就可以去 Google Play 商店更新 Shadowsocks 了~(●'◡'●)
+2. 把这个 apk 安装到手机上【可以传到手机里，打开这个 apk 就能安装了】，中文叫影梭。
+3. 安装完成后仍然需要配置，支持扫描二维码配置，但是需要下载一个客户端。我不喜欢下太多的客户端，所以就手动配置，具体的值可以用记事本打开 `gui-config.json` 查看。
+![Shadowsocks Android](Shadowsocks-Android.png)
+4. 翻墙后就可以去 Google Play 商店更新 Shadowsocks 了(●'◡'●)
 
 ## Linux 客户端
 
-经历了N天之后,终于在舍友的指导下配置完成了。不得不说，Linux 真是一个让人折腾的系统。不过后来发现，其实还蛮简单的(●'◡'●)
+经历了N天之后,终于在舍友的指导下配置完成了。不得不说，Linux 真是一个让人折腾的系统。不过后来发现，其实还蛮简单的（╯－＿－）╯╧╧
 
 1. 首先你需要下载 [Chrome 浏览器][8] 【不需要翻墙】，已经有的小伙伴就不用重新下载了。
 2. 使用如下命令安装你下载下来的 Chrome 安装包：
@@ -76,7 +78,7 @@ date: 2016-05-26 13:51:29
 7. 配置完成后点击 `OK`，再点击界面上面的 `连接`，测试下延迟，看看是否能连接上。可以多配置几个，方便切换~
 8. 接下来就是配置 Chrome，让 Chrome 可以使用代理。下载安装 [SwitchySharp][10] 【链接里有教程】。
 9. 打开 Chrome， 点击右上角的 <span class="fa fa-globe" aria-hidden="true"></span> 图标，再点击 `选项`。
-![shadowsocks 图标](shadowsocks-icon.png)
+![shadowsocks 图标](Shadowsocks-icon.png)
 10. 点击 `新建情景模式`，做如下配置。
 ![SwitchySharp 配置](SwitchySharp-config.png)
 11. 保存后再点击 <span class="fa fa-globe" aria-hidden="true"></span> 图标就会有你刚刚配置的情景模式，选择后就可以使用 Chrome 浏览器浏览墙外的世界啦~【另外 SwitchySharp 可以升级成 SwitchyOmega 了，有兴趣的小伙伴可以试一试！】
