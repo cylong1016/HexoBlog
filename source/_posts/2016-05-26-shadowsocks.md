@@ -1,14 +1,15 @@
 ---
 title: 站在 Shadowsocks 的肩膀上发现精彩的世界
-date: 2016-05-26 13:51:29
 categories:
-    - Shadowsocks
+  - Shadowsocks
 tags:
-    - shadowsocks
-    - windows
-    - android
-    - linux
-    - 翻墙
+  - shadowsocks
+  - windows
+  - android
+  - linux
+  - ubuntu
+  - 翻墙
+date: 2016-05-26 13:51:29
 ---
 ---
 
@@ -20,11 +21,13 @@ tags:
 
 1. 点击进入 [Shadowsocks][1]，进入首页后选择 `订购服务`。
 2. 之后选择你想要购买的服务，点击现在订购。我选择的是 `Shadowsocks.com 普通版`。需要注意的是，虽然显示的价格是美元，但是在后面支付的时候会自动转化为人民币。
+![Shadowsocks普通版](shadowsocks-basic.png)
 3. 界面上选择你的付款年限，然后点击继续。
 4. 在结账页面，你需要填写各种信息，需要认真填写，这也是在创建账号。
 5. Shadowsocks 支持 Alipay 支付宝国际版。之后付款就可以了，现在大约是 104 块钱一年。我买的时候，订购服务时显示的还是人民币，99块钱一年。虽然贵了一点点，不过还是可以接受的。
 6. 之后进入 [客户中心][2]，用第4步创建的账号登陆。
 7. 点击产品服务，可以看到你刚刚购买的服务，状态为有效。
+![我的服务](my-service.png)
 8. 点击刚刚购买的服务，会看到产品详情。下面有配置文件下载，选择 Windows 版下载。下载下来是 `gui-config.json`。
 
 # 客户端安装使用
@@ -51,17 +54,47 @@ tags:
 
 ## Linux 客户端
 
-经历了N天之后,终于在舍友的指导下配置完成了。不得不说,Linux 真是一个让人折腾的系统。
+经历了N天之后,终于在舍友的指导下配置完成了。不得不说，Linux 真是一个让人折腾的系统。不过后来发现，其实还蛮简单的(●'◡'●)
+
+1. 首先你需要下载 [Chrome 浏览器][8] 【不需要翻墙】，已经有的小伙伴就不用重新下载了。
+2. 使用如下命令安装你下载下来的 Chrome 安装包：
+{% code lang:sh %}
+    sudo dpkg -i xxx-chrome-xxx.deb
+{% endcode %}
+3. 通过 PPA 源安装 Shadowsocks-qt5，仅支持 Ubuntu 14.04 或更高版本。
+{% code lang:sh %}
+    sudo add-apt-repository ppa:hzwhuang/ss-qt5
+    sudo apt-get update
+    sudo apt-get install shadowsocks-qt5
+{% endcode %}
+4. 之后就可以在应用列表里搜索到 Shadowsocks-qt5 了
+![搜索应用列表](search-shadowsocks.png)
+5. 打开图形化界面，点击 `文件 -> 从 gui-config.json 导入链接`，接着就会像下图一样。
+![Shadowsocks-Qt5 图形界面](Shadowsocks-Qt5-GUI.png)
+6. 上图的 jp01 和 us01 都是后来配置好的，导入 gui-config.json 后还是有些需要自己配置。双击某一条连接，像我如下这样配置【默认有的配置就不要改了】：
+![连接配置](config.png)
+7. 配置完成后点击 `OK`，再点击界面上面的 `连接`，测试下延迟，看看是否能连接上。可以多配置几个，方便切换~
+8. 接下来就是配置 Chrome，让 Chrome 可以使用代理。下载安装 [SwitchySharp][10] 【链接里有教程】。
+9. 打开 Chrome， 点击右上角的 <span class="fa fa-globe" aria-hidden="true"></span> 图标，再点击 `选项`。
+![shadowsocks 图标](shadowsocks-icon.png)
+10. 点击 `新建情景模式`，做如下配置。
+![SwitchySharp 配置](SwitchySharp-config.png)
+11. 保存后再点击 <span class="fa fa-globe" aria-hidden="true"></span> 图标就会有你刚刚配置的情景模式，选择后就可以使用 Chrome 浏览器浏览墙外的世界啦~【另外 SwitchySharp 可以升级成 SwitchyOmega 了，有兴趣的小伙伴可以试一试！】
+12. 做了上述一系列操作后只有在 Chrome 中可以翻出墙外，至于全局代理我正在研究，过几天会出教程，有会的小伙伴也可以交 ♂ 流下~
 
 ## 其他客户端
 
-其他的客户端基本上就剩下苹果设备了，由于本渣没有任何的苹果设备。。。所以自己研究吧。去 [客户端 - Shadowsocks][3] 可以找到相关的客户端。
+其他的客户端基本上就剩下苹果设备了，由于本渣没有任何的苹果设备。。。所以自己研究吧，相信聪明的你可以完成的！去 [客户端 - Shadowsocks][3] 可以找到相关的客户端。
 
 # 注意
 
 * 要是偶尔发现网络不稳定，切换线路试一下。
 * 不要同时在多台设备上使用，也不要把配置文件分享给其他人，可能会遭到封号行为。不过手机和 PC 同时使用时没事的。
 * 我遇到一个问题就是启动某些服务器无法下载 Google Play 里的应用，而且有些应用也提示无法在你所在的国家或者地区购买，这个时候就切换下线路，并且清除 Google Play 数据重启就行了。
+
+# 参考资料
+
+> [中文文档 - Shadowsocks-qt5][9]
 
 ---
 
@@ -77,3 +110,6 @@ tags:
 [5]: https://github.com/shadowsocks/shadowsocks-windows/releases "Github - Shadowsocks Windows"
 [6]: https://github.com/shadowsocks/shadowsocks-android/releases/download/v2.10.3/shadowsocks-nightly-2.10.3.apk "shadowsocks-nightly-2.10.3.apk"
 [7]: https://github.com/shadowsocks/shadowsocks-android/releases "Github - Shadowsocks Android"
+[8]: http://www.google.cn/chrome/browser/desktop/index.html "Chrome 浏览器"
+[9]: https://github.com/shadowsocks/shadowsocks-qt5/wiki "中文文档 - Shadowsocks-qt5"
+[10]: http://switchysharp.com/install.html "SwitchySharp"
