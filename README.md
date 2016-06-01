@@ -1,7 +1,7 @@
 # HexoBlog
 
-个人博客的 Hexo 源码。
-生成的 Public Html 源码请参考 <https://github.com/cylong1016/cylong1016.github.io>
+*   个人博客的 Hexo 源码。生成的 Public Html 源码请参考: <https://github.com/cylong1016/cylong1016.github.io>
+*   搭建教程请参考： <http://www.cylong.com/blog/2016/04/19/hexo-git/>
 
 # 感谢
 
