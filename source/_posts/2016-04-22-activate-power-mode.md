@@ -6,18 +6,20 @@ categories:
 tags:
     - atom
     - 插件
+    - ubuntu
+    - windows
 ---
 ---
 
 # Atom 简介
 
-[Atom][] 是一款免费的编辑器，我一般在写 Web 项目的时候使用。写 Java 项目用 Eclipse， 其他直接用 Notepad++，别问我为什么不用 Sublime。喜欢这款编辑器的主要原因是它的黑色扁平化主题风格非常炫酷，功能也比较强大，缺点就是比较吃内存，启动比较慢( ╯□╰ )。最近使用 Atom 搭建自己的博客【没错，就是现在这个博客】，想到了 [activate-power-mode][] 插件的炫酷效果，于是就体验了一下。下面介绍下详细安装过程。
+[Atom][] 是一款免费的编辑器，我一般在写 Web 项目的时候使用。写 Java 项目用 Eclipse， 其他直接用 Notepad++，别问我为什么不用 Sublime。喜欢这款编辑器的主要原因是它的黑色扁平化主题风格非常炫酷，功能也比较强大，缺点就是比较吃内存，启动比较慢( ╯□╰ )。最近使用 Atom 写自己的博客【没错，就是现在这个博客】，想到了 [activate-power-mode][] 插件的炫酷效果，于是就体验了一下。下面介绍下详细安装过程。
 
 <!-- more -->
 
-# 安装 activate-power-mode
+# 安装使用 activate-power-mode
 
-注意：本文针对 *Windows* 平台，其他平台也类似，自己琢磨吧~
+注意：本文针对 *Windows* 和 *Ubuntu* 平台，其他平台也差不多，自己琢磨吧~
 
 先上图！
 
@@ -30,10 +32,12 @@ tags:
 *   [Node.js][]
 
 点击上面的三个链接，分别下载下来 Atom、activate-power-mode、Node.js，然后安装 Atom、Node.js。
+* Windows：直接双击安装就可以。
+* Ubuntu： 运行 `sudo dpkg -i xxx-atom-xxx.deb` 安装 Atom。
 
 ## 安装插件
 
-解压下载下来的 activate-power-mode zip 包，移动到 `xxx\.atom\packages` 下，比如我的是 `C:\Users\cylong\.atom\packages` ，接下来进入到 `activate-power-mode` 目录下，打开 cmd，输入：
+解压下载下来的 activate-power-mode zip 包，移动到 `~\.atom\packages` 下，比如 Windows 是  `C:\Users\cylong\.atom\packages` ，Ubuntu 是 `home/cylong/.atom/packages`，接下来进入到 `activate-power-mode` 目录下，打开终端，输入：
 
 {% code lang:sh %}
     npm install # 安装必要的 module
@@ -45,8 +49,8 @@ tags:
 
 刚开始用的时候感觉蛮好玩的，非常爽。然后用了不到一分钟，我就觉得眼睛要瞎了！估计在玩个几分钟就真的瞎了！！屏幕震动效果闪瞎我的双眼！要是能够把震动效果删除会不会好一点？于是自己开始找这个插件的设置，果然有！
 
-*   首先点击 Atom 左上角的 `File` 按钮
-*   进入到 `Settings`
+*   首先点击 Atom 左上角的 `File` 按钮，Ubuntu 是 `Edit`
+*   Windows 进入到 `Settings`，Ubuntu 是 `Preferences`
 *   找到 `packages` 设置
 *   找到  `activate-power-mode`
 *   进入到  `Settings`
@@ -63,6 +67,9 @@ tags:
 **2016-05-15 更新**
 这个插件的作者是比较良心的，修复了 Atom 自动换行后，插件产生的颗粒位置错位的 BUG。现在一直在用这个插件，写代码越来越有激情了呢 o(^▽^)o
 
+**2016-06-01 更新**
+我有点傻了( ╯□╰ )，我发现直接进入到 `Preferences(首选项)-> install(安装)`，就可以直接安装 activate-power-mode 插件了。
+
 ---
 
 > 文章标题：<a href='{{ permalink }}' title='{{ title }}' >{{ title }}</a>
@@ -74,4 +81,4 @@ tags:
 [Atom]: https://atom.io/ "Atom"
 [activate-power-mode]: https://github.com/JoelBesada/activate-power-mode "activate-power-mode"
 [Node.js]: http://nodejs.org/ "Node.js"
-[联系我]: /about/#联系我
+[联系我]: http：//www.cylong.com/about/#联系我 "联系我"
