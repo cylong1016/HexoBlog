@@ -8,7 +8,7 @@ date: 2016-05-15 00:19:26
 ---
 ---
 
-最近在使用 WindowsModernAppsTools 研究 Windows Metro 应用翻墙问题【**目前我还不知道怎么翻墙！有会的求教！！**】，由于我的手贱删除了些不该删除的东西，导致我的系统中很多 Win 10 应用没法打开了，比如日历、资讯、天气、必应词典等等都打不开了。虽然平时不常用，但是强迫症的我表示没法忍受啊！于是找了很多资料，终于搞定了！
+最近在使用 WindowsModernAppsTools 研究 [Windows Metro 应用翻墙][2] 问题，由于我的手贱删除了些不该删除的东西，导致我的系统中很多 Win 10 应用没法打开了，比如日历、资讯、天气、必应词典等等都打不开了。虽然平时不常用，但是强迫症的我表示没法忍受啊！于是找了很多资料，终于搞定了！
 
 <!-- more -->
 
@@ -37,3 +37,4 @@ date: 2016-05-15 00:19:26
 
 
 [1]: http://www.ithome.com/html/win10/166832.htm "Win10应用商店、应用打不开或闪退的解决方法 - IT之家"
+[2]: http://www.cylong.com/blog/2016/06/07/windows-10-metro-shadowsocks/ "Windows 10 Metro 应用使用本地 Shadowsocks 代理"
