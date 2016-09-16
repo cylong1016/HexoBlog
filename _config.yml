@@ -105,3 +105,9 @@ feed:
   path: atom.xml
   limit: 20
   hub:
+
+# title, chinese available
+links_title: 友情链接
+# links
+links:
+  Disinuo的博客: https://disinuo.github.io/
