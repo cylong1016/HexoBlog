@@ -54,6 +54,10 @@ date: 2016-05-26 13:51:29
 ![Shadowsocks Android](Shadowsocks-Android.png)
 4. 翻墙后就可以去 Google Play 商店更新 Shadowsocks 了(●'◡'●)
 
+**2016-05-15 更新**
+
+5. 目前最新版的 Shadowsocks 已经支持直接扫码了，不需要下载额外的客户端。在 Shadowsocks 官网里【我的产品与服务】里就可以找到各个节点的二维码。
+
 ## Linux 客户端
 
 经历了N天之后,终于在舍友的指导下配置完成了。不得不说，Linux 真是一个让人折腾的系统。不过后来发现，其实还蛮简单的（╯－＿－）╯╧╧
