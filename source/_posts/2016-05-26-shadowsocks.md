@@ -48,15 +48,15 @@ date: 2016-05-26 13:51:29
 
 ## Android 客户端
 
-1. 点击下载 [shadowsocks-nightly-2.10.3.apk][6]【写这篇博客时候的最新版本】，或者去 [Github - Shadowsocks Android][7] 上寻找其他版本。
+1. 点击下载 [Shadowsocks-nightly-2.10.3.apk][6]【写这篇博客时候的最新版本】，或者去 [Github - Shadowsocks Android][7] 上寻找其他版本。
 2. 把这个 apk 安装到手机上【可以传到手机里，打开这个 apk 就能安装了】，中文叫影梭。
 3. 安装完成后仍然需要配置，支持扫描二维码配置，但是需要下载一个客户端。我不喜欢下太多的客户端，所以就手动配置，具体的值可以用记事本打开 `gui-config.json` 查看。
 ![Shadowsocks Android](Shadowsocks-Android.png)
 4. 翻墙后就可以去 Google Play 商店更新 Shadowsocks 了(●'◡'●)
 
-**2016-05-15 更新**
+**2016-09-27 更新**
 
-5. 目前最新版的 Shadowsocks 已经支持直接扫码了，不需要下载额外的客户端。在 Shadowsocks 官网里【我的产品与服务】里就可以找到各个节点的二维码。
+5. 目前最新版的 Shadowsocks 已经支持直接扫码配置了，不需要下载额外的客户端。在 Shadowsocks 官网里`客户中心--有效产品与服务`里就可以找到各个节点的二维码。
 
 ## Linux 客户端
 
@@ -82,15 +82,23 @@ date: 2016-05-26 13:51:29
 7. 配置完成后点击 `OK`，再点击界面上面的 `连接`，测试下延迟，看看是否能连接上。可以多配置几个，方便切换~
 8. 接下来就是配置 Chrome，让 Chrome 可以使用代理。下载安装 [SwitchySharp][10] 【链接里有教程】。
 9. 打开 Chrome， 点击右上角的 <span class="fa fa-globe" aria-hidden="true"></span> 图标，再点击 `选项`。
-![shadowsocks 图标](Shadowsocks-icon.png)
+![Shadowsocks 图标](Shadowsocks-icon.png)
 10. 点击 `新建情景模式`，做如下配置。
 ![SwitchySharp 配置](SwitchySharp-config.png)
 11. 保存后再点击 <span class="fa fa-globe" aria-hidden="true"></span> 图标就会有你刚刚配置的情景模式，选择后就可以使用 Chrome 浏览器浏览墙外的世界啦~【另外 SwitchySharp 可以升级成 SwitchyOmega 了，有兴趣的小伙伴可以试一试！】
 12. 做了上述一系列操作后只有在 Chrome 中可以翻出墙外，至于全局代理我正在研究，过几天会出教程，有会的小伙伴也可以交 ♂ 流下~
 
-## 其他客户端
+## IOS 客户端
 
-其他的客户端基本上就剩下苹果设备了，由于本渣没有任何的苹果设备。。。所以自己研究吧，相信聪明的你可以完成的！去 [客户端 - Shadowsocks][3] 可以找到相关的客户端。
+由于本渣没有任何的苹果设备。。。所以自己研究吧，相信聪明的你可以完成的！去 [客户端 - Shadowsocks][3] 可以找到相关的客户端。
+
+**2016-09-27 更新**
+
+最近也是人品爆表，抽奖抽到了个 IPad mini 2，自然就研究了下如何在 IOS 中试用 Shadowsocks 了。官方推荐的客户端是 `shadowrocket`。我找到的是 `Lifi客户端-Shadowsocks and ShadowsocksR VPN`，也是在 App Store 里下载。两者的配置方式基本一样，都可以扫码配置。在 Shadowsocks 官网里`客户中心--我的产品与服务`里就可以找到各个节点的二维码。我就以 Lifi 为例：
+
+![Shadowsocks IOS](Shadowsocks-IOS.png)
+
+在应用里选择`设置--从二维码导入`就会打开扫码界面，之后配置一下代理名称，打开系统 VPN 就可以了，非常简单【我觉得有张图挺好看的，于是强行加了张图(*^_^*)】。
 
 # 注意
 
