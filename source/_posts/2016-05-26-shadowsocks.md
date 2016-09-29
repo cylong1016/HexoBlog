@@ -19,7 +19,7 @@ date: 2016-05-26 13:51:29
 
 # 购买服务
 
-1. 点击进入 [Shadowsocks][1]，进入首页后选择 `订购服务`。
+1. 点击进入 [Shadowsocks][1]【此链接是我的推广链接，你点击后还是会直接进入首页，但是通过这个链接购买服务后我也会获得一些好处啦，嘿嘿(*^_^*)】，进入首页后选择 `订购服务`。
 2. 之后选择你想要购买的服务，点击现在订购。我选择的是 `Shadowsocks.com 普通版`。需要注意的是，虽然显示的价格是美元，但是在后面支付的时候会自动转化为人民币。
 ![Shadowsocks普通版](Shadowsocks-basic.png)
 3. 界面上选择你的付款年限，然后点击继续。
@@ -121,7 +121,7 @@ date: 2016-05-26 13:51:29
 > 文章链接：<a href='{{ permalink }}' title='{{ title }}' >{{ permalink }}</a>
 > 有问题或者建议欢迎在下方评论。欢迎转载、引用，但希望标明出处，感激不尽(●'◡'●)
 
-[1]: https://shadowsocks.com/ "Shadowsocks"
+[1]: https://portal.shadowsocks.com/aff.php?aff=8883 "Shadowsocks"
 [2]: https://portal.shadowsocks.com/clientarea.php "客户中心 - Shadowsocks"
 [3]: https://shadowsocks.com/client.html "客户端 - Shadowsocks"
 [4]: https://github.com/shadowsocks/shadowsocks-windows/releases/download/3.0/Shadowsocks-3.0.zip "Shadowsocks-3.0.zip"
