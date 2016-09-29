@@ -94,11 +94,15 @@ date: 2016-05-26 13:51:29
 
 **2016-09-27 更新**
 
-最近也是人品爆表，抽奖抽到了个 IPad mini 2，自然就研究了下如何在 IOS 中试用 Shadowsocks 了。官方推荐的客户端是 `shadowrocket`。我找到的是 `Lifi客户端-Shadowsocks and ShadowsocksR VPN`，也是在 App Store 里下载。两者的配置方式基本一样，都可以扫码配置。在 Shadowsocks 官网里`客户中心--我的产品与服务`里就可以找到各个节点的二维码。我就以 Lifi 为例：
+最近也是人品爆表，抽奖抽到了个 IPad mini 2，自然就研究了下如何在 IOS 中试用 Shadowsocks 了。官方推荐的客户端是 `shadowrocket`。App Store 里卖6块钱。我找到的是 `Lifi客户端-Shadowsocks and ShadowsocksR VPN`，也是在 App Store 里下载，不过是免费的。两者的配置方式基本一样，都可以扫码配置。在 Shadowsocks 官网里`客户中心--我的产品与服务`里就可以找到各个节点的二维码。
 
+1. Lifi 配置，在应用里选择`设置--从二维码导入`就会打开扫码界面，之后配置一下代理名称，打开系统 VPN 就可以了，非常简单【我觉得有张图挺好看的，于是强行加了张图(*^_^*)】。：
 ![Shadowsocks IOS](Shadowsocks-IOS.png)
 
-在应用里选择`设置--从二维码导入`就会打开扫码界面，之后配置一下代理名称，打开系统 VPN 就可以了，非常简单【我觉得有张图挺好看的，于是强行加了张图(*^_^*)】。
+2. Shadowrocket 配置，打开应用，点击左上角的扫码图标就可以打开扫码页面：
+![Shadowrocket](Shadowrocket.png)
+
+看评论说`Lifi客户端-Shadowsocks and ShadowsocksR VPN`是拿的 Potatso 源码？我也不知道是否真实，有了解的小伙伴欢迎联系我。不过在我一天的试用中发现这个客户端一直掉线，而且舍友 IOS 10 也没法使用，于是我俩都换成了 `shadowrocket`，IOS 10 可以用，不过也是一直掉线啊，而且有时候还闪退！如果用 Shadowrocket 的小伙伴发现QQ聊天的时候没法接收和发送图片，可以在应用的 `Settings-Global Routing`中选择 Proxy 就好了。大家可以先试一下免费的 Lifi，如果不好用再换成收费的那个 Shadowrocket 吧。有更好的客户端也欢迎在下面讨论。
 
 # 注意
 
