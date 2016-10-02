@@ -18,3 +18,8 @@
     NexT.{{ theme.scheme }}
   </a>
 </div>
+
+<div class="theme-info">
+  <div class="powered-by"></div>
+  <span class="post-count">博客共{{ totalcount(site) }}字</span>
+</div>
