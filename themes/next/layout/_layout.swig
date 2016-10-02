@@ -72,9 +72,12 @@
   {% include '_scripts/third-party/lean-analytics.swig' %}
   {% include '_scripts/baidu-push.swig' %}
 
+  <!--
   <script type="text/javascript" src="/js/src/quietflow.js"></script>
   <script type="text/javascript">
     $("body").quietflow();
   </script>
+  -->
+  <script type="text/javascript" src="/js/src/particle.js"></script>
 </body>
 </html>

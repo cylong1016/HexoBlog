@@ -355,7 +355,7 @@ $.fn.quietflow = function(attributes){
 
 			var starData = [];
 
-			for (var i = 0; i < 200; i++){
+			for (var i = 0; i < 100; i++){
 				starData.push([Math.random() * $limitX*2 - $limitX, Math.random() * $limitY, Math.random() * starSize, Math.ceil(Math.random() * 5)]);
 			}
 
