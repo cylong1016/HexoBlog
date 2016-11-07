@@ -6,7 +6,7 @@ Allow: /archives/
 Disallow: /js/
 Disallow: /css/
 Disallow: /fonts/
-Disallow: /vendors/
+Disallow: /lib/
 Disallow: /fancybox/
 
 Sitemap: http://www.cylong.com/sitemap.xml
