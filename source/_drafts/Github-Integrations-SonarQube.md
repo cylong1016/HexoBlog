@@ -1,5 +1,5 @@
 ---
-title: Github Integrations: SonarQube
+title: Github Integrations-SonarQube
 date: 2016-12-25 17:31:33
 categories:
     - Github

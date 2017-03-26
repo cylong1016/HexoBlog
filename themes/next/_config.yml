@@ -17,7 +17,6 @@ rss:
 since: 2016
 
 
-
 # ---------------------------------------------------------------
 # Menu Settings
 # ---------------------------------------------------------------
@@ -239,7 +238,7 @@ mathjax:
 #duoshuo_shortname:
 
 # Disqus
-#disqus_shortname:
+disqus_shortname: cylong1016
 
 # Baidu Share
 # Available value:
