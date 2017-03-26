@@ -77,10 +77,10 @@ deploy:
 avatar: /images/avatar.jpg
 
 # 多说评论功能
-duoshuo_shortname: cylong
+# duoshuo_shortname:
 
 # 多说分享服务
-duoshuo_share: false
+# duoshuo_share: false
 
 # 多说热评文章 true 或者 false
 # duoshuo_hotartical: true

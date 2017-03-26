@@ -271,7 +271,7 @@ mathjax:
 # you can visit http://dev.duoshuo.com get duoshuo user id.
 duoshuo_info:
   ua_enable: false
-  admin_enable: true
+  admin_enable: false
   user_id:
   admin_nickname:
 

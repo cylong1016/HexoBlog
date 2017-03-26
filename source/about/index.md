@@ -51,10 +51,6 @@ date: 2016-04-19 22:52:53
 
 ---
 
-最近访客
-
-<div class="ds-recent-visitors" data-num-items="36" data-avatar-size="42" id="ds-recent-visitors"></div>
-
 [Hexo]: https://hexo.io/zh-cn/ "Hexo"
 [Next]: http://theme-next.iissnan.com/ "Next"
 [多说]: http://duoshuo.com/ "多说"
