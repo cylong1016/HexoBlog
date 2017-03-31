@@ -50,7 +50,6 @@ public class Staff {
 
   // getter and setter
 }
-
 ```
 
 相信以上的例子可以让你很好的理解两者之间的对应关系。其实不仅 Java，其他语言也类似。
@@ -96,9 +95,9 @@ Staff obj = mapper.readValue(jsonInString, Staff.class);
 其实以上的内容在下面的链接中均有详细的介绍，我只是一个代码的搬运工( ╯□╰ )，就当是自己的笔记好了。
 
 > [Jackson 2 – Convert Java Object to / from JSON][1] 【Jackson 使用详细教程】
+> [Jackson Date][4] 【有关 Jackson 对日期的处理】
 > [JSON 中文文档][2] 【概念性的东西，最下面也有不同语言的支持】
 > [JSON 教程 - 极客学院][3] 【包含 JSON 基础介绍和在其他语言中使用 JSON】
-
 
 ---
 
@@ -110,3 +109,4 @@ Staff obj = mapper.readValue(jsonInString, Staff.class);
 [1]: https://www.mkyong.com/java/jackson-2-convert-java-object-to-from-json/ "Jackson 2 – Convert Java Object to / from JSON"
 [2]: http://www.json.org/json-zh.html "JSON 中文文档"
 [3]: http://wiki.jikexueyuan.com/project/json/ "JSON 教程 - 极客学院"
+[4]: http://www.baeldung.com/jackson-serialize-dates "Jackson Date"
