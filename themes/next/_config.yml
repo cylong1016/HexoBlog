@@ -240,6 +240,10 @@ mathjax:
 # Disqus
 disqus_shortname: cylong1016
 
+# Local search
+local_search:
+  enable: true
+
 # Baidu Share
 # Available value:
 #    button | slide
