@@ -43,6 +43,12 @@ disqus:
 {% endcode %}
 6. 接下来就可以进入后台管理设置你的评论了。
 
+# 多说评论迁移至 Disqus
+
+毕竟多说我也用了一年，积攒了一点评论，就这样放弃非常的舍不得，不过多说导出的评论文件无法直接导入到 Disqus 中，多说导出的是 JSON 文件，Disqus 支持的导入格式是 WordPress 导出的的 XML 文件。在网上找了一些，发现都不好用，于是自己就造了一个轮子，在下面的链接中有详细的说明。欢迎使用并提出宝贵的意见(●'◡'●)
+
+> [多说评论迁移至 Disqus][4]
+
 
 ---
 
@@ -54,3 +60,4 @@ disqus:
 [1]: http://dev.duoshuo.com/threads/58d1169ae293b89a20c57241 "重要通知: 多说即将关闭"
 [2]: http://theme-next.iissnan.com/third-party-services.html "Next 第三方服务集成"
 [3]: https://disqus.com "Disqus"
+[4]: /blog/2017/04/05/duoshuo-to-disqus/ "多说评论迁移至 Disqus"
