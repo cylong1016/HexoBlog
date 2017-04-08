@@ -10,6 +10,7 @@ tags:
   - ubuntu
   - 翻墙
 date: 2016-05-26 13:51:29
+updated: 2017-04-09 00:16:12
 ---
 ---
 
@@ -80,13 +81,13 @@ date: 2016-05-26 13:51:29
 6. 上图的 jp01 和 us01 都是后来配置好的，导入 gui-config.json 后还是有些需要自己配置。双击某一条连接，像我如下这样配置【默认有的配置就不要改了】：
 ![连接配置](config.png)
 7. 配置完成后点击 `OK`，再点击界面上面的 `连接`，测试下延迟，看看是否能连接上。可以多配置几个，方便切换~
-8. 接下来就是配置 Chrome，让 Chrome 可以使用代理。下载安装 [SwitchySharp][10] 【链接里有教程】。
+8. 接下来就是配置 Chrome，让 Chrome 可以使用代理。下载安装 [SwitchySharp][10] 【目前此应用已经更新为 SwitchyOmega，请参考 [Chrome 配置 SwitchyOmega][11]】。
 9. 打开 Chrome， 点击右上角的 <span class="fa fa-globe" aria-hidden="true"></span> 图标，再点击 `选项`。
 ![Shadowsocks 图标](Shadowsocks-icon.png)
 10. 点击 `新建情景模式`，做如下配置。
 ![SwitchySharp 配置](SwitchySharp-config.png)
 11. 保存后再点击 <span class="fa fa-globe" aria-hidden="true"></span> 图标就会有你刚刚配置的情景模式，选择后就可以使用 Chrome 浏览器浏览墙外的世界啦~【另外 SwitchySharp 可以升级成 SwitchyOmega 了，有兴趣的小伙伴可以试一试！】
-12. 做了上述一系列操作后只有在 Chrome 中可以翻出墙外，至于全局代理我正在研究，过几天会出教程，有会的小伙伴也可以交 ♂ 流下~
+12. 做了上述一系列操作后只有在 Chrome 中可以翻出墙外，至于全局代理我正在研究，过几天会出教程，有会的小伙伴也可以交 ♂ 流下~【此坑算是没时间填了(╯‵□′)╯︵┻━┻】
 
 ## IOS 客户端
 
@@ -103,6 +104,47 @@ date: 2016-05-26 13:51:29
 ![Shadowrocket](Shadowrocket.png)
 
 看评论说`Lifi客户端-Shadowsocks and ShadowsocksR VPN`是拿的 Potatso 源码？我也不知道是否真实，有了解的小伙伴欢迎联系我。不过在我一天的试用中发现这个客户端一直掉线，而且舍友 IOS 10 也没法使用，于是我俩都换成了 `shadowrocket`，IOS 10 可以用，不过也是一直掉线啊，而且有时候还闪退(╯‵□′)╯︵┻━┻！如果用 Shadowrocket 的小伙伴发现QQ聊天的时候没法接收和发送图片，可以在应用的 `Settings-Global Routing`中选择 Proxy 就好了。大家可以先试一下免费的 Lifi，如果不好用再换成收费的那个 Shadowrocket 吧。有更好的客户端也欢迎在下面讨论。
+
+# Chrome 配置 SwitchyOmega
+
+**2017-04-09 更新**
+
+## Chrome 浏览器
+
+无论是用户体验、强大的功能还是丰富的扩展程序都完爆国内的各种浏览器好不好(╯‵□′)╯︵┻━┻。强烈推荐啊！目前已经可以在不翻墙的情况下去 [下载 Chrome（桌面版）][12]了，账号数据同步方面也不需要翻墙了。【鼓掌撒花*★,°*:.☆(￣▽￣)/$:*.°★* 。】
+
+## SwitchyOmega
+
+Google Chrome 浏览器上的一个代理扩展程序，可以轻松快捷地管理和切换多个代理设置。比如我们接下来要介绍的 `自动切换模式`。
+
+### 下载安装
+
+点击 [Github-SwitchyOmega][13]，下载页面有详细的安装教程，仔细看一下就好。
+
+### 配置 Shadowsocks 情景模式
+
+1. 打开 Chrome， 点击右上角的 <span class="fa fa-globe" aria-hidden="true"></span> 图标，再点击 `选项`。
+![Shadowsocks 图标](Shadowsocks-icon.png)
+2. 点击左侧的 `新建情景模式`，输入情景模式名称 `Shadowsocks`【自己任意设置名称】，类型选择第一个`代理服务器`。创建完成后做如下配置：
+![新建情景模式](new.png)
+你也可以自己设置不代理的地址列表。如上图。
+3. 保存后你就可以通过这个情景模式科学上网了~
+
+### 配置自动切换模式
+
+配置好 Shadowsocks 情景模式后虽然可以使用 Chrome 浏览器科学上网了，但是这样的话无论你访问什么网站都会走代理，有时候访问国内的一些网站反而会很慢，这时候自动切换模式就解决了这个问题。下面介绍一下如何配置自动切换模式。
+
+1. 点击左侧的 `自动切换`，或者自己新建情景模式，类型选择第二个 `自动切换模式`。然后做如下配置：
+![自动切换模式](auto.png)
+* `切换规则` 是在访问 `条件设置` 的域名时候使用后面设置的 `情景模式`。比如图中我设置 `*.google.com` 和 `*.github.com` 使用 `Shadowsocks` 情景模式【刚刚创建的那个情景模式】。我们可以点击 `添加条件` 来添加自己的规则。
+* 将图中 `规则列表规则` 前面的框打√，再将后面的 `情景模式` 设置为 `Shadowsocks`，意思是规则列表中的内容，我们使用 `Shadowsocks` 情景模式。然后 `规则列表设置` 中：
+  - 规则列表格式： AutoProxy；
+  - 规则列表网址： <https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt>
+* 这样设置完成 `规则列表规则` 后就不需要在切换规则中一个一个添加条件了。
+* `切换规则` 最后一行的 `默认情景模式` 代表不在规则列表中网址我们使用 `直接连接` 情景模式，也就是说不走代理。
+* 参考链接:
+  - [Github-SwitchyOmega][14]
+  - [Github-gfwlist][15]
 
 # 注意
 
@@ -131,3 +173,8 @@ date: 2016-05-26 13:51:29
 [8]: http://www.google.cn/chrome/browser/desktop/index.html "Chrome 浏览器"
 [9]: https://github.com/shadowsocks/shadowsocks-qt5/wiki "中文文档 - Shadowsocks-qt5"
 [10]: http://switchysharp.com/install.html "SwitchySharp"
+[11]: /blog/2016/05/26/shadowsocks/#Chrome-配置-SwitchyOmega "Chrome 配置 SwitchyOmega"
+[12]: http://www.google.cn/chrome/browser/desktop/index.html "Chrome（桌面版）"
+[13]: https://github.com/FelisCatus/SwitchyOmega/releases "FelisCatus/SwitchyOmega"
+[14]: https://github.com/FelisCatus/SwitchyOmega "FelisCatus/SwitchyOmega"
+[15]: https://github.com/gfwlist/gfwlist "gfwlist/gfwlist"
