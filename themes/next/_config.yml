@@ -302,16 +302,16 @@ busuanzi_count:
   # count values only if the other configs are false
   enable: true
   # custom uv span for the whole site
-  site_uv: false
-  site_uv_header: <i class="fa fa-user"> 访客数</i>
-  site_uv_footer: 人次
+  site_uv: true
+  site_uv_header: <i class="fa fa-user"></i>
+  site_uv_footer: 人
   # custom pv span for the whole site
   site_pv: true
-  site_pv_header: <i class="fa fa-eye"> 站点总访问量</i>
+  site_pv_header: <i class="fa fa-eye"></i>
   site_pv_footer: 次
   # custom pv span for one page only
   page_pv: true
-  page_pv_header: 阅读次数
+  page_pv_header: <i class="fa fa-eye"></i>
   page_pv_footer:
 
 # Tencent analytics ID
