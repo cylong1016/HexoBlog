@@ -8,6 +8,7 @@ tags:
   - hexo
   - 爬虫
 date: 2016-05-22 16:24:44
+updated: 2017-04-12 22:38:23
 ---
 ---
 
@@ -42,7 +43,7 @@ date: 2016-05-22 16:24:44
 ![DNS 解析记录 - 万网](dns-parse.png)
 DNSPod 设置：
 ![DNS 解析记录 - DNSPod](dns-parse-dnspod.png)
-注意：我的域名在万网购买的，默认使用的是万网的 DNS，设置成百度后开始是好用的，后来就又抓取不到了（╯－＿－）╯╧╧。 于是我就换成了 [DNSPod][6] 的服务，把线路类型设置成搜索引擎或者国内都可以。
+注意：我的域名在万网购买的，默认使用的是万网的 DNS，设置成百度后开始是好用的，后来就又抓取不到了（╯－＿－）╯╧╧。 于是我就换成了 [DNSPod][6] 的服务，把线路类型设置成百度、搜索引擎或者国内都可以。如果设置成搜索引擎的话注意 Google 也会去 Coding.net 抓取页面。设置成国内的话，国内的其他用户访问也访问的是 Coding.net 中的页面，相比访问 Github Pages 会更快一点。
 
 # 感谢
 
@@ -56,7 +57,7 @@ DNSPod 设置：
 > 文章链接：<a href='{{ permalink }}' title='{{ title }}' >{{ permalink }}</a>
 > 有问题或者建议欢迎在下方评论。欢迎转载、引用，但希望标明出处，感激不尽(●'◡'●)
 
-[1]: http://www.cylong.com/blog/2016/05/22/google-baidu-search/ "如何在 Google 和百度里搜索到自己的网站"
+[1]: /blog/2016/05/22/google-baidu-search/ "如何在 Google 和百度里搜索到自己的网站"
 [2]: http://zhanzhang.baidu.com/ "百度站长平台"
 [3]: http://jerryzou.com/posts/feasibility-of-allowing-baiduSpider-for-Github-Pages/ "解决 Github Pages 禁止百度爬虫的方法与可行性分析 - 咀嚼之味"
 [4]: https://coding.net "CODING"
