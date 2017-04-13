@@ -7,10 +7,11 @@ categories:
 tags:
   - shadowsocks
   - 翻墙
+  - SwitchyOmega
 ---
 ---
 
-此文章是以 Shadowsocks 代理为例，详情请参考：
+此文章是以 Shadowsocks 代理为例，若想使用 Shadowsocks 请先安装对应系统的客户端并启动。详情请参考：
 
 > [站在 Shadowsocks 的肩膀上发现精彩的世界][1]
 

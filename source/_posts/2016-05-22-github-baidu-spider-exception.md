@@ -1,7 +1,7 @@
 ---
 title: 解决 Github Pages 禁止百度爬虫抓取的问题
 categories:
-  - Github
+  - Search
 tags:
   - github
   - git
