@@ -96,6 +96,12 @@ Sitemap 上面放置了网站上需要搜索引擎抓取的所有页面的链接
 * Google： [Search Console][4]
 * 百度： [百度站长平台][2]
 
+**2017-04-13 更新**
+
+在我向百度提交站点地图 baidusitemap.xml 的时候提示 XML 解析失败，猜测可能是格式有问题，通过查看 [百度sitemap协议都支持哪些格式？][6] 发现 Hexo 生成的 baidusitemap.xml 确实有问题，不过百度支持上文中生成的 sitemap.xml 格式的 XML 文档，上传这个就正常了。
+
+![XML 解析失败](baidusitemap-error.png)
+
 # 一些小点子
 
 你在你的各大社交网站的个人信息里贴上你的博客域名【比如知乎、Facebook、Twitter、Github 等等】会提高你网站的访问量哟，还有在各大社交网站上回答有关问题可以附上自己的博客地址，也会增加访问量o(^▽^)o。当然，更重要的还是你的博客要内容丰富精彩，才会吸引更多的人。如果是自己的某个网站什么的，多注意下 SEO 优化也是不错的选择。
@@ -116,3 +122,4 @@ Sitemap 上面放置了网站上需要搜索引擎抓取的所有页面的链接
 [3]: /blog/2016/05/22/github-baidu-spider-exception/ "解决 Github Pages 禁止百度爬虫抓取的问题"
 [4]: https://www.google.com/webmasters/tools/home?hl=zh-CN "Search Console"
 [5]: http://www.yuan-ji.me/Hexo-%E4%BC%98%E5%8C%96%EF%BC%9A%E6%8F%90%E4%BA%A4sitemap%E5%8F%8A%E8%A7%A3%E5%86%B3%E7%99%BE%E5%BA%A6%E7%88%AC%E8%99%AB%E6%8A%93%E5%8F%96-GitHub-Pages-%E9%97%AE%E9%A2%98/ "Hexo 优化：提交 sitemap 及解决百度爬虫无法抓取 GitHub Pages 链接问题"
+[6]: http://zhanzhang.baidu.com/college/courseinfo?id=267&page=2#h2_article_title1 "百度sitemap协议都支持哪些格式？"
