@@ -114,6 +114,7 @@ updated: 2017-04-09 00:16:12
 # 参考资料
 
 > [中文文档 - Shadowsocks-qt5][9]
+> [Chrome 配置 SwitchyOmega - 笑话人生][12] 【Shadowsocks 配合 SwitchyOmega 使用有奇效，建议尝试下(●'◡'●)】
 
 ---
 
@@ -133,3 +134,4 @@ updated: 2017-04-09 00:16:12
 [9]: https://github.com/shadowsocks/shadowsocks-qt5/wiki "中文文档 - Shadowsocks-qt5"
 [10]: http://switchysharp.com/install.html "SwitchySharp"
 [11]: /blog/2017/04/09/chrome-SwitchyOmega/ "Chrome 配置 SwitchyOmega"
+[12]: blog/2017/04/09/chrome-SwitchyOmega/ "Chrome 配置 SwitchyOmega - 笑话人生"
