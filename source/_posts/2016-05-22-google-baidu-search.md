@@ -7,6 +7,8 @@ tags:
   - seo
   - search
 date: 2016-05-22 17:17:49
+updated: 2017-04-12 23:01:35
+
 ---
 ---
 
@@ -37,6 +39,62 @@ date: 2016-05-22 17:17:49
 
 其他的搜索引擎我用的也比较少，不过如果你的网站不知道什么时候也会被其收录的，我试了一下，我的博客的首页就被 Bing 收录了，当然你想像上面的那些方法在各个搜索引擎中管理你的网站也是可以的，然而我并没有闲心管那些【我猜测基本都是差不多的】，有兴趣的小伙伴可以自己试一试。
 
+# 搜索引擎优化(SEO)
+
+{% blockquote 维基百科 https://zh.wikipedia.org/wiki/%E6%90%9C%E5%B0%8B%E5%BC%95%E6%93%8E%E6%9C%80%E4%BD%B3%E5%8C%96 搜索引擎优化 %}
+搜索引擎优化（英语：search engine optimization，缩写为SEO），是一种通过了解搜索引擎的运作规则来调整网站，以及提高目的网站在有关搜索引擎内排名的方式。由于不少研究发现，搜索引擎的用户往往只会留意搜索结果最前面的几个条目，所以不少网站都希望通过各种形式来影响搜索引擎的排序，让自己的网站可以有优秀的搜索排名。当中尤以各种依靠广告维生的网站为甚。
+{% endblockquote %}
+
+**注意：** _此文章是以 Hexo 搭建的博客为基础，某些插件只支持 Hexo 搭建的博客，如果是其他博客，请寻找支持自己博客的插件或者自己实现。_
+
+## 添加 robots.txt
+
+robots.txt 可以告诉搜索引擎你网站的哪些页面可以被抓取，哪些页面不可以被抓取。将 robots.txt 放置在 source 根目录下。以下是我的 robots.txt：
+
+{% code robots.txt %}
+    User-agent: *
+    Allow: /
+    Allow: /archives/
+
+    Disallow: /js/
+    Disallow: /css/
+    Disallow: /fonts/
+    Disallow: /lib/
+    Disallow: /fancybox/
+
+    Sitemap: http://www.cylong.com/sitemap.xml
+    Sitemap: http://www.cylong.com/baidusitemap.xml
+{% endcode %}
+
+
+## 添加网站地图(Sitemap)
+
+Sitemap 上面放置了网站上需要搜索引擎抓取的所有页面的链接，有助于搜索引擎抓取你的网站，清晰了解网站的架构，益于 SEO 优化。
+
+1. 安装 Hexo 的 sitemap 插件
+{% code lang:sh %}
+    npm install hexo-generator-sitemap --save       # 适用于提交给 Google
+    npm install hexo-generator-baidu-sitemap --save # 适用于提交给百度
+{% endcode %}
+
+2. 在站点的 `_config.yml` 添加以下代码：
+{% code lang:sh %}
+    sitemap:
+        path: sitemap.xml
+    baidusitemap:
+        path: baidusitemap.xml
+{% endcode %}
+
+3. 配置成功后，在你执行 `hexo -g` 的时候，在 public 文件夹【也就是你的站点根目录】就会出现 sitemap.xml 和 baidusitemap.xml。然后在 robots.txt 中添加如下代码：
+{% code robots.txt %}
+    Sitemap: http://www.cylong.com/sitemap.xml
+    Sitemap: http://www.cylong.com/baidusitemap.xml
+{% endcode %}
+
+4. 第三步中搜索引擎在抓取到 robots.txt 的时候会自动抓取站点地图。你还可以手动提交给 Google 和百度，都是带有提示的傻瓜式操作，相信大家都能解决吧(●'◡'●)
+* Google： [Search Console][7]
+* 百度： [百度站长平台][2]
+
 # 一些小点子
 
 你在你的各大社交网站的个人信息里贴上你的博客域名【比如知乎、Facebook、Twitter、Github 等等】会提高你网站的访问量哟，还有在各大社交网站上回答有关问题可以附上自己的博客地址，也会增加访问量o(^▽^)o。当然，更重要的还是你的博客要内容丰富精彩，才会吸引更多的人。如果是自己的某个网站什么的，多注意下 SEO 优化也是不错的选择。
@@ -50,4 +108,5 @@ date: 2016-05-22 17:17:49
 
 [1]: https://www.google.com/webmasters/ "Google 网站站长"
 [2]: http://zhanzhang.baidu.com/ "百度站长平台"
-[3]: http://www.cylong.com/blog/2016/05/22/github-baidu-spider-exception/ "解决 Github Pages 禁止百度爬虫抓取的问题"
+[3]: /blog/2016/05/22/github-baidu-spider-exception/ "解决 Github Pages 禁止百度爬虫抓取的问题"
+[7]: https://www.google.com/webmasters/tools/home?hl=zh-CN "Search Console"
