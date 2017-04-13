@@ -32,8 +32,9 @@ updated: 2017-04-12 23:01:35
 1. 点击 [百度站长平台][2]，登陆。
 2. 添加你的网站，进行人机验证。
 3. 点击 `抓取诊断` 判断百度是否能够抓取到你的网站【我的博客部署在 Github 上，结果 Github 禁止百度抓取 ( ╯□╰ )，如何解决请参考：[解决 Github Pages 禁止百度爬虫抓取的问题][3]】
-4. 点击 `链接提交` ，这里有很多种提交方式，各有各的优点，自己选择吧【实在不会就直接手动提交】
-5. 等待一会，打开百度，在搜索栏输入 `site:www.cylong.com`【换成你的域名】，就可以看到你网站的内容了~
+4. 点击 `链接提交` ，这里有很多种提交方式，各有各的优点，也有详细的说明。自己选择吧【实在不会就直接手动提交】
+5. 我使用的是自动提交方式，Hexo 的 Next 主题已经部署了自动推送的代码，我们只需在主题配置文件中找到 `baidu_push` 字段 , 设置其为 `true` 即可。
+6. 等待一会，打开百度，在搜索栏输入 `site:www.cylong.com`【换成你的域名】，就可以看到你网站的内容了~
 
 # 其他的搜索引擎
 
@@ -92,12 +93,16 @@ Sitemap 上面放置了网站上需要搜索引擎抓取的所有页面的链接
 {% endcode %}
 
 4. 第三步中搜索引擎在抓取到 robots.txt 的时候会自动抓取站点地图。你还可以手动提交给 Google 和百度，都是带有提示的傻瓜式操作，相信大家都能解决吧(●'◡'●)
-* Google： [Search Console][7]
+* Google： [Search Console][4]
 * 百度： [百度站长平台][2]
 
 # 一些小点子
 
 你在你的各大社交网站的个人信息里贴上你的博客域名【比如知乎、Facebook、Twitter、Github 等等】会提高你网站的访问量哟，还有在各大社交网站上回答有关问题可以附上自己的博客地址，也会增加访问量o(^▽^)o。当然，更重要的还是你的博客要内容丰富精彩，才会吸引更多的人。如果是自己的某个网站什么的，多注意下 SEO 优化也是不错的选择。
+
+# 参考&感谢
+
+> [Hexo 优化：提交 sitemap 及解决百度爬虫无法抓取 GitHub Pages 链接问题][5]
 
 ---
 
@@ -109,4 +114,5 @@ Sitemap 上面放置了网站上需要搜索引擎抓取的所有页面的链接
 [1]: https://www.google.com/webmasters/ "Google 网站站长"
 [2]: http://zhanzhang.baidu.com/ "百度站长平台"
 [3]: /blog/2016/05/22/github-baidu-spider-exception/ "解决 Github Pages 禁止百度爬虫抓取的问题"
-[7]: https://www.google.com/webmasters/tools/home?hl=zh-CN "Search Console"
+[4]: https://www.google.com/webmasters/tools/home?hl=zh-CN "Search Console"
+[5]: http://www.yuan-ji.me/Hexo-%E4%BC%98%E5%8C%96%EF%BC%9A%E6%8F%90%E4%BA%A4sitemap%E5%8F%8A%E8%A7%A3%E5%86%B3%E7%99%BE%E5%BA%A6%E7%88%AC%E8%99%AB%E6%8A%93%E5%8F%96-GitHub-Pages-%E9%97%AE%E9%A2%98/ "Hexo 优化：提交 sitemap 及解决百度爬虫无法抓取 GitHub Pages 链接问题"
