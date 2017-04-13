@@ -7,6 +7,8 @@ tags:
   - git
   - hexo
   - 爬虫
+  - search
+  - seo
 date: 2016-05-22 16:24:44
 updated: 2017-04-12 22:38:23
 ---
@@ -35,7 +37,7 @@ updated: 2017-04-12 22:38:23
 2. 创建新项目，项目的后缀必须是和你的个性后缀一样。
 3. 创建项目的时候你可以选择从 Github 上导入你的博客仓库或者之后自己部署到 CODING 上，如下图：
 ![从 Github 上导入仓库](import-from-github.png)
-4. 进入你的项目，点击左侧的 `代码`，在选择 `Pages 服务`，选择 `部署分支`，默认是 `coding-pages`，然后点击 `立即开启`。
+4. 进入你的项目，点击左侧的 `代码`，再选择 `Pages 服务`，选择 `部署分支`，默认是 `coding-pages`，建议换成 `master` 分支和 Github 保持一致。然后点击 `立即开启`。
 5. 绑定自己的域名，如下图：
 ![Coding Pages](coding-pages.png)
 6. 到你的 DNS 服务商修改你的域名解析记录，这里不需要删除解析到 Github 的记录，像我下面这样配置就可以，这样正常访问还是访问到 Github 上，百度抓取的时候是抓取的 CODING 上的项目。
@@ -44,6 +46,12 @@ updated: 2017-04-12 22:38:23
 DNSPod 设置：
 ![DNS 解析记录 - DNSPod](dns-parse-dnspod.png)
 注意：我的域名在万网购买的，默认使用的是万网的 DNS，设置成百度后开始是好用的，后来就又抓取不到了（╯－＿－）╯╧╧。 于是我就换成了 [DNSPod][6] 的服务，把线路类型设置成百度、搜索引擎或者国内都可以。如果设置成搜索引擎的话注意 Google 也会去 Coding.net 抓取页面。设置成国内的话，国内的其他用户访问也访问的是 Coding.net 中的页面，相比访问 Github Pages 会更快一点。
+
+# Hexo 同时部署到 Github 和 Coding
+
+既然上面的 DNS 分流到了 Github 和 Coding 上，那么我们在部署的时候就要同时维护这两个仓库，好消息是 Hexo 框架支持同时部署到 Github 和 Coding 上，详细介绍请参考：
+
+> [配置 SSH 公钥免去部署的时候输入密码][8]
 
 # 感谢
 
@@ -64,3 +72,4 @@ DNSPod 设置：
 [5]: https://gitcafe.com/ "Gitcafe"
 [6]: https://www.dnspod.cn/ "DNSPod-免费智能DNS解析服务商"
 [7]: http://www.ezlippi.com/blog/2016/02/baidu-spider-forbidden.html "解决百度爬虫无法抓取github pages - Lippi-浮生志"
+[8]: /blog/2016/04/25/hexo-faq/#配置-SSH-公钥免去部署的时候输入密码 "配置 SSH 公钥免去部署的时候输入密码"

@@ -70,7 +70,11 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:cylong1016/cylong1016.github.io.git
+  repo:
+    github: git@github.com:cylong1016/cylong1016.github.io.git # Github SSH
+    # github: https://github.com/cylong1016/cylong1016.github.io.git # Github HTTPS
+    coding: git@git.coding.net:cylong1016/cylong1016.git # Coding SSH
+    # coding: https://git.coding.net/cylong1016/cylong1016.git # Coding HTTPS
   branch: master
 
 # Avatar
