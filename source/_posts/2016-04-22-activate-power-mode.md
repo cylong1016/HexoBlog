@@ -81,4 +81,4 @@ tags:
 [Atom]: https://atom.io/ "Atom"
 [activate-power-mode]: https://github.com/JoelBesada/activate-power-mode "activate-power-mode"
 [Node.js]: http://nodejs.org/ "Node.js"
-[联系我]: http：//www.cylong.com/about/#联系我 "联系我"
+[联系我]: /about/#联系我 "联系我"
