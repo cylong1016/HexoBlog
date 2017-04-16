@@ -19,9 +19,9 @@ date: 2016-04-19 22:52:53
 
 如果有志同道合的小伙伴，或者想找个基友什么的，欢迎联系！
 
-*   <span class="fa fa-envelope"></span> Email: cyl19941016@gmail.com
-*   <span class="fa fa-qq"></span> QQ: 948557407
-*   <span class="fa fa-wechat"></span> 微信：cyl19941016
+*   <span class="fa fa-envelope"></span>&nbsp;&nbsp;邮箱：cyl19941016@gmail.com
+*   <span class="fa fa-qq"></span>&nbsp;&nbsp;企鹅：948557407
+*   <span class="fa fa-wechat"></span>&nbsp;微信：cyl19941016
 
 # 关于博客
 
