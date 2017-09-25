@@ -123,7 +123,7 @@ updated: 2017-04-09 00:16:12
 > 文章链接：<a href='{{ permalink }}' title='{{ title }}' >{{ permalink }}</a>
 > 有问题或者建议欢迎在下方评论。欢迎转载、引用，但希望标明出处，感激不尽(●'◡'●)
 
-[1]: https://portal.shadowsocks.com/aff.php?aff=8883 "Shadowsocks"
+[1]: https://portal.shadowsocks.la/aff.php?aff=8883 "Shadowsocks"
 [2]: https://portal.shadowsocks.com/clientarea.php "客户中心 - Shadowsocks"
 [3]: https://shadowsocks.com/client.html "客户端 - Shadowsocks"
 [4]: https://github.com/shadowsocks/shadowsocks-windows/releases/download/3.0/Shadowsocks-3.0.zip "Shadowsocks-3.0.zip"
