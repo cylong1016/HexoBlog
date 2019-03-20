@@ -1,7 +1,7 @@
 # HexoBlog
 
 *   个人博客的 Hexo 源码。生成的 Public Html 源码请参考: <https://github.com/cylong1016/cylong1016.github.io>
-*   搭建教程请参考： <http://www.cylong.com/blog/2016/04/19/hexo-git/>
+*   搭建教程请参考： [Hexo + Git 搭建免费的个人博客][2]
 *   *重要：如果直接 Fork 下来，要删除站点目录下和主题目录下的 _config.yml 里面的内容，重新写。因为我那里面有一些东西是不能共用的。*
 
 # 感谢
@@ -23,3 +23,4 @@
 [Google Analytics]: https://www.google.com/intl/zh-CN/analytics/ "Google Analytics"
 [不蒜子]: http://ibruce.info/2015/04/04/busuanzi/ "不蒜子"
 [1]: http://dev.duoshuo.com/threads/58d1169ae293b89a20c57241 "重要通知: 多说即将关闭"
+[2]: http://www.cylong.com/blog/2016/04/19/hexo-git/ "Hexo + Git 搭建免费的个人博客"
