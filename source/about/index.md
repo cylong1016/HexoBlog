@@ -9,15 +9,15 @@ date: 2016-04-19 22:52:53
 *   姓名： 陈云龙
 *   性别： 男
 *   个性： 是个呆头呆脑的逗逼程序猿。(●'◡'●)
-*   技能： 熟悉 Html/CSS/JavaScript、 Java 开发，对 PHP 也比较感兴趣。即将转 C++ ( ╯□╰ )
-*   社区： 喜欢逛逛 [知乎][6]、[微博][7]、[Facebook][8]、[Twitter][9]、[SegmentFault][14]、[GitHuber][15]，[V2EX][10] 【欢迎 [点此][13] 注册】。
-*   休闲： 喜欢听歌、看电影、打乒乓球，也会去健身【虽然还是一碰就倒的身体】
-*   游戏： 【三国杀】【部落冲突】【部落冲突·皇室战争】【我的世界】【守望先锋】【阴阳师】【战网：笑话人生#51113】【Steam：笑话人生】
-*   现状： 目前是 [南京大学软件学院][1] 13级本科在校生。Web 开发方向。
+*   技能： 熟悉 Html/CSS/JavaScript、 C/C++、Java 开发。目前主要从事 Java Web 开发。
+*   社区： 喜欢逛逛 [B站][18]、[知乎][6]、[微博][7]、[Facebook][8]、[Twitter][9]、[V2EX][10] 【欢迎 [点此][13] 注册】。
+*   休闲： 喜欢听歌、看电影、看动漫、打游戏、打乒乓球，健身。
+*   游戏： 【三国杀】【部落冲突】【部落冲突·皇室战争】【我的世界】【守望先锋】【阴阳师】【逆水寒】【战网：笑话人生#51113】【Steam：笑话人生】
+*   现状： 2017年毕业于 [南京大学软件学院][1]。Java Web 开发方向。目前就职于华为技术有限公司南京研究所。
 
 # 联系我
 
-如果有志同道合的小伙伴，或者想找个基友什么的，欢迎联系！
+如果有志同道合的小伙伴，欢迎联系！很开心能够遇到你。
 
 *   <span class="fa fa-envelope"></span>&nbsp;&nbsp;邮箱：cyl19941016@gmail.com
 *   <span class="fa fa-qq"></span>&nbsp;&nbsp;企鹅：948557407
@@ -25,7 +25,7 @@ date: 2016-04-19 22:52:53
 
 # 关于博客
 
-博客创建于2016年04月17日，最近觉得自身的缺点还是蛮多的，对知识掌握的也不够牢固，所以想搭建一个自己的博客，积攒知识，巩固知识，提升自身的能力。虽然最近正面临找实习的困难，觉得自己荒废了大学生活，但是努力还是要继续的，说不定机会就在不远的将来呢？
+博客创建于2016年04月17日，觉得自身的缺点还是蛮多的，对知识掌握的也不够牢固，所以想搭建一个自己的博客，积攒知识，巩固知识，提升自身的能力。虽然觉得自己荒废了大学生活，但是努力还是要继续的，说不定机会就在不远的将来呢？
 
 博客采用 Hexo + Git 搭建，使用 Next 主题，托管在 [Github-HexoBlog][2]，忙碌了3天完成的博客的雏形。搭建教程请参考：
 
@@ -60,13 +60,13 @@ date: 2016-04-19 22:52:53
 [不蒜子]: http://ibruce.info/2015/04/04/busuanzi/ "不蒜子"
 [1]: http://software.nju.edu.cn/ "南京大学软件学院"
 [2]: https://github.com/cylong1016/HexoBlog "HexoBlog"
-[3]: https://xuanwo.org/2015/03/26/hexo-intor/ "Xuanwo's Blog - 史上最详细的Hexo博客搭建图文教程"
+[3]: https://xuanwo.io/2015/03/26/hexo-intor/ "Xuanwo's Blog - 史上最详细的Hexo博客搭建图文教程"
 [4]: http://wsgzao.github.io/post/hexo-guide/ "HelloDog - 使用GitHub和Hexo搭建免费静态Blog"
 [5]: http://www.cylong.com/blog/2016/04/19/hexo-git/ "Hexo + Git 搭建免费的个人博客 | 笑话人生"
-[6]: https://www.zhihu.com/people/chen-yun-long-71-29 "陈云龙 - 知乎"
+[6]: https://www.zhihu.com/people/cylong1016 "陈云龙 - 知乎"
 [7]: http://weibo.com/cyl19941016 "笑话人生cylong的微博"
 [8]: https://www.facebook.com/people/陈云龙/100007668136606 "陈云龙 - Facebook"
-[9]: https://twitter.com/cylong1994 "陈云龙(@cylong1994) | Twitter"
+[9]: https://twitter.com/cylong1016 "陈云龙(@cylong1016) | Twitter"
 [10]: https://www.v2ex.com/member/cylong "V2EX › cylong"
 [11]: https://hexo.io/zh-cn/docs/ "Hexo 中文文档"
 [12]: http://theme-next.iissnan.com/ "Next主题中文文档"
@@ -75,3 +75,4 @@ date: 2016-04-19 22:52:53
 [15]: http://ask.githuber.cn/users/cylong1016/activity "Ask.GitHuber.cn"
 [16]: http://dev.duoshuo.com/docs "多说开发者中心"
 [17]: http://dev.duoshuo.com/threads/58d1169ae293b89a20c57241 "重要通知: 多说即将关闭"
+[18]: https://space.bilibili.com/2645593/favlist "笑话人生的个人空间 - 哔哩哔哩 ( ゜- ゜)つロ 乾杯~ Bilibili"
