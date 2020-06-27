@@ -104,11 +104,11 @@ public String convert(String s, int numRows) {
 }
 ```
 
----
-
 # 来源
 > [Z 字形变换 | 力扣（LeetCode）][1]
 > [Z 字形变换 | 题解][2]
+
+---
 
 > 文章标题：<a href='{{ permalink }}' title='{{ title }}' >{{ title }}</a>
 > 文章作者：[cylong](http://www.cylong.com/about/ "cylong")

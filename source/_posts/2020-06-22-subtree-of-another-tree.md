@@ -79,11 +79,11 @@ public boolean isSubtree(TreeNode s, TreeNode t) {
 }
 ```
 
----
-
 # 来源
 > [另一个树的子树 | 力扣（LeetCode）][1]
 > [另一个树的子树 | 题解][2]
+
+---
 
 > 文章标题：<a href='{{ permalink }}' title='{{ title }}' >{{ title }}</a>
 > 文章作者：[cylong](http://www.cylong.com/about/ "cylong")
