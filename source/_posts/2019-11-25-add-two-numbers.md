@@ -8,6 +8,8 @@ tags:
     - leetcode
     - java
     - 学习笔记
+    - 链表
+    - 单向链表
 ---
 ---
 
