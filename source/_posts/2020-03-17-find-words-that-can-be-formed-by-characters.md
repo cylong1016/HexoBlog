@@ -30,7 +30,6 @@ tags:
 > 解释：可以形成字符串 "hello" 和 "world"，所以答案是 5 + 5 = 10。
 
 **提示：**
-
 * 1 <= words.length <= 1000
 * 1 <= words[i].length, chars.length <= 100
 * 所有字符串中都仅包含小写英文字母
@@ -80,7 +79,7 @@ public boolean findChar(char c, char[] charArr, boolean[] flag) {
 
 ## 复杂度分析
 
-* 时间复杂度为Ο(MN)：M为words中所有字符数，N为chars字符数。
+* 时间复杂度：Ο(M x N)，M为words中所有字符数，N为chars字符数。
 
 # 进阶
 
