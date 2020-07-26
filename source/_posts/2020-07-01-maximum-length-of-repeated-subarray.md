@@ -1,7 +1,7 @@
 ---
 title: 最长重复子数组
-date: 2020-07-1 00:46:55
-updated: 2020-07-1 00:46:55
+date: 2020-07-01 00:46:55
+updated: 2020-07-01 00:46:55
 categories:
     - LeetCode
 tags:
