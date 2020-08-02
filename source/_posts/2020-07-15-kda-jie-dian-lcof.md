@@ -119,7 +119,7 @@ public class TreeNode {
 
 # 来源
 > [二叉搜索树的第k大节点 | 力扣（LeetCode）][1]
-> [二叉搜索树的第k大节点 | 题解][2]
+> [二叉搜索树的第k大节点 | 题解（LeetCode）][2]
 
 ---
 
@@ -129,4 +129,4 @@ public class TreeNode {
 > 有问题或者建议欢迎在下方评论。欢迎转载、引用，但希望标明出处，感激不尽(●'◡'●)
 
 [1]: https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/ "二叉搜索树的第k大节点 | 力扣（LeetCode）"
-[2]: https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/solution/mian-shi-ti-54-er-cha-sou-suo-shu-de-di-k-da-jie-d/ "二叉搜索树的第k大节点 | 题解"
+[2]: https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/solution/mian-shi-ti-54-er-cha-sou-suo-shu-de-di-k-da-jie-d/ "二叉搜索树的第k大节点 | 题解（LeetCode）"

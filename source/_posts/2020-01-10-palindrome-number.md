@@ -78,7 +78,7 @@ public boolean isPalindrome(int x) {
 
 # 来源
 > [回文数 | 力扣（LeetCode）][1]
-> [回文数 | 题解][2]
+> [回文数 | 题解（LeetCode）][2]
 
 ---
 
@@ -88,5 +88,5 @@ public boolean isPalindrome(int x) {
 > 有问题或者建议欢迎在下方评论。欢迎转载、引用，但希望标明出处，感激不尽(●'◡'●)
 
 [1]: https://leetcode-cn.com/problems/palindrome-number/ "回文数 | 力扣（LeetCode）"
-[2]: https://leetcode-cn.com/problems/palindrome-number/solution/hui-wen-shu-by-leetcode-solution/ "回文数 | 题解"
+[2]: https://leetcode-cn.com/problems/palindrome-number/solution/hui-wen-shu-by-leetcode-solution/ "回文数 | 题解（LeetCode）"
 [3]: /blog/2020/01/04/reverse-integer/ "整数反转"

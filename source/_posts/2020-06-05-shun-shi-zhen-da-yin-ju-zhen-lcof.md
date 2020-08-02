@@ -79,7 +79,7 @@ public int[] spiralOrder(int[][] matrix) {
 
 # 来源
 > [顺时针打印矩阵 | 力扣（LeetCode）][1]
-> [顺时针打印矩阵 | 题解][2]
+> [顺时针打印矩阵 | 题解（LeetCode）][2]
 
 ---
 
@@ -89,4 +89,4 @@ public int[] spiralOrder(int[][] matrix) {
 > 有问题或者建议欢迎在下方评论。欢迎转载、引用，但希望标明出处，感激不尽(●'◡'●)
 
 [1]: https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/ "顺时针打印矩阵 | 力扣（LeetCode）"
-[2]: https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/solution/shun-shi-zhen-da-yin-ju-zhen-by-leetcode-solution/ "顺时针打印矩阵 | 题解"
+[2]: https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/solution/shun-shi-zhen-da-yin-ju-zhen-by-leetcode-solution/ "顺时针打印矩阵 | 题解（LeetCode）"

@@ -128,7 +128,7 @@ private int[] getCharNum(String word) {
 
 # 来源
 > [拼写单词 | 力扣（LeetCode）][1]
-> [拼写单词 | 题解][2]
+> [拼写单词 | 题解（LeetCode）][2]
 
 ---
 
@@ -138,4 +138,4 @@ private int[] getCharNum(String word) {
 > 有问题或者建议欢迎在下方评论。欢迎转载、引用，但希望标明出处，感激不尽(●'◡'●)
 
 [1]: https://leetcode-cn.com/problems/find-words-that-can-be-formed-by-characters/ "二叉搜索树的第k大节点 | 力扣（LeetCode）"
-[2]: https://leetcode-cn.com/problems/find-words-that-can-be-formed-by-characters/solution/tong-ji-zi-mu-chu-xian-de-ci-shu-shu-zu-ji-qiao-cj/ "二叉搜索树的第k大节点 | 题解"
+[2]: https://leetcode-cn.com/problems/find-words-that-can-be-formed-by-characters/solution/tong-ji-zi-mu-chu-xian-de-ci-shu-shu-zu-ji-qiao-cj/ "二叉搜索树的第k大节点 | 题解（LeetCode）"

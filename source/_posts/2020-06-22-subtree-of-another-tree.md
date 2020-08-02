@@ -85,7 +85,7 @@ public boolean isSubtree(TreeNode s, TreeNode t) {
 
 # 来源
 > [另一个树的子树 | 力扣（LeetCode）][1]
-> [另一个树的子树 | 题解][2]
+> [另一个树的子树 | 题解（LeetCode）][2]
 
 ---
 
@@ -95,4 +95,4 @@ public boolean isSubtree(TreeNode s, TreeNode t) {
 > 有问题或者建议欢迎在下方评论。欢迎转载、引用，但希望标明出处，感激不尽(●'◡'●)
 
 [1]: https://leetcode-cn.com/problems/subtree-of-another-tree/ "另一个树的子树 | 力扣（LeetCode）"
-[2]: https://leetcode-cn.com/problems/subtree-of-another-tree/solution/ "另一个树的子树 | 题解"
+[2]: https://leetcode-cn.com/problems/subtree-of-another-tree/solution/ "另一个树的子树 | 题解（LeetCode）"

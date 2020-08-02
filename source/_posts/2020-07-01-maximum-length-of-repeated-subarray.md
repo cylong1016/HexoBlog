@@ -152,7 +152,7 @@ public int findLength(int[] A, int[] B) {
 
 # 来源
 > [最长重复子数组 | 力扣（LeetCode）][1]
-> [最长重复子数组 | 题解][2]
+> [最长重复子数组 | 题解（LeetCode）][2]
 
 ---
 
@@ -162,4 +162,4 @@ public int findLength(int[] A, int[] B) {
 > 有问题或者建议欢迎在下方评论。欢迎转载、引用，但希望标明出处，感激不尽(●'◡'●)
 
 [1]: https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/ "最长重复子数组 | 力扣（LeetCode）"
-[2]: https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/solution/zui-chang-zhong-fu-zi-shu-zu-by-leetcode-solution/ "最长重复子数组 | 题解"
+[2]: https://leetcode-cn.com/problems/maximum-length-of-repeated-subarray/solution/zui-chang-zhong-fu-zi-shu-zu-by-leetcode-solution/ "最长重复子数组 | 题解（LeetCode）"

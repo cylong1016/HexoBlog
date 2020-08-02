@@ -88,7 +88,7 @@ public int romanToInt(String s) {
 
 # 来源
 > [罗马数字转整数 | 力扣（LeetCode）][1]
-> [罗马数字转整数 | 题解][2]
+> [罗马数字转整数 | 题解（LeetCode）][2]
 
 ---
 
@@ -98,4 +98,4 @@ public int romanToInt(String s) {
 > 有问题或者建议欢迎在下方评论。欢迎转载、引用，但希望标明出处，感激不尽(●'◡'●)
 
 [1]: https://leetcode-cn.com/problems/roman-to-integer/ "罗马数字转整数 | 力扣（LeetCode）"
-[2]: https://leetcode-cn.com/problems/roman-to-integer/solution/yong-shi-9993nei-cun-9873jian-dan-jie-fa-by-donesp/ "罗马数字转整数 | 题解"
+[2]: https://leetcode-cn.com/problems/roman-to-integer/solution/yong-shi-9993nei-cun-9873jian-dan-jie-fa-by-donesp/ "罗马数字转整数 | 题解（LeetCode）"

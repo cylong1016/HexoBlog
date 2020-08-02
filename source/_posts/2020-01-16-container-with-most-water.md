@@ -80,7 +80,7 @@ public int maxArea(int[] height) {
 
 # 来源
 > [盛最多水的容器 | 力扣（LeetCode）][1]
-> [盛最多水的容器 | 题解][2]
+> [盛最多水的容器 | 题解（LeetCode）][2]
 
 ---
 
@@ -90,4 +90,4 @@ public int maxArea(int[] height) {
 > 有问题或者建议欢迎在下方评论。欢迎转载、引用，但希望标明出处，感激不尽(●'◡'●)
 
 [1]: https://leetcode-cn.com/problems/container-with-most-water/ "盛最多水的容器 | 力扣（LeetCode）"
-[2]: https://leetcode-cn.com/problems/container-with-most-water/solution/sheng-zui-duo-shui-de-rong-qi-by-leetcode-solution/ "盛最多水的容器 | 题解"
+[2]: https://leetcode-cn.com/problems/container-with-most-water/solution/sheng-zui-duo-shui-de-rong-qi-by-leetcode-solution/ "盛最多水的容器 | 题解（LeetCode）"

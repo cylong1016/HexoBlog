@@ -88,7 +88,7 @@ public int lengthOfLongestSubstring(String s) {
 
 # 来源
 > [无重复字符的最长子串 | 力扣（LeetCode）][1]
-> [无重复字符的最长子串 | 题解][2]
+> [无重复字符的最长子串 | 题解（LeetCode）][2]
 
 ---
 
@@ -98,4 +98,4 @@ public int lengthOfLongestSubstring(String s) {
 > 有问题或者建议欢迎在下方评论。欢迎转载、引用，但希望标明出处，感激不尽(●'◡'●)
 
 [1]: https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/ "无重复字符的最长子串 | 力扣（LeetCode）"
-[2]: https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/solution/wu-zhong-fu-zi-fu-de-zui-chang-zi-chuan-by-leetc-2/ "无重复字符的最长子串 | 题解"
+[2]: https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/solution/wu-zhong-fu-zi-fu-de-zui-chang-zi-chuan-by-leetc-2/ "无重复字符的最长子串 | 题解（LeetCode）"

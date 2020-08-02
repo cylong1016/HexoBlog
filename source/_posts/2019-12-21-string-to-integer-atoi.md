@@ -101,7 +101,7 @@ public int myAtoi(String str) {
 
 # 来源
 > [字符串转换整数 | 力扣（LeetCode）][1]
-> [字符串转换整数 | 题解][2]
+> [字符串转换整数 | 题解（LeetCode）][2]
 
 ---
 
@@ -111,4 +111,4 @@ public int myAtoi(String str) {
 > 有问题或者建议欢迎在下方评论。欢迎转载、引用，但希望标明出处，感激不尽(●'◡'●)
 
 [1]: https://leetcode-cn.com/problems/string-to-integer-atoi/ "字符串转换整数 | 力扣（LeetCode）"
-[2]: https://leetcode-cn.com/problems/string-to-integer-atoi/solution/zi-fu-chuan-zhuan-huan-zheng-shu-atoi-by-leetcode-/ "字符串转换整数 | 题解"
+[2]: https://leetcode-cn.com/problems/string-to-integer-atoi/solution/zi-fu-chuan-zhuan-huan-zheng-shu-atoi-by-leetcode-/ "字符串转换整数 | 题解（LeetCode）"

@@ -108,7 +108,7 @@ public String convert(String s, int numRows) {
 
 # 来源
 > [Z 字形变换 | 力扣（LeetCode）][1]
-> [Z 字形变换 | 题解][2]
+> [Z 字形变换 | 题解（LeetCode）][2]
 
 ---
 
@@ -118,4 +118,4 @@ public String convert(String s, int numRows) {
 > 有问题或者建议欢迎在下方评论。欢迎转载、引用，但希望标明出处，感激不尽(●'◡'●)
 
 [1]: https://leetcode-cn.com/problems/zigzag-conversion/ "Z 字形变换 | 力扣（LeetCode）"
-[2]: https://leetcode-cn.com/problems/zigzag-conversion/solution/z-zi-xing-bian-huan-by-leetcode/ "Z 字形变换 | 题解"
+[2]: https://leetcode-cn.com/problems/zigzag-conversion/solution/z-zi-xing-bian-huan-by-leetcode/ "Z 字形变换 | 题解（LeetCode）"

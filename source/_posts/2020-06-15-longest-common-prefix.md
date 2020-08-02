@@ -171,7 +171,7 @@ public String longestCommonPrefixTwoStr(String str1, String str2) {
 
 # 来源
 > [最长公共前缀 | 力扣（LeetCode）][1]
-> [最长公共前缀 | 题解][2]
+> [最长公共前缀 | 题解（LeetCode）][2]
 
 ---
 
@@ -181,4 +181,4 @@ public String longestCommonPrefixTwoStr(String str1, String str2) {
 > 有问题或者建议欢迎在下方评论。欢迎转载、引用，但希望标明出处，感激不尽(●'◡'●)
 
 [1]: https://leetcode-cn.com/problems/longest-common-prefix/ "最长公共前缀 | 力扣（LeetCode）"
-[2]: https://leetcode-cn.com/problems/longest-common-prefix/solution/zui-chang-gong-gong-qian-zhui-by-leetcode-solution/ "最长公共前缀 | 题解"
+[2]: https://leetcode-cn.com/problems/longest-common-prefix/solution/zui-chang-gong-gong-qian-zhui-by-leetcode-solution/ "最长公共前缀 | 题解（LeetCode）"

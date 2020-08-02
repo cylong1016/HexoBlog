@@ -61,7 +61,7 @@ public boolean isPalindrome(String s) {
 
 # 来源
 > [验证回文串 | 力扣（LeetCode）][1]
-> [验证回文串 | 题解][2]
+> [验证回文串 | 题解（LeetCode）][2]
 
 ---
 
@@ -71,4 +71,4 @@ public boolean isPalindrome(String s) {
 > 有问题或者建议欢迎在下方评论。欢迎转载、引用，但希望标明出处，感激不尽(●'◡'●)
 
 [1]: https://leetcode-cn.com/problems/valid-palindrome/ "验证回文串 | 力扣（LeetCode）"
-[2]: https://leetcode-cn.com/problems/valid-palindrome/solution/yan-zheng-hui-wen-chuan-by-leetcode-solution/ "验证回文串 | 题解"
+[2]: https://leetcode-cn.com/problems/valid-palindrome/solution/yan-zheng-hui-wen-chuan-by-leetcode-solution/ "验证回文串 | 题解（LeetCode）"

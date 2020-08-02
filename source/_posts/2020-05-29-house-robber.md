@@ -146,7 +146,7 @@ public int rob(int[] nums) {
 
 # 来源
 > [打家劫舍 | 力扣（LeetCode）][1]
-> [打家劫舍 | 题解][2]
+> [打家劫舍 | 题解（LeetCode）][2]
 
 ---
 
@@ -156,4 +156,4 @@ public int rob(int[] nums) {
 > 有问题或者建议欢迎在下方评论。欢迎转载、引用，但希望标明出处，感激不尽(●'◡'●)
 
 [1]: https://leetcode-cn.com/problems/house-robber/ "打家劫舍 | 力扣（LeetCode）"
-[2]: https://leetcode-cn.com/problems/house-robber/solution/da-jia-jie-she-by-leetcode-solution/ "打家劫舍 | 题解"
+[2]: https://leetcode-cn.com/problems/house-robber/solution/da-jia-jie-she-by-leetcode-solution/ "打家劫舍 | 题解（LeetCode）"

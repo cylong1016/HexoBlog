@@ -94,7 +94,7 @@ public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 
 # 来源
 > [两数相加 | 力扣（LeetCode）][1]
-> [两数相加 | 题解][2]
+> [两数相加 | 题解（LeetCode）][2]
 
 ---
 
@@ -104,4 +104,4 @@ public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 > 有问题或者建议欢迎在下方评论。欢迎转载、引用，但希望标明出处，感激不尽(●'◡'●)
 
 [1]: https://leetcode-cn.com/problems/add-two-numbers/ "两数相加 | 力扣（LeetCode）"
-[2]: https://leetcode-cn.com/problems/add-two-numbers/solution/ "两数相加 | 题解"
+[2]: https://leetcode-cn.com/problems/add-two-numbers/solution/ "两数相加 | 题解（LeetCode）"
