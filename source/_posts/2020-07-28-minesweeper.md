@@ -8,6 +8,9 @@ tags:
     - leetcode
     - java
     - 学习笔记
+    - 数组
+    - 递归
+    - 深度优先搜索
 ---
 ---
 
@@ -39,10 +42,10 @@ Click : [3,0]
  ['B', '1', 'M', '1', 'B'],
  ['B', '1', '1', '1', 'B'],
  ['B', 'B', 'B', 'B', 'B']]
-
-解释:
-![示例1](minesweeper_example_1.png)
 ```
+
+**解释:**
+![示例1](minesweeper_example_1.png)
 
 **示例 2：**
 ```
@@ -61,19 +64,69 @@ Click : [1,2]
  ['B', '1', 'X', '1', 'B'],
  ['B', '1', '1', '1', 'B'],
  ['B', 'B', 'B', 'B', 'B']]
-
-解释:
-![示例2](minesweeper_example_2.png)
 ```
+
+**解释:**
+![示例2](minesweeper_example_2.png)
+
 **注意：**
 
-1. 输入矩阵的宽和高的范围为 [1,50]。
+1. 输入矩阵的宽和高的范围为 [1, 50]。
 2. 点击的位置只能是未被挖出的方块 ('M' 或者 'E')，这也意味着面板至少包含一个可点击的方块。
 3. 输入面板不会是游戏结束的状态（即有地雷已被挖出）。
 4. 简单起见，未提及的规则在这个问题中可被忽略。例如，当游戏结束时你不需要挖出所有地雷，考虑所有你可能赢得游戏或标记方块的情况。
 
 <!-- more -->
 
+# 题解
+
+根据题意，我们点击某个方块后，如果是地雷 M，则直接修改为 X 返回。否则我们计算以当前点击的方块为中心的九宫格内地雷的数量，如果没有地雷，则我们将当前节点标记为 B 并递归处理当前节点九宫格内的其他节点。否则我们将当前节点标记为周围地雷的数量，并结束递归。
+
+```java
+public char[][] updateBoard(char[][] board, int[] click) {
+    if (board[click[0]][click[1]] == 'M') {
+        board[click[0]][click[1]] = 'X';
+        return board;
+    } else {
+        checkBoard(board, click[0], click[1]);
+    }
+    return board;
+}
+
+private void checkBoard(char[][] board, int x, int y) {
+    int row = board.length;
+    int col = board[0].length;
+    if (board[x][y] != 'M' && board[x][y] != 'E') {
+        return;
+    }
+    board[x][y] = 0;
+    // 计算点击节点的九宫格内地雷数量
+    for (int i = x - 1; i <= x + 1; i++) {
+        for (int j = y - 1; j <= y + 1; j++) {
+            if (i >= 0 && j >= 0 && i < row && j < col) {
+                board[x][y] += (board[i][j] == 'M' ? 1 : 0);
+            }
+        }
+    }
+    // 如果点击节点九宫格内没有地雷，则递归处理九宫格内其他的节点
+    if (board[x][y] == 0) {
+        board[x][y] = 'B';
+        for (int i = x - 1; i <= x + 1; i++) {
+            for (int j = y - 1; j <= y + 1; j++) {
+                if (i >= 0 && j >= 0 && i < row && j < col) {
+                    checkBoard(board, i, j);
+                }
+            }
+        }
+    } else {
+        board[x][y] += '0';
+    }
+}
+```
+
+# 来源
+> [扫雷游戏 | 力扣（LeetCode）][1]
+> [扫雷游戏 | 题解（LeetCode）][2]
 
 ---
 
@@ -81,3 +134,6 @@ Click : [1,2]
 > 文章作者：[cylong](http://www.cylong.com/about/ "cylong")
 > 文章链接：<a href='{{ permalink }}' title='{{ title }}' >{{ permalink }}</a>
 > 有问题或者建议欢迎在下方评论。欢迎转载、引用，但希望标明出处，感激不尽(●'◡'●)
+
+[1]: https://leetcode-cn.com/problems/minesweeper/ "扫雷游戏 | 力扣（LeetCode）"
+[2]: https://leetcode-cn.com/problems/minesweeper/solution/ "扫雷游戏 | 题解（LeetCode）"
