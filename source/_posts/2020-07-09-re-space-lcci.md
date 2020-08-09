@@ -55,7 +55,7 @@ public int respace(String[] dictionary, String sentence) {
 }
 ```
 
-# 复杂度分析
+## 复杂度分析
 
 * 时间复杂度：Ο(n²)，其中 n 是字符串长度。
 * 空间复杂度：O(n)，其中 n 是字符串长度，保存dp的中间值。
