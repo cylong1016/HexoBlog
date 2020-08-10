@@ -27,7 +27,7 @@ date: 2016-04-19 22:52:53
 
 博客创建于2016年04月17日，觉得自身的缺点还是蛮多的，对知识掌握的也不够牢固，所以想搭建一个自己的博客，积攒知识，巩固知识，提升自身的能力。虽然觉得自己荒废了大学生活，但是努力还是要继续的，说不定机会就在不远的将来呢？
 
-博客采用 Hexo + Git 搭建，使用 Next 主题，托管在 [Github-HexoBlog][2]，忙碌了3天完成的博客的雏形。搭建教程请参考：
+博客采用 Hexo + Git 搭建，使用 NexT 主题，托管在 [Github-HexoBlog][2]，忙碌了3天完成的博客的雏形。搭建教程请参考：
 
 > [Hexo + Git 搭建免费的个人博客 | 笑话人生][5]
 
@@ -35,14 +35,14 @@ date: 2016-04-19 22:52:53
 参考资料：
 
 > [Hexo 中文文档][11]
-> [Next 主题中文文档][12]
+> [NexT 主题中文文档][12]
 > [Xuanwo's Blog - 史上最详细的Hexo博客搭建图文教程][3]
 > [HelloDog - 使用GitHub和Hexo搭建免费静态Blog][4]
 
 感谢：
 
 > [Hexo][] 提供博客框架
-> [Next][] 提供博客主题
+> [NexT][] 提供博客主题
 > [多说][] 提供评论系统、分享服务、最近访客等等各种服务，详情请看 [多说开发者中心][16]【[已经宣布关闭][17]】
 > [Disqus][] 提供评论服务
 > [百度统计][] 提供统计功能
@@ -52,7 +52,7 @@ date: 2016-04-19 22:52:53
 ---
 
 [Hexo]: https://hexo.io/zh-cn/ "Hexo"
-[Next]: http://theme-next.iissnan.com/ "Next"
+[NexT]: http://theme-next.iissnan.com/ "NexT"
 [多说]: http://duoshuo.com/ "多说"
 [百度统计]: http://tongji.baidu.com/ "百度统计"
 [Disqus]: https://disqus.com/ "Disqus"
@@ -69,7 +69,7 @@ date: 2016-04-19 22:52:53
 [9]: https://twitter.com/cylong1016 "陈云龙(@cylong1016) | Twitter"
 [10]: https://www.v2ex.com/member/cylong "V2EX › cylong"
 [11]: https://hexo.io/zh-cn/docs/ "Hexo 中文文档"
-[12]: http://theme-next.iissnan.com/ "Next主题中文文档"
+[12]: http://theme-next.iissnan.com/ "NexT主题中文文档"
 [13]: http://www.v2ex.com/?r=cylong "V2EX"
 [14]: https://segmentfault.com/u/cylong "笑话人生 - SegmentFault"
 [15]: http://ask.githuber.cn/users/cylong1016/activity "Ask.GitHuber.cn"

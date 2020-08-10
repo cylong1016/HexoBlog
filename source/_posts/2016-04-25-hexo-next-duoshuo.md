@@ -1,10 +1,11 @@
 ---
 title: Hexo 集成多说评论 + 多说分享 + 美化多说
 categories:
-  - Hexo
+    - Hexo
 tags:
-  - hexo
-  - 插件
+    - hexo
+    - 插件
+    - next
 date: 2016-04-25 19:27:11
 ---
 ---
@@ -19,13 +20,13 @@ date: 2016-04-25 19:27:11
 
 # 集成多说
 
-<b>注意:</b> *我使用的是 Next 主题，集成多说插件非常简单，这也是我喜欢这个主题的原因，简单、高效。其他主题的配置需要你们自己研究了，不过都差不多的。Next 主题更多第三方服务请参考：*
+<b>注意:</b> *我使用的是 NexT 主题，集成多说插件非常简单，这也是我喜欢这个主题的原因，简单、高效。其他主题的配置需要你们自己研究了，不过都差不多的。NexT 主题更多第三方服务请参考：*
 
-> [第三方服务集成 - Next 使用文档][2]
+> [第三方服务集成 - NexT 使用文档][2]
 
-## Next 主题
+## NexT 主题
 
-下面说一下 Next 主题如何集成多说。首先要在 [多说][] 创建一个站点，具体步骤如下：
+下面说一下 NexT 主题如何集成多说。首先要在 [多说][] 创建一个站点，具体步骤如下：
 
 1. 登录后在首页选择 "我要安装"。
 2. 创建站点，填写表单。如图：
@@ -263,7 +264,7 @@ date: 2016-04-25 19:27:11
 
 我比较喜欢简洁扁平化的风格，所以做了上述的更改。小伙伴们具体看那些组件不顺眼，要修改掉，在网页上右键，选择 `检查元素` 就可以看到相对应的类名和 ID 等等。如果不会 CSS，建议你去 [CSS 教程 - W3School][3] 简单的学习一下 CSS 的基本知识。
 
-另外我发现 Next 主题也对多说的 CSS 样式做了些更改，CSS路径 `themes\next\source\css\_common\components\third-party\duoshuo.styl`，所以如果小伙伴用了其他主题，显示样式可能有点区别。 目前就先改这么多，更多的样式还在开发中，会不定期的更新。如果小伙伴有什么更好的样式，欢迎留言~
+另外我发现 NexT 主题也对多说的 CSS 样式做了些更改，CSS路径 `themes\next\source\css\_common\components\third-party\duoshuo.styl`，所以如果小伙伴用了其他主题，显示样式可能有点区别。 目前就先改这么多，更多的样式还在开发中，会不定期的更新。如果小伙伴有什么更好的样式，欢迎留言~
 
 # 更新
 
@@ -290,8 +291,8 @@ CSS 设置：请参考上面的自定义CSS
 
 > [多说使用帮助 - 多说开发者中心][5]
 > [讨论区 - 多说开发者中心][6]
-> [主题配置 - Next 使用文档][8]
-> [第三方服务集成 - Next 使用文档][9]
+> [主题配置 - NexT 使用文档][8]
+> [第三方服务集成 - NexT 使用文档][9]
 
 ---
 
@@ -301,13 +302,13 @@ CSS 设置：请参考上面的自定义CSS
 > 有问题或者建议欢迎在下方评论。欢迎转载、引用，但希望标明出处，感激不尽(●'◡'●)
 
 [1]: http://www.cylong.com/blog/2016/04/19/hexo-git/ "Hexo + Git 搭建免费的个人博客"
-[2]: http://theme-next.iissnan.com/third-party-services.html "第三方服务集成 - Next 使用文档"
+[2]: http://theme-next.iissnan.com/third-party-services.html "第三方服务集成 - NexT 使用文档"
 [3]: http://www.w3school.com.cn/css/index.asp "CSS 教程 - W3School"
 [4]: http://dev.duoshuo.com/docs/5497972ba1165bfd53cf4263 "多说分享组件自定义图标 - 多说开发者中心"
 [5]: http://dev.duoshuo.com/docs/ "多说使用帮助 - 多说开发者中心"
 [6]: http://dev.duoshuo.com/discussion "讨论区 - 多说开发者中心"
 [7]: http://dev.duoshuo.com/ "多说开发者中心"
-[8]: http://theme-next.iissnan.com/theme-settings.html "主题配置 - Next 使用文档"
-[9]: http://theme-next.iissnan.com/third-party-services.html "第三方服务集成 - Next 使用文档"
+[8]: http://theme-next.iissnan.com/theme-settings.html "主题配置 - NexT 使用文档"
+[9]: http://theme-next.iissnan.com/third-party-services.html "第三方服务集成 - NexT 使用文档"
 [10]: http://www.cylong.com/about/ "关于我 - 笑话人生"
 [多说]: http://duoshuo.com/ "多说"
