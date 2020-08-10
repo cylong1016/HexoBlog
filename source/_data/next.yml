@@ -1,0 +1,141 @@
+# Set default keywords (Use a comma to separate)
+keywords: "笑话人生、cylong、博客、软件、Java、Git、Web、Html、CSS、JS、PHP、LeetCode"
+
+favicon:
+  small: /images/favicon.ico
+  medium: /images/favicon.ico
+  apple_touch_icon: /images/favicon.ico
+  safari_pinned_tab: /images/favicon.ico
+  # android_manifest: /images/manifest.json
+  # ms_browserconfig: /images/browserconfig.xml
+
+footer:
+  # Specify the date when the site was setup. If not defined, current year will be used.
+  since: 2016
+
+social:
+  Email: /about/#联系我 || fa fa-envelope
+  GitHub: https://github.com/cylong1016 || fab fa-github
+  Weibo: http://weibo.com/cyl19941016 || fab fa-weibo
+  Zhihu: https://www.zhihu.com/people/cylong1016 || fa fa-user-circle
+  Twitter: https://twitter.com/cylong1016 || fab fa-twitter
+  Facebook: https://www.facebook.com/cylong1016 || fab fa-facebook
+
+# scheme: Muse
+# scheme: Mist
+scheme: Pisces
+# scheme: Gemini
+
+menu:
+  home: / || fa fa-home
+  about: /about/ || fa fa-user
+  tags: /tags/ || fa fa-tags
+  categories: /categories/ || fa fa-th
+  archives: /archives/ || fa fa-archive
+  # schedule: /schedule/ || fa fa-calendar
+  # sitemap: /sitemap.xml || fa fa-sitemap
+  # commonweal: /404/ || fa fa-heartbeat
+
+codeblock:
+  # Code Highlight theme
+  # Available values: normal | night | night eighties | night blue | night bright | solarized | solarized dark | galactic
+  # See: https://github.com/chriskempson/tomorrow-theme
+  highlight_theme: night
+
+# Disqus
+disqus:
+  enable: true
+  shortname: cylong1016
+  count: true
+  #post_meta_order: 0
+
+# Local Search
+# Dependencies: https://github.com/theme-next/hexo-generator-searchdb
+local_search:
+  enable: true
+  # If auto, trigger search by changing input.
+  # If manual, trigger search by pressing enter key or search button.
+  trigger: auto
+  # Show top n results per article, show all results by setting to -1
+  top_n_per_article: -1
+  # Unescape html strings to the readable one.
+  unescape: false
+  # Preload the search data when the page loads.
+  preload: false
+
+# Show Views / Visitors of the website / page with busuanzi.
+# Get more information on http://ibruce.info/2015/04/04/busuanzi
+busuanzi_count:
+  enable: true
+  total_visitors: true
+  total_visitors_icon: fa fa-user
+  total_views: true
+  total_views_icon: fa fa-eye
+  post_views: true
+  post_views_icon: fa fa-eye
+
+# Google Analytics
+google_analytics:
+  tracking_id: UA-77162231-1
+  # By default, NexT will load an external gtag.js script on your site.
+  # If you only need the pageview feature, set the following option to true to get a better performance.
+  only_pageview: false
+
+# Baidu Analytics
+baidu_analytics: 0442bffd067501ab6af54ee3386c07fd
+
+# Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.
+baidu_push: true
+
+# `Follow me on GitHub` banner in the top-right corner.
+github_banner:
+  enable: true
+  permalink: https://github.com/cylong1016
+  title: Follow me on GitHub
+
+# Blog rolls
+links_settings:
+  icon: fa fa-link
+  title: 友情链接
+  # Available values: block | inline
+  layout: block
+
+# links
+links:
+  Disinuo的博客: https://disinuo.github.io/
+  一颗鹅掌球: https://agneszing.com/
+  Jane: http://liaodanqi.me/
+  lsySummer: http://www.lsysummer.com/
+
+# Table of Contents in the Sidebar
+# Front-matter variable (unsupport wrap expand_all).
+toc:
+  enable: true
+  # Automatically add list number to toc.
+  number: true
+  # If true, all words will placed on next lines if header width longer then sidebar width.
+  wrap: true
+  # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
+  expand_all: true
+  # Maximum heading depth of generated toc.
+  max_depth: 6
+
+# Use icon instead of the symbol # to indicate the tag at the bottom of the post
+tag_icon: true
+
+# Sidebar Avatar
+avatar:
+  # Replace the default image and set the url here.
+  url: /images/avatar.jpg
+  # If true, the avatar will be dispalyed in circle.
+  rounded: false
+  # If true, the avatar will be rotated with the cursor.
+  rotated: false
+
+# Subscribe through Telegram Channel, Twitter, etc.
+# Usage: `Key: permalink || icon` (Font Awesome)
+follow_me:
+  #Twitter: https://twitter.com/username || fab fa-twitter
+  #Telegram: https://t.me/channel_name || fab fa-telegram
+  #WeChat: /images/wechat_channel.jpg || fab fa-weixin
+  RSS: /atom.xml || fa fa-rss

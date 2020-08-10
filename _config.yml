@@ -5,7 +5,7 @@
 # Site
 title: 笑话人生
 subtitle: 年华易逝 懂得珍惜
-description: 见兔而顾犬，未为晚也；亡羊而补牢，未为迟也。
+description: 见兔而顾犬，未为晚也；<br>亡羊而补牢，未为迟也。
 author: cylong
 language: zh-CN
 timezone:
@@ -64,7 +64,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: next-reloaded
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -74,31 +74,6 @@ deploy:
     github: git@github.com:cylong1016/cylong1016.github.io.git # Github SSH
     # github: https://github.com/cylong1016/cylong1016.github.io.git # Github HTTPS
   branch: master
-
-# Avatar
-avatar: /images/avatar.jpg
-
-# 多说评论功能
-# duoshuo_shortname:
-
-# 多说分享服务
-# duoshuo_share: false
-
-# 多说热评文章 true 或者 false
-# duoshuo_hotartical: true
-
-# 百度统计
-baidu_analytics: 0442bffd067501ab6af54ee3386c07fd
-
-# Google Analytics
-google_analytics: UA-77162231-1
-
-# Local search
-search:
-  path: search.xml
-  field: post
-  format: html
-  limit: 10000
 
 # Sitemap Setting
 sitemap:
@@ -111,12 +86,3 @@ feed:
   path: atom.xml
   limit: 20
   hub:
-
-# title, chinese available
-links_title: 友情链接
-# links
-links:
-  Disinuo的博客: https://disinuo.github.io/
-  lsySummer: http://www.lsysummer.com/
-  Jane: http://liaodanqi.me/
-  Zing: https://agneszing.com/
