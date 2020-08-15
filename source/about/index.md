@@ -65,7 +65,7 @@ date: 2016-04-19 22:52:53
 [5]: http://www.cylong.com/blog/2016/04/19/hexo-git/ "Hexo + Git 搭建免费的个人博客 | 笑话人生"
 [6]: https://www.zhihu.com/people/cylong1016 "陈云龙 - 知乎"
 [7]: http://weibo.com/cyl19941016 "笑话人生cylong的微博"
-[8]: https://www.facebook.com/people/陈云龙/100007668136606 "陈云龙 - Facebook"
+[8]: https://www.facebook.com/cylong1016 "陈云龙 | Facebook"
 [9]: https://twitter.com/cylong1016 "陈云龙(@cylong1016) | Twitter"
 [10]: https://www.v2ex.com/member/cylong "V2EX › cylong"
 [11]: https://hexo.io/zh-cn/docs/ "Hexo 中文文档"
