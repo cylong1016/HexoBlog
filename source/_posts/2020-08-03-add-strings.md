@@ -86,8 +86,7 @@ public String addStrings(String num1, String num2) {
         index1--;
         index2--;
     }
-    res.reverse();
-    return res.toString();
+    return res.reverse().toString();
 }
 ```
 
