@@ -46,7 +46,7 @@ Click : [3,0]
 ```
 
 **解释:**
-{% asset_img minesweeper_example_1.png 示例1] %}
+{% asset_img minesweeper_example_1.png 示例1 %}
 
 **示例 2：**
 ```
@@ -68,7 +68,7 @@ Click : [1,2]
 ```
 
 **解释:**
-{% asset_img minesweeper_example_2.png 示例2] %}
+{% asset_img minesweeper_example_2.png 示例2 %}
 
 **注意：**
 
