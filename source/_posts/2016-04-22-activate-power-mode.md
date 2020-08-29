@@ -23,7 +23,7 @@ tags:
 
 先上图！
 
-![activate-power-mode](activate-power-mode.gif)
+{% asset_img activate-power-mode.gif activate-power-mode 插件 %}
 
 ## 准备
 

@@ -19,7 +19,7 @@ Windows 8/10 的应用是不允许访问 localhost(127.0.0.1)，所以你配置�
 1. 寻找应用的 SID：键盘组合键 <span class="fa fa-windows"></span> + R，然后输入 `regedit`，打开注册表管理器，找到以下注册表项：
 HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Mappings
 在其中找到你想要使用代理的应用，DisplayName 就是应用名，左边的项就是 SID。比如我找的是 Twitter。如下图：
-![注册表项示例](regedit_sid.png)
+{% asset_img regedit_sid.png 注册表项示例 %}
 【PS： 你可以鼠标放在 SID 上右键->重命名，然后就可以复制整个 SID 了】
 
 2. 键盘组合键 <span class="fa fa-windows"></span> + X，然后按 A【命令提示符（管理员）】，打开终端后输入：
@@ -29,7 +29,7 @@ HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Cur
 回车后就大功告成了。
 
 3. 打开 Twitter 试一下
-![Twitter 翻墙成功](twitter.png)
+{% asset_img twitter.png Twitter 翻墙成功 %}
 
 # CheckNetIsolation 参数
 

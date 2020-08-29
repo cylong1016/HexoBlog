@@ -85,7 +85,7 @@ public boolean findChar(char c, char[] charArr, boolean[] flag) {
 
 显然，对于一个单词 word，只要其中的每个字母的数量都不大于 chars 中对应的字母的数量，那么就可以用 chars 中的字母拼写出 word。由于题目中的限制条件是小写英文字母，所以我们只要使用int[26]数组，分别保存字母表中的字母出现次数和word中字母出现的次数即可。
 
-![图解](图解.gif)
+{% asset_img 图解.gif 统计字母出现次数 %}
 
 ```java
 public int countCharacters(String[] words, String chars) {

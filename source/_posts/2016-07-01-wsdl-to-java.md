@@ -26,7 +26,7 @@ tags:
 2. 右键刚刚新建的项目，`New -> Other -> Web Services -> Web Service Client`
 3. 在 Service definition 输入 WSDL 的地址，之后点 `Next` 或者 `Finish` 即可
 4. 会生成类似下面这样的代码结构
-![](wsdl-to-java.png)
+{% asset_img wsdl-to-java.png WSDL to Java %}
 5. 其中 xxxProxy.java 中就有服务提供的接口方法，直接调用就行了。
 
 # 参考&感谢

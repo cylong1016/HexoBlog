@@ -103,7 +103,7 @@ public String longestCommonPrefixTwoStr(String str1, String str2) {
 
 前面的方法是横向扫描，依次遍历每个字符串，更新最长公共前缀。另一种方法是纵向扫描。纵向扫描时，从前往后遍历所有字符串的每一列，比较相同列上的字符是否相同，如果相同则继续对下一列进行比较，如果不相同则当前列不再属于公共前缀，当前列之前的部分为最长公共前缀。
 
-![纵向扫描](纵向扫描.png)
+{% asset_img 纵向扫描.png 纵向扫描 %}
 
 ```java
 public String longestCommonPrefix(String[] strs) {
@@ -132,7 +132,7 @@ public String longestCommonPrefix(String[] strs) {
 
 针对横向扫描的方法，我们可以发现，可以使用分治法得到字符串的最长公共前缀，我们可以将字符串数组一分为二，分别求分开的两个字符串数组的最长公共前缀，并不断递归处理，最后合并求出子问题的最长公共前缀。
 
-![分治法](分治法.png)
+{% asset_img 分治法.png 分治法 %}
 
 ```java
 public String longestCommonPrefix(String[] strs) {

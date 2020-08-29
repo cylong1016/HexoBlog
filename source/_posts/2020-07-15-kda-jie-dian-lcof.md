@@ -76,7 +76,7 @@ void dfs(TreeNode root) {
 * 递归操作：先进行k - 1，然后判断 k 是否等于0，是则找到第k大的节点，将节点的值返回。
 * 递归左子树：dfs(root.left);
 
-![中序遍历图解](中序遍历.png)
+{% asset_img 中序遍历.png 中序遍历 %}
 
 ```java
 int k;

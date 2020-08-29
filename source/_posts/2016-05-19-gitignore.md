@@ -23,7 +23,7 @@ date: 2016-05-19 18:16:49
 
 你还可以在 Github 上新建一个仓库的同时指定生成特定的 .gitignore 文件，如下图：
 
-![Github 自动创建指定的 .gitignore](create-gitignore.png)
+{% asset_img create-gitignore.png Github 自动创建指定的 .gitignore %}
 
 # 编辑 .gitignore
 

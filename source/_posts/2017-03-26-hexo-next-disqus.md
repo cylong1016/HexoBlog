@@ -23,13 +23,13 @@ tags:
 # NexT 主题集成 Disqus
 
 1. 登陆 [Disqus][3]，点击 `GET STARTED` 开始创建站点，之后就可以点击右上角的 `Admin` 进入后台管理。
-![Disqus 创建站点](disqus_index.png)
+{% asset_img disqus_index.png Disqus 创建站点 %}
 2. 点击第二条 `I want to install Disqus on my site`。
-![](disqus_intent.png)
+{% asset_img disqus_intent.png %}
 3. 按照表单填写信息，记住 `Website Name` 这条属性。
-![](disqus_create.png)
+{% asset_img disqus_create.png %}
 4. 接下来按照指引填写信息，完成第三步 `3.Configure Disqus` 后点击最下面 `Complete Setup` 完成创建。【中间会有一个嵌入代码的案例，不是 NexT 主题的可以参考下】
-![](disqus_settings.png)
+{% asset_img disqus_settings.png %}
 5. 接下来配置主题下面的 `config.yml` 文件。
 > 大于等于5.1.1版本，将 disqus 下的 enable 设定为 true，同时提供您的 shortname。 count 用于指定是否显示评论数量。
 {% code %}
@@ -49,7 +49,6 @@ disqus:
 毕竟多说我也用了一年，积攒了一点评论，就这样放弃非常的舍不得，不过多说导出的评论文件无法直接导入到 Disqus 中，多说导出的是 JSON 文件，Disqus 支持的导入格式是 WordPress 导出的的 XML 文件。在网上找了一些，发现都不好用，于是自己就造了一个轮子，在下面的链接中有详细的说明。欢迎使用并提出宝贵的意见(●'◡'●)
 
 > [多说评论迁移至 Disqus][4]
-
 
 ---
 

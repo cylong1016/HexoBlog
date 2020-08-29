@@ -24,8 +24,8 @@ updated: 2017-04-12 22:38:23
 
 在 [百度站长平台][2] 上进行抓取诊断的时候，发现一直抓取失败，如图：
 
-![百度爬虫抓取错误](spider-test.png)
-![百度爬虫抓取错误](exception.png)
+{% asset_img spider-test.png百度爬虫抓取错误 %}
+{% asset_img exception.png 百度爬虫抓取错误 %}
 
 后来才发现，原来是 Github 禁止百度爬虫抓取，原因是百度的抓取太猛烈，给 Github 的用户造成了可用性问题，而且会一直禁用下去。。。 【我该吐槽 Github 呢？还是百度呢？大家心知肚明就好。（╯－＿－）╯╧╧】
 
@@ -36,15 +36,15 @@ updated: 2017-04-12 22:38:23
 1. 注册登录 [CODING][4]。
 2. 创建新项目，项目的后缀必须是和你的个性后缀一样。
 3. 创建项目的时候你可以选择从 Github 上导入你的博客仓库或者之后自己部署到 CODING 上，如下图：
-![从 Github 上导入仓库](import-from-github.png)
+{% asset_img import-from-github.png 从 Github 上导入仓库 %}
 4. 进入你的项目，点击左侧的 `代码`，再选择 `Pages 服务`，选择 `部署分支`，默认是 `coding-pages`，建议换成 `master` 分支和 Github 保持一致。然后点击 `立即开启`。
 5. 绑定自己的域名，如下图：
-![Coding Pages](coding-pages.png)
+{% asset_img coding-pages.png Coding Pages %}
 6. 到你的 DNS 服务商修改你的域名解析记录，这里不需要删除解析到 Github 的记录，像我下面这样配置就可以，这样正常访问还是访问到 Github 上，百度抓取的时候是抓取的 CODING 上的项目。
 万网 DNS 设置：
-![DNS 解析记录 - 万网](dns-parse.png)
+{% asset_img dns-parse.png DNS 解析记录 - 万网 %}
 DNSPod 设置：
-![DNS 解析记录 - DNSPod](dns-parse-dnspod.png)
+{% asset_img dns-parse-dnspod.png DNS 解析记录 - DNSPod %}
 注意：我的域名在万网购买的，默认使用的是万网的 DNS，设置成百度后开始是好用的，后来就又抓取不到了（╯－＿－）╯╧╧。 于是我就换成了 [DNSPod][6] 的服务，把线路类型设置成百度、搜索引擎或者国内都可以。如果设置成搜索引擎的话注意 Google 也会去 Coding.net 抓取页面。设置成国内的话，国内的其他用户访问也访问的是 Coding.net 中的页面，相比访问 Github Pages 会更快一点。
 
 # Hexo 同时部署到 Github 和 Coding

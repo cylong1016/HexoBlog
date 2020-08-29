@@ -25,7 +25,7 @@ updated: 2017-04-12 23:01:35
 5. 若提示完成或者部分完成，则可以将网址 `提交至索引`，有两种提交方式：仅抓取此网址、抓取此网址及其直接链接。都有次数限制。
 6. 等待一会，打开 Google，在搜索栏输入 `site:www.cylong.com`【换成你的域名】，就可以看到你网站的内容了~
 
-![Google 抓取示例](google-search.png)
+{% asset_img google-search.png Github Google 抓取示例 %}
 
 # 百度搜索
 
@@ -100,7 +100,7 @@ Sitemap 上面放置了网站上需要搜索引擎抓取的所有页面的链接
 
 在我向百度提交站点地图 baidusitemap.xml 的时候提示 XML 解析失败，猜测可能是格式有问题，通过查看 [百度sitemap协议都支持哪些格式？][6] 发现 Hexo 生成的 baidusitemap.xml 确实有问题，不过百度支持上文中生成的 sitemap.xml 格式的 XML 文档，上传这个就正常了。
 
-![XML 解析失败](baidusitemap-error.png)
+{% asset_img baidusitemap-error.png XML 解析失败 %}
 
 # 一些小点子
 
