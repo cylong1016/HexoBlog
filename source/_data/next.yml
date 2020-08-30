@@ -44,10 +44,25 @@ codeblock:
 
 # Disqus
 disqus:
-  enable: true
+  enable: false
   shortname: cylong1016
   count: true
   #post_meta_order: 0
+
+# DisqusJS
+# Alternative Disqus - Render comment component using Disqus API.
+# Demo: https://suka.js.org/DisqusJS/
+# For more information: https://github.com/SukkaW/DisqusJS
+disqusjs:
+  enable: true
+  # API Endpoint of Disqus API (https://disqus.com/api/).
+  # Leave api empty if you are able to connect to Disqus API. Otherwise you need a reverse proxy for it.
+  # For example:
+  # api: https://disqus.skk.moe/disqus/
+  api:
+  apikey: AjMV1Ti8k8otaNdjJjkqFrBbvfFgB1F5s4AU3ksTCsoARcYK687GRNN0k8J83MFX # Register new application from https://disqus.com/api/applications/
+  shortname: cylong1016 # See: https://disqus.com/admin/settings/general/
+  siteName: 笑话人生
 
 # Local Search
 # Dependencies: https://github.com/theme-next/hexo-generator-searchdb
