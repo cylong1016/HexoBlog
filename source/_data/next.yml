@@ -42,9 +42,35 @@ codeblock:
   # See: https://github.com/chriskempson/tomorrow-theme
   highlight_theme: night
 
+# Multiple Comment System Support
+comments:
+  # Available values: tabs | buttons
+  style: tabs
+  # Choose a comment system to be displayed by default.
+  # Available values: changyan | disqus | disqusjs | gitalk | livere | valine
+  active: disqus
+  # Setting `true` means remembering the comment system selected by the visitor.
+  storage: true
+  # Lazyload all comment systems.
+  lazyload: false
+  nav:
+    disqus:
+      text: Disqus
+      order: -2
+    changyan:
+      text: 畅言
+      order: -1
+
+# Changyan
+changyan:
+  enable: true
+  appid: cyv2aIpxT
+  appkey: ad4bdd44522550d75acbc6f4dd7eb0d0
+  #post_meta_order: 0
+
 # Disqus
 disqus:
-  enable: false
+  enable: true
   shortname: cylong1016
   count: true
   #post_meta_order: 0
@@ -54,7 +80,7 @@ disqus:
 # Demo: https://suka.js.org/DisqusJS/
 # For more information: https://github.com/SukkaW/DisqusJS
 disqusjs:
-  enable: true
+  enable: false
   # API Endpoint of Disqus API (https://disqus.com/api/).
   # Leave api empty if you are able to connect to Disqus API. Otherwise you need a reverse proxy for it.
   # For example:
