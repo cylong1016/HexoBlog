@@ -57,16 +57,9 @@ comments:
     disqus:
       text: Disqus
       order: -2
-    changyan:
-      text: 畅言
+    livere:
+      text: 来必力
       order: -1
-
-# Changyan
-changyan:
-  enable: true
-  appid: cyv2aIpxT
-  appkey: ad4bdd44522550d75acbc6f4dd7eb0d0
-  #post_meta_order: 0
 
 # Disqus
 disqus:
@@ -74,6 +67,10 @@ disqus:
   shortname: cylong1016
   count: true
   #post_meta_order: 0
+
+# LiveRe comments system
+# You can get your uid from https://livere.com/insight/myCode (General web site)
+livere_uid: MTAyMC81MTQ3MC8yNzk1MQ==
 
 # DisqusJS
 # Alternative Disqus - Render comment component using Disqus API.
