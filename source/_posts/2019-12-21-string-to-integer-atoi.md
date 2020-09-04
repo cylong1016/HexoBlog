@@ -1,7 +1,7 @@
 ---
 title: 字符串转换整数
 date: 2019-12-21 00:51:08
-updated: 2019-12-21 00:51:08
+updated: 2020-09-04 22:34:07
 categories:
     - LeetCode
 tags:
@@ -98,6 +98,112 @@ public int myAtoi(String str) {
 # 有限状态机
 
 针对有限状态机的学习还需要深入，先参考下官方的解答：[字符串转换整数 | 题解][2]
+
+**2020-09-04 更新**
+时隔这么久，终于静下心来研究了下有限状态机的解法。有限状态机在遇到类似“判断一个字符串，是否满足某种规则”这种问题的时候，可以非常有条理的去解决。有限状态机的主要思想是，在程序运行的时候有一个状态 state，我们从当前输入中取出一个字符，根据当前字符的类型，转移到下一个状态。我们还需要定义一个初始状态和结束状态，这样我们只要建立一个覆盖所有状态的表格，就可以解决本题的问题。先看下官方题解的状态机：
+
+{% asset_img 有限状态机.png 有限状态机 %}
+
+我们建立的表格如下（为了配合下面自己的代码，我把上面的状态做了微小修改）：
+
+| 状态\字符类型 | space | +/-  | number | other |
+|:-----------:|:-----:|:----:|:------:|:-----:|
+| space       | space | sign | number | end   |
+| sign        | end   | end  | number | end   |
+| number      | end   | end  | number | end   |
+| end         | end   | end  | end    | end   |
+
+接下来我们写代码只要构造这个 stateTable ，然后遍历字符串并不断更新状态即可。对于本题，我们要在遇到数字的时候进行计算，遇到符号的时候记录正负。
+
+```java
+
+// 记录当前状态，初始为空格状态
+State state = State.SPACE;
+int sign = 1;
+long ans = 0;
+
+// 构造表格，记录当前状态遇到某个类型字符可以转移到的下一个状态
+Map<State, Map<CharType, State>> stateTable = new HashMap<>();
+
+{
+    Map<CharType, State> spaceMap = new HashMap<CharType, State>() {{
+        put(CharType.SPACE, State.SPACE);
+        put(CharType.SIGN, State.SIGN);
+        put(CharType.NUMBER, State.NUMBER);
+        put(CharType.OTHER, State.END);
+    }};
+    Map<CharType, State> signMap = new HashMap<CharType, State>() {{
+        put(CharType.SPACE, State.END);
+        put(CharType.SIGN, State.END);
+        put(CharType.NUMBER, State.NUMBER);
+        put(CharType.OTHER, State.END);
+    }};
+    Map<CharType, State> numberMap = new HashMap<CharType, State>() {{
+        put(CharType.SPACE, State.END);
+        put(CharType.SIGN, State.END);
+        put(CharType.NUMBER, State.NUMBER);
+        put(CharType.OTHER, State.END);
+    }};
+    Map<CharType, State> otherMap = new HashMap<CharType, State>() {{
+        put(CharType.SPACE, State.END);
+        put(CharType.SIGN, State.END);
+        put(CharType.NUMBER, State.END);
+        put(CharType.OTHER, State.END);
+    }};
+    stateTable.put(State.SPACE, spaceMap);
+    stateTable.put(State.SIGN, signMap);
+    stateTable.put(State.NUMBER, numberMap);
+    stateTable.put(State.END, otherMap);
+}
+
+public int myAtoi(String str) {
+    for (char c : str.toCharArray()) {
+        changeState(c);
+    }
+    return (int)ans * sign;
+}
+
+public void changeState(char c) {
+    state = stateTable.get(state).get(getCharType(c));
+    if (state == State.NUMBER) {
+        ans = ans * 10 + (c - '0');
+        ans = sign == 1 ? Math.min(ans, Integer.MAX_VALUE) : Math.min(ans, -(long) Integer.MIN_VALUE);
+    } else if (state == State.SIGN) {
+        sign = c == '-' ? -sign : sign;
+    }
+}
+
+public CharType getCharType(char c) {
+    if (c == ' ') {
+        return CharType.SPACE;
+    } else if (c == '+' || c == '-') {
+        return CharType.SIGN;
+    } else if (Character.isDigit(c)) {
+        return CharType.NUMBER;
+    } else {
+        return CharType.OTHER;
+    }
+}
+
+enum State {
+    SPACE,
+    SIGN,
+    NUMBER,
+    END
+}
+
+enum CharType {
+    SPACE,
+    SIGN,
+    NUMBER,
+    OTHER
+}
+```
+
+## 复杂度分析
+
+* 时间复杂度：O(n)，其中 n 为字符串的长度。我们只需要依次处理所有的字符，处理每个字符需要的时间为 O(1)。
+* 空间复杂度：Ο(1)，自动机的状态只需要常数空间存储。
 
 # 来源
 > [字符串转换整数 | 力扣（LeetCode）][1]
