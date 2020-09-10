@@ -6,7 +6,7 @@ categories:
     - 数据结构与算法
 tags:
     - leetcode
-    - 算法
+    - 数据结构与算法
     - 树
     - 二叉树
     - 递归
