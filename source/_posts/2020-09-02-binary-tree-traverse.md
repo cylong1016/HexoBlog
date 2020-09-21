@@ -1,7 +1,7 @@
 ---
 title: 二叉树的遍历
 date: 2020-09-02 22:51:37
-updated: 2020-09-02 22:51:37
+updated: 2020-09-21 23:30:34
 categories:
     - 数据结构与算法
 tags:
@@ -147,6 +147,51 @@ public void levelTraverse(TreeNode root) {
     }
 }
 ```
+
+另外一种比较复杂的按层遍历是每层当成一个列表输出，这个时候我们只要增加另外一个队列，同时记录当时遍历的层数即可。
+
+```java
+public ArrayList<ArrayList<Integer>> levelTraverse(TreeNode root) {
+    ArrayList<ArrayList<Integer>> ans = new ArrayList<>();
+    ArrayList<Integer> item = new ArrayList<>();
+    if (root == null) {
+        return ans;
+    }
+
+    Queue<TreeNode> queue = new LinkedList<>();
+    Queue<Integer> queueLevel = new LinkedList<>();
+    int curLevel = 1;
+    queue.offer(root);
+    queueLevel.offer(1);
+    while (!queue.isEmpty()) {
+        TreeNode node = queue.poll();
+        int level = queueLevel.poll();
+        if (level != curLevel) {
+            curLevel = level;
+            ans.add(new ArrayList<>(item));
+            item.clear();
+        }
+        item.add(node.val);
+
+        if (node.left != null) {
+            queue.offer(node.left);
+            queueLevel.offer(curLevel + 1);
+        }
+        if (node.right != null) {
+            queue.offer(node.right);
+            queueLevel.offer(curLevel + 1);
+        }
+    }
+
+    if (!item.isEmpty()) {
+        ans.add(new ArrayList<>(item));
+    }
+
+    return ans;
+}
+```
+
+输出样例：[\[1\], [2, 3], [4, 5, 6], [7, 8]]
 
 # 总结
 
