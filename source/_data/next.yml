@@ -56,10 +56,10 @@ comments:
   nav:
     disqus:
       text: Disqus 评论
-      order: -2
+      order: -1
     livere:
       text: LiveRe 评论
-      order: -1
+      order: -2
 
 # Disqus
 disqus:
