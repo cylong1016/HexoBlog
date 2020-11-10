@@ -50,8 +50,7 @@ tags:
 ```
 
 **提示：**
-
-* 1 <= grid.length, grid[i].length <= 15
+* 1 <= grid.length, grid[i].length <= 15
 * 0 <= grid[i][j] <= 100
 * 最多 25 个单元格中有黄金。
 

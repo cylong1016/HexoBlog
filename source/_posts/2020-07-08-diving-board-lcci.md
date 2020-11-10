@@ -27,8 +27,8 @@ tags:
 > 解释：可以使用 3 次 shorter，得到结果 3；使用 2 次 shorter 和 1 次 longer，得到结果 4 。以此类推，得到最终结果。
 
 **提示：**
-> 0 < shorter <= longer
-> 0 <= k <= 100000
+* 0 < shorter <= longer
+* 0 <= k <= 100000
 
 <!-- more -->
 

@@ -39,9 +39,9 @@ tags:
 > 输出：[true, false, true]
 
 **提示：**
-> 2 <= candies.length <= 100
-> 1 <= candies[i] <= 100
-> 1 <= extraCandies <= 50
+* 2 <= candies.length <= 100
+* 1 <= candies[i] <= 100
+* 1 <= extraCandies <= 50
 
 <!-- more -->
 
