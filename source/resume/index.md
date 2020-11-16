@@ -79,10 +79,11 @@ comments: false
 
 1. 喜欢游戏，电影，音乐，动漫，二次元。运动类喜欢乒乓球。
 2. 在自学日语，目标拿到N2证书。
-3. 搭建自己的个人博客：https://www.cylong.com ，总结技术知识，最近主要在刷LeetCode，做一些学习笔记。 
+3. 搭建自己的个人博客：[笑话人生](https://www.cylong.com) 。总结技术知识，最近主要在刷LeetCode，做一些学习笔记。 
 
 ---
 
 # 附录
 
-* PDF 版本：[个人简历.pdf](/resume/个人简历.pdf)
+* [个人简历.pdf](/resume/个人简历.pdf)
+* [社招面试总结](/resume/summary)
