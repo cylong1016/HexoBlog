@@ -8,6 +8,9 @@ tags:
     - leetcode
     - java
     - 学习笔记
+    - 数组
+    - 指针
+    - 双指针
 ---
 ---
 
@@ -44,7 +47,7 @@ for (int i = 0; i < len; i++) {
 
 题目中是一个排序后的数组，那么相同的元素一定是排列在一起的，我们可以使用两个指针 i 和 j，我们不断的移动j指针，只要 nums[i]=nums[j]，我们就进行 j++ 操作，跳过重复项，直到 nums[i]≠nums[j] 的时候，说明遇到了下一个非重复项，于是我们就将 num[j] 的值复制到 num[i + 1] 的位置，接着重复此流程，遍历完全部数组。
 
-```
+```java
 public int removeDuplicates(int[] nums) {
     int i = 0;
     for (int j = 1; j < nums.length; j++) {
