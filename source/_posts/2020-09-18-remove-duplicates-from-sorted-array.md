@@ -66,6 +66,7 @@ public int removeDuplicates(int[] nums) {
 * 空间复杂度：O(1)。
 
 # 来源
+
 > [删除排序数组中的重复项 | 力扣（LeetCode）][1]
 > [删除排序数组中的重复项 | 题解（LeetCode）][2]
 

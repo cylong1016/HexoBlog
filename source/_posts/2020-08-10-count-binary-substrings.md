@@ -62,6 +62,7 @@ public int countBinarySubstrings(String s) {
 * 空间复杂度：O(n)。这里使用 `s.toCharArray()` 仅仅是为了效率，其实可以使用 s.charAt()，这样空间复杂度就是 O(1) 了。
 
 # 来源
+
 > [计数二进制子串 | 力扣（LeetCode）][1]
 > [计数二进制子串 | 题解（LeetCode）][2]
 

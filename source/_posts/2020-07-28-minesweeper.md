@@ -126,6 +126,7 @@ private void checkBoard(char[][] board, int x, int y) {
 ```
 
 # 来源
+
 > [扫雷游戏 | 力扣（LeetCode）][1]
 > [扫雷游戏 | 题解（LeetCode）][2]
 

@@ -85,6 +85,7 @@ public int findMagicIndex(int[] nums, int start, int end) {
 * 空间复杂度：递归函数的空间取决于调用的栈深度，而最坏情况下我们会递归 n 层，即栈深度为 O(n)，因此空间复杂度最坏情况下为 O(n)。
 
 # 来源
+
 > [魔术索引 | 力扣（LeetCode）][1]
 > [魔术索引 | 题解（LeetCode）][2]
 

@@ -134,6 +134,7 @@ public int[][] intervalIntersection(int[][] A, int[][] B) {
 * 空间复杂度：O(M + N)，答案中区间数量的上限。
 
 # 来源
+
 > [区间列表的交集 | 力扣（LeetCode）][1]
 > [区间列表的交集 | 题解（LeetCode）][2]
 

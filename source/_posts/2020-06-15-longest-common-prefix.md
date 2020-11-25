@@ -170,6 +170,7 @@ public String longestCommonPrefixTwoStr(String str1, String str2) {
 * 空间复杂度：O(mlogn)，其中 m 是字符串数组中的字符串的平均长度，n 是字符串的数量。空间复杂度主要取决于递归调用的层数，层数最大为 logn，每层需要 m 的空间存储返回结果。
 
 # 来源
+
 > [最长公共前缀 | 力扣（LeetCode）][1]
 > [最长公共前缀 | 题解（LeetCode）][2]
 

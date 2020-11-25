@@ -158,6 +158,7 @@ public boolean canFinish(int numCourses, int[][] prerequisites) {
 * 空间复杂度: O(n + m)。题目中是以列表形式给出的先修课程关系，为了对图进行广度优先搜索，我们需要存储成邻接表的形式，空间复杂度为 O(n + m)。在广度优先搜索的过程中，我们需要最多 O(n) 的队列空间（迭代）进行广度优先搜索。因此总空间复杂度为 O(n + m)。
 
 # 来源
+
 > [课程表 | 力扣（LeetCode）][1]
 > [课程表 | 题解（LeetCode）][2]
                   

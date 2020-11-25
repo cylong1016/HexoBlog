@@ -137,6 +137,7 @@ public boolean PredictTheWinner(int[] nums) {
 * 空间复杂度：O(n)，其中 n 是数组的长度。空间复杂度取决于额外创建的数组 dp，如果不优化空间，则空间复杂度是 O(n²)，使用一维数组优化之后空间复杂度可以降至 O(n)。
 
 # 来源
+
 > [预测赢家 | 力扣（LeetCode）][1]
 > [预测赢家 | 题解（LeetCode）][2]
 

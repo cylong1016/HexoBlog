@@ -106,6 +106,7 @@ public List<Integer> preorderTraversal(TreeNode root) {
 * 空间复杂度：O(1)。只操作已经存在的指针（树的空闲指针），因此只需要常数的额外空间。
 
 # 来源
+
 > [二叉树的前序遍历 | 力扣（LeetCode）][1]
 > [二叉树的前序遍历 | 题解（LeetCode）][2]
 

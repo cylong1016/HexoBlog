@@ -151,6 +151,7 @@ public int findLength(int[] A, int[] B) {
 > N 表示数组 A 的长度，M 表示数组 B 的长度。
 
 # 来源
+
 > [最长重复子数组 | 力扣（LeetCode）][1]
 > [最长重复子数组 | 题解（LeetCode）][2]
 

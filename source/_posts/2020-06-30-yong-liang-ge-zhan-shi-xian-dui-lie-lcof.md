@@ -72,6 +72,7 @@ public int deleteHead() {
 * 空间复杂度：O(n)。需要使用两个栈存储已有的元素。
 
 # 来源
+
 > [用两个栈实现队列 | 力扣（LeetCode）][1]
 > [用两个栈实现队列 | 题解（LeetCode）][2]
 

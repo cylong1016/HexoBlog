@@ -56,6 +56,7 @@ public int[] sortedSquares(int[] A) {
 * 空间复杂度：O(1)。
 
 # 来源
+
 > [有序数组的平方 | 力扣（LeetCode）][1]
 > [有序数组的平方 | 题解（LeetCode）][2]
 

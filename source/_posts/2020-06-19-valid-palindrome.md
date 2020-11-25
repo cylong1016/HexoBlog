@@ -60,6 +60,7 @@ public boolean isPalindrome(String s) {
 * 空间复杂度：O(1)，只需要额外的常数级别的空间。
 
 # 来源
+
 > [验证回文串 | 力扣（LeetCode）][1]
 > [验证回文串 | 题解（LeetCode）][2]
 

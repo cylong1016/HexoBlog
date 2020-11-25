@@ -96,6 +96,7 @@ public boolean divisorGame(int N) {
 * 空间复杂度：O(n)，我们需要 O(n) 的空间存储递推数组 f 的值。
 
 # 来源
+
 > [除数博弈 | 力扣（LeetCode）][1]
 > [除数博弈 | 题解（LeetCode）][2]
 

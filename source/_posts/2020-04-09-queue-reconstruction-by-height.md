@@ -61,6 +61,7 @@ public int[][] reconstructQueue(int[][] people) {
 * 空间复杂度：O(N)，输出队列使用的空间。
 
 # 来源
+
 > [根据身高重建队列 | 力扣（LeetCode）][1]
 > [根据身高重建队列 | 题解（LeetCode）][2]
 

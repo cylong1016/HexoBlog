@@ -89,6 +89,7 @@ public List<Integer> partitionLabels(String S) {
 * 空间复杂度：O(Σ)，其中 Σ 是字符串中的字符集大小。这道题中，字符串只包含小写字母，因此 Σ = 26。
 
 # 来源
+
 > [划分字母区间 | 力扣（LeetCode）][1]
 > [划分字母区间 | 题解（LeetCode）][2]
 

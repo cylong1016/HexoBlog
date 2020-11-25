@@ -102,6 +102,7 @@ public int height(TreeNode node) {
 * 空间复杂度：O(n)，其中 n 是二叉树中的节点个数。空间复杂度主要取决于递归调用的层数，递归调用的层数不会超过 n。
 
 # 来源
+
 > [平衡二叉树 | 力扣（LeetCode）][1]
 > [平衡二叉树 | 题解（LeetCode）][2]
 
