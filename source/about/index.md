@@ -7,9 +7,9 @@ date: 2016-04-19 22:52:53
 # 关于我
 
 * 个性：大勇若怯，大智如愚。(●'◡'●)
-* 社区：喜欢逛逛 [B站][18]、[知乎][6]、[微博][7]、[Facebook][8]、[Twitter][9]、[V2EX][10] 【欢迎 [点此][13] 注册】。
-* 休闲：喜欢游戏、电影、音乐、动漫、二次元，正在自学日语。运动类喜欢乒乓球。
-* 游戏：三国杀：灬笑话人生、阴阳师：B站亲密无间-笑话人生、战网：笑话人生#51113、Steam：笑话人生。
+* 社区：喜欢逛逛 [小红书][20]、[B站][18]、[知乎][6]、[微博][7]、[Facebook][8]、[Twitter][9]、[V2EX][10] 【欢迎 [点此][13] 注册】。
+* 兴趣：爱生活、做饭、收纳；爱户外、旅游、徒步、爬山、跑步；喜欢游戏、电影、音乐、动漫。
+* 游戏：三国杀经典版：灬笑话人生、Steam：[笑话人生][19]。
 * 履历：
     * 2013年9月-2017年7月就读于 [南京大学软件学院][1]。
     * 2017年8月-2020年12月就职于华为技术有限公司南京研究所，Java 开发工程师。
@@ -30,10 +30,6 @@ date: 2016-04-19 22:52:53
 博客采用 Hexo + Git 搭建，使用 NexT 主题，托管在 [Github-HexoBlog][2]，忙碌了3天完成的博客的雏形。搭建教程请参考：
 
 > [Hexo + Git 搭建免费的个人博客 | 笑话人生][5]
-
-
-## 参考资料
-
 > [Hexo 中文文档][11]
 > [NexT 主题中文文档][12]
 > [Xuanwo's Blog - 史上最详细的Hexo博客搭建图文教程][3]
@@ -63,7 +59,7 @@ date: 2016-04-19 22:52:53
 [1]: http://software.nju.edu.cn/ "南京大学软件学院"
 [2]: https://github.com/cylong1016/HexoBlog "HexoBlog"
 [3]: https://xuanwo.io/2015/03/26/hexo-intor/ "Xuanwo's Blog - 史上最详细的Hexo博客搭建图文教程"
-[4]: http://wsgzao.github.io/post/hexo-guide/ "HelloDog - 使用GitHub和Hexo搭建免费静态Blog"
+[4]: https://wsgzao.github.io/post/hexo/ "HelloDog - 使用GitHub和Hexo搭建免费静态Blog"
 [5]: http://www.cylong.com/blog/2016/04/19/hexo-git/ "Hexo + Git 搭建免费的个人博客 | 笑话人生"
 [6]: https://www.zhihu.com/people/cylong1016 "陈云龙 - 知乎"
 [7]: http://weibo.com/cyl19941016 "笑话人生cylong的微博"
@@ -78,3 +74,5 @@ date: 2016-04-19 22:52:53
 [16]: http://dev.duoshuo.com/docs "多说开发者中心"
 [17]: http://dev.duoshuo.com/threads/58d1169ae293b89a20c57241 "重要通知: 多说即将关闭"
 [18]: https://space.bilibili.com/2645593/favlist "笑话人生的个人空间 - 哔哩哔哩 ( ゜- ゜)つロ 乾杯~ Bilibili"
+[19]: https://steamcommunity.com/id/cylong/ "Steam - 笑话人生"
+[20]: https://www.xiaohongshu.com/user/profile/5fba43f2000000000101df9d "笑话人生 • 小红书 / RED "
