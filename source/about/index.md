@@ -55,7 +55,7 @@ date: 2016-04-19 22:52:53
 [Disqus]: https://disqus.com/ "Disqus"
 [LiveRe]: https://livere.com/ "LiveRe"
 [Google Analytics]: https://www.google.com/intl/zh-CN/analytics/ "Google Analytics"
-[不蒜子]: http://ibruce.info/2015/04/04/busuanzi/ "不蒜子"
+[不蒜子]: https://ibruce.info/2015/04/04/busuanzi/ "不蒜子"
 [1]: http://software.nju.edu.cn/ "南京大学软件学院"
 [2]: https://github.com/cylong1016/HexoBlog "HexoBlog"
 [3]: https://xuanwo.io/2015/03/26/hexo-intor/ "Xuanwo's Blog - 史上最详细的Hexo博客搭建图文教程"
