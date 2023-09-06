@@ -1,7 +1,7 @@
 # cylong1016.gitHub.io
 
-* 个人博客的 Public Html 代码
-* Hexo 源码请参考[HexoBlog](https://github.com/cylong1016/HexoBlog "HexoBlog")
+* 博客的 Public Html 代码。Hexo 源码请参考：[HexoBlog](https://github.com/cylong1016/HexoBlog "HexoBlog")
+* 搭建教程请参考：[Hexo + Git 搭建免费的个人博客][2]
 
 # 感谢
 
@@ -24,3 +24,4 @@
 [Google Analytics]: https://www.google.com/intl/zh-CN/analytics/ "Google Analytics"
 [不蒜子]: https://ibruce.info/2015/04/04/busuanzi/ "不蒜子"
 [1]: http://dev.duoshuo.com/threads/58d1169ae293b89a20c57241 "重要通知: 多说即将关闭"
+[2]: https://www.cylong.com/blog/2016/04/19/hexo-git/ "Hexo + Git 搭建免费的个人博客"
