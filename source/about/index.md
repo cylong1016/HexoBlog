@@ -17,8 +17,6 @@ date: 2016-04-19 22:52:53
 
 # 联系我
 
-如果有志同道合的小伙伴，欢迎联系！很开心能够与你相遇(●'◡'●)
-
 * <span class="fa fa-envelope"></span> 邮箱：chenyunlong1016@gmail.com
 * <span class="fab fa-weixin"></span> 微信：cylong1016
 
