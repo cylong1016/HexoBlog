@@ -8,20 +8,21 @@ tags:
   - android
   - linux
   - ubuntu
+  - ios
   - 翻墙
 date: 2016-05-26 13:51:29
-updated: 2020-08-25 00:16:12
+updated: 2023-09-27 22:58:12
 ---
 ---
 
-国内的网络环境我不说相信大家都懂。虽然墙内的世界很丰富，但是墙外的世界还有着更加精彩的内容。这不得不让我想起了曾经看过的一部漫画——进击的巨人。大部分人都在墙内过着安逸的生活，但是总有那么一帮人，想要去墙外探索未知的世界。我就是这样的人！【然后收到了女票的好人卡一张😃】之前因为想要体验 Google 搜索、体验 Youtube、查阅学习资料，还有玩的部分游戏需要翻墙，找了很多免费的代理和 VPN，效果都不好，断断续续的。后来经过舍友的推荐，入了 Shadowsocks 的坑。体验了有两个月左右，效果很棒，访问速度也很快，强烈推荐给大家使用！！！(●'◡'●)
+国内的网络环境我不说相信大家都懂。虽然墙内的世界很丰富，但是墙外的世界还有着更加精彩的内容。这不得不让我想起了曾经看过的一部漫画——进击的巨人。大部分人都在墙内过着安逸的生活，但是总有那么一帮人，想要去墙外探索未知的世界。我就是这样的人！之前因为想要体验 Google 搜索、体验 Youtube、查阅学习资料，还有玩的部分游戏需要翻墙，找了很多免费的代理和 VPN，效果都不好，断断续续的。后来经过舍友的推荐，入了 Shadowsocks 的坑。体验了有两个月左右，效果很棒，访问速度也很快，强烈推荐给大家使用！！！(●'◡'●)
 
 <!-- more -->
 
 # 购买服务
 
-1. 点击进入 [Shadowsocks][1]【此链接是我的推广链接，**因为种种原因，Shadowsocks 官网常常换，所以我的推广链接也会不断更新的，官网链接也以此为准。**你点击后会直接进入首页，通过这个链接购买服务后我也会获得一些好处啦，嘿嘿(^_^)】，进入首页后选择 `订购服务`。
-2. 之后选择你想要购买的服务，点击现在订购。我选择的是 `Shadowsocks.com 普通版`。需要注意的是，虽然显示的价格是美元，但是在后面支付的时候会自动转化为人民币。
+1. 点击进入 [Shadowsocks][1]（此链接是我的推广链接，**因为种种原因，Shadowsocks 官网常常换，所以我的推广链接也会不断更新的，官网链接也以此为准。**你点击后会直接进入首页，通过这个链接购买服务后我也会获得一些好处啦，嘿嘿🤭），进入首页后选择 `订购服务`。
+2. 之后选择你想要购买的服务，点击现在订购。我选择的是 `Shadowsocks 普通版`。需要注意的是，虽然显示的价格是美元，但是在后面支付的时候会自动转化为人民币。
 {% asset_img Shadowsocks-basic.png Shadowsocks普通版 %}
 3. 界面上选择你的付款年限，然后点击继续。
 4. 在结账页面，你需要填写各种信息，需要认真填写，这也是在创建账号。
@@ -31,6 +32,10 @@ updated: 2020-08-25 00:16:12
 {% asset_img my-service.png XML 我的服务 %}
 8. 点击刚刚购买的服务，会看到产品详情。下面有配置文件下载，选择 Windows 版下载。下载下来是 `gui-config.json`。
 
+**2023-09-27 更新**
+
+9. **注：**如果不着急的话，可以等双十一再买，有优惠。
+
 # 客户端安装使用
 
 支持的客户端：OS X， Windows， Linux， iOS， Android， OpenWRT 路由器等。
@@ -38,7 +43,7 @@ updated: 2020-08-25 00:16:12
 
 ## Windows 客户端
 
-1. 点击下载 [Shadowsocks-3.0.zip][4]【写这篇博客时候的最新版本】，或者去 [Github - Shadowsocks Windows][5] 上寻找其他版本。
+1. 点击下载 [Shadowsocks-3.0.zip][4]（写这篇博客时候的最新版本），或者去 [Github - Shadowsocks Windows][5] 上寻找其他版本。
 2. 解压后有一个 `Shadowsocks.exe` 文件。最好把这个文件放到一个目录下，比如新建一个 Shadowsocks 文件夹。
 3. 把刚刚下载的 `gui-config.json` 文件放到与 `Shadowsocks.exe` 相同的目录下。
 4. 双击 `Shadowsocks.exe`，会出现一个 GUI 界面，自动读取了 `gui-config.json` 文件中的内容。
@@ -49,8 +54,8 @@ updated: 2020-08-25 00:16:12
 
 ## Android 客户端
 
-1. 点击下载 [Shadowsocks-nightly-2.10.3.apk][6]【写这篇博客时候的最新版本】，或者去 [Github - Shadowsocks Android][7] 上寻找其他版本。
-2. 把这个 apk 安装到手机上【可以传到手机里，打开这个 apk 就能安装了】，中文叫影梭。
+1. 点击下载 [Shadowsocks-nightly-2.10.3.apk][6]（写这篇博客时候的最新版本），或者去 [Github - Shadowsocks Android][7] 上寻找其他版本。
+2. 把这个 apk 安装到手机上（可以传到手机里，打开这个 apk 就能安装了），中文叫影梭。
 3. 安装完成后仍然需要配置，支持扫描二维码配置，但是需要下载一个客户端。我不喜欢下太多的客户端，所以就手动配置，具体的值可以用记事本打开 `gui-config.json` 查看。
 {% asset_img Shadowsocks-Android.png Shadowsocks Android %}
 4. 翻墙后就可以去 Google Play 商店更新 Shadowsocks 了(●'◡'●)
@@ -63,7 +68,7 @@ updated: 2020-08-25 00:16:12
 
 经历了N天之后,终于在舍友的指导下配置完成了。不得不说，Linux 真是一个让人折腾的系统。不过后来发现，其实还蛮简单的（╯－＿－）╯╧╧
 
-1. 首先你需要下载 [Chrome 浏览器][8] 【不需要翻墙】，已经有的小伙伴就不用重新下载了。
+1. 首先你需要下载 [Chrome 浏览器][8]（不需要翻墙），已经有的小伙伴就不用重新下载了。
 2. 使用如下命令安装你下载下来的 Chrome 安装包：
 {% code lang:sh %}
     sudo dpkg -i xxx-chrome-xxx.deb
@@ -78,26 +83,26 @@ updated: 2020-08-25 00:16:12
 {% asset_img search-shadowsocks.png 搜索应用列表 %}
 5. 打开图形化界面，点击 `文件 -> 从 gui-config.json 导入链接`，接着就会像下图一样。
 {% asset_img Shadowsocks-Qt5-GUI.png Shadowsocks-Qt5 图形界面 %}
-6. 上图的 jp01 和 us01 都是后来配置好的，导入 gui-config.json 后还是有些需要自己配置。双击某一条连接，像我如下这样配置【默认有的配置就不要改了】：
+6. 上图的 jp01 和 us01 都是后来配置好的，导入 gui-config.json 后还是有些需要自己配置。双击某一条连接，像我如下这样配置（默认有的配置就不要改了）：
 {% asset_img config.png 连接配置 %}
 7. 配置完成后点击 `OK`，再点击界面上面的 `连接`，测试下延迟，看看是否能连接上。可以多配置几个，方便切换~
-8. 接下来就是配置 Chrome，让 Chrome 可以使用代理。下载安装 [SwitchySharp][10] 【目前此应用已经更新为 SwitchyOmega，请参考 [Chrome 配置 SwitchyOmega][11]】。
+8. 接下来就是配置 Chrome，让 Chrome 可以使用代理。下载安装 [SwitchySharp][10]（目前此应用已经更新为 SwitchyOmega，请参考 [Chrome 配置 SwitchyOmega][11]）。
 9. 打开 Chrome， 点击右上角的 <span class="fa fa-globe" aria-hidden="true"></span> 图标，再点击 `选项`。
 {% asset_img Shadowsocks-icon.png Shadowsocks 图标 %}
 10. 点击 `新建情景模式`，做如下配置。
 {% asset_img SwitchySharp-config.png SwitchySharp 配置 %}
-11. 保存后再点击 <span class="fa fa-globe" aria-hidden="true"></span> 图标就会有你刚刚配置的情景模式，选择后就可以使用 Chrome 浏览器浏览墙外的世界啦~【另外 SwitchySharp 可以升级成 SwitchyOmega 了，有兴趣的小伙伴可以试一试！】
-12. 做了上述一系列操作后只有在 Chrome 中可以翻出墙外，至于全局代理我正在研究，过几天会出教程，有会的小伙伴也可以交 ♂ 流下~【此坑算是没时间填了(╯‵□′)╯︵┻━┻】
+11. 保存后再点击 <span class="fa fa-globe" aria-hidden="true"></span> 图标就会有你刚刚配置的情景模式，选择后就可以使用 Chrome 浏览器浏览墙外的世界啦~（另外 SwitchySharp 可以升级成 SwitchyOmega 了，有兴趣的小伙伴可以试一试！）
+12. 做了上述一系列操作后只有在 Chrome 中可以翻出墙外，至于全局代理我正在研究，过几天会出教程，有会的小伙伴也可以交 ♂ 流下~（此坑算是没时间填了(╯‵□′)╯︵┻━┻）
 
 ## IOS 客户端
 
-由于本渣没有任何的苹果设备。。。所以自己研究吧，相信聪明的你可以完成的！去 [客户端 - Shadowsocks][3] 可以找到相关的客户端。
+由于本渣没有任何的苹果设备。。。所以自己研究吧，相信聪明的你可以完成的！
 
 **2016-09-27 更新**
 
-最近也是人品爆表，抽奖抽到了个 IPad mini 2，自然就研究了下如何在 IOS 中试用 Shadowsocks 了。官方推荐的客户端是 `shadowrocket`。App Store 里卖6块钱。我找到的是 `Lifi客户端-Shadowsocks and ShadowsocksR VPN`，也是在 App Store 里下载，不过是免费的。两者的配置方式基本一样，都可以扫码配置。在 Shadowsocks 官网里`客户中心--我的产品与服务`里就可以找到各个节点的二维码。
+最近也是人品爆表，抽奖抽到了个 IPad mini 2，自然就研究了下如何在 IOS 中试用 Shadowsocks 了。官方推荐的客户端是 `shadowrocket`，App Store 里卖6块钱（现在已经下架了，只能通过国外账号下载了）。我找到的是 `Lifi客户端-Shadowsocks and ShadowsocksR VPN`，也是在 App Store 里下载，不过是免费的。两者的配置方式基本一样，都可以扫码配置。在 Shadowsocks 官网里`客户中心--我的产品与服务`里就可以找到各个节点的二维码。
 
-1. Lifi 配置，在应用里选择`设置--从二维码导入`就会打开扫码界面，之后配置一下代理名称，打开系统 VPN 就可以了，非常简单【我觉得有张图挺好看的，于是强行加了张图(^_^)】。：
+1. Lifi 配置，在应用里选择`设置--从二维码导入`就会打开扫码界面，之后配置一下代理名称，打开系统 VPN 就可以了，非常简单（我觉得有张图挺好看的，于是强行加了张图(^_^)）
 {% asset_img Shadowsocks-IOS.png Shadowsocks IOS %}
 
 2. Shadowrocket 配置，打开应用，点击左上角的扫码图标就可以打开扫码页面：
