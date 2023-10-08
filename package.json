@@ -22,6 +22,7 @@
     "hexo-renderer-stylus": "^1.1.0",
     "hexo-renderer-swig": "^2.0.0",
     "hexo-server": "^2.0.0",
+    "hexo-symbols-count-time": "^0.7.1",
     "hexo-wordcount": "^6.0.1",
     "particles.js": "^2.0.0"
   }

@@ -86,3 +86,13 @@ feed:
   path: atom.xml
   limit: 20
   hub:
+
+symbols_count_time:
+  symbols: true             # 文章字数统计
+  time: true                # 文章阅读时长
+  total_symbols: true       # 站点总字数统计
+  total_time: true          # 站点总阅读时长
+  exclude_codeblock: false  # 排除代码字数统计
+  awl: 4                    # 平均字长（字中的字符数）
+  wpm: 275                  # 每分钟阅读字数
+  suffix: "mins."
