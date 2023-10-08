@@ -5,8 +5,8 @@ updated: 2019-04-01 22:35:22
 categories:
     - Java
 tags:
-    - java
-    - lambda
+    - Java
+    - Lambda
     - 随笔
 ---
 ---

@@ -3,12 +3,12 @@ title: 解决 Github Pages 禁止百度爬虫抓取的问题
 categories:
   - Search
 tags:
-  - github
-  - git
-  - hexo
+  - Github
+  - Git
+  - Hexo
   - 爬虫
-  - search
-  - seo
+  - Search
+  - SEO
 date: 2016-05-22 16:24:44
 updated: 2017-04-12 22:38:23
 ---

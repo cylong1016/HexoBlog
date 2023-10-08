@@ -5,8 +5,8 @@ updated: 2020-01-04 15:37:26
 categories:
     - LeetCode
 tags:
-    - leetcode
-    - java
+    - LeetCode
+    - Java
     - 学习笔记
     - 整数
 ---

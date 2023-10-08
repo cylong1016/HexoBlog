@@ -3,7 +3,7 @@ title: Windows 10 Metro 应用闪退、无法打开修复方法
 categories:
   - Windows
 tags:
-  - windows
+  - Windows
 date: 2016-05-15 00:19:26
 ---
 ---

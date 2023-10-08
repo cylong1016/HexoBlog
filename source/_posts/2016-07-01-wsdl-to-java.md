@@ -4,10 +4,10 @@ date: 2016-07-01 17:39:06
 categories:
     - Java
 tags:
-    - java
-    - wsdl
-    - web service client
-    - eclipse
+    - Java
+    - WSDL
+    - Web Service Client
+    - Eclipse
 ---
 ---
 

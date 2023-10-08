@@ -5,8 +5,8 @@ updated: 2020-06-05 02:05:55
 categories:
     - LeetCode
 tags:
-    - leetcode
-    - java
+    - LeetCode
+    - Java
     - 学习笔记
     - 剑指Offer
     - 数组

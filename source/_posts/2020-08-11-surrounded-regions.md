@@ -5,8 +5,8 @@ updated: 2020-08-11 00:27:08
 categories:
     - LeetCode
 tags:
-    - leetcode
-    - java
+    - LeetCode
+    - Java
     - 学习笔记
     - 深度优先搜索
     - 广度优先搜索

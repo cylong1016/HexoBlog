@@ -3,9 +3,9 @@ title: 如何在 Google 和百度里搜索到自己的网站
 categories:
   - Search
 tags:
-  - hexo
-  - seo
-  - search
+  - Hexo
+  - SEO
+  - Search
 date: 2016-05-22 17:17:49
 updated: 2017-04-12 23:01:35
 

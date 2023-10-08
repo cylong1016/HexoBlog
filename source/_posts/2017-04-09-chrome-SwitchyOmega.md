@@ -5,7 +5,7 @@ updated: 2017-04-09 02:12:39
 categories:
   - Shadowsocks
 tags:
-  - shadowsocks
+  - Shadowsocks
   - 翻墙
   - SwitchyOmega
 ---

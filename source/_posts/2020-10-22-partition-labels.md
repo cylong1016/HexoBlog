@@ -5,8 +5,8 @@ updated: 2020-10-22 23:08:50
 categories:
     - LeetCode
 tags:
-    - leetcode
-    - java
+    - LeetCode
+    - Java
     - 学习笔记
     - 贪心算法
     - 指针

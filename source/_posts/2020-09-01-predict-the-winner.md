@@ -5,8 +5,8 @@ updated: 2020-09-01 22:36:03
 categories:
     - LeetCode
 tags:
-    - leetcode
-    - java
+    - LeetCode
+    - Java
     - 学习笔记
     - 零和博弈
     - 递归

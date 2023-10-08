@@ -3,9 +3,9 @@ title: 网站首选域
 categories:
   - Web
 tags:
-  - apache
-  - seo
-  - hexo
+  - Apache
+  - SEO
+  - Hexo
   - 301重定向
   - htaccess
 date: 2016-05-02 00:06:37

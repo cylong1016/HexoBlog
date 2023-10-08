@@ -4,8 +4,8 @@ date: 2020-07-24 16:19:07
 categories:
     - LeetCode
 tags:
-    - leetcode
-    - java
+    - LeetCode
+    - Java
     - 学习笔记
     - 数学归纳法
 ---

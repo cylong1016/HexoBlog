@@ -3,12 +3,12 @@ title: 站在 Shadowsocks 的肩膀上发现精彩的世界
 categories:
   - Shadowsocks
 tags:
-  - shadowsocks
-  - windows
-  - android
-  - linux
-  - ubuntu
-  - ios
+  - Shadowsocks
+  - Windows
+  - Android
+  - Linux
+  - Ubuntu
+  - IOS
   - 翻墙
 date: 2016-05-26 13:51:29
 updated: 2023-09-27 22:58:12

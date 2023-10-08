@@ -5,8 +5,8 @@ updated: 2020-08-10 23:11:59
 categories:
     - Hexo
 tags:
-    - hexo
-    - next
+    - Hexo
+    - Next
 ---
 ---
 

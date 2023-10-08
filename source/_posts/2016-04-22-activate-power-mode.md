@@ -4,10 +4,10 @@ date: 2016-04-22 20:00:43
 categories:
     - Atom
 tags:
-    - atom
+    - Atom
     - 插件
-    - ubuntu
-    - windows
+    - Ubuntu
+    - Windows
 ---
 ---
 

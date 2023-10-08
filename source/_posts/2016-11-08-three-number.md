@@ -3,7 +3,7 @@ title: 找出有序数组中 3 个和为 0 的数
 categories:
     - LeetCode
 tags:
-    - leetcode
+    - LeetCode
     - 学习笔记
     - C/C++
 date: 2016-11-08 01:26:19

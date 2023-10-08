@@ -4,9 +4,9 @@ date: 2016-05-10 10:19:42
 categories:
     - Java
 tags:
-    - java
-    - ssh
-    - jsp
+    - Java
+    - SSH
+    - JSP
 ---
 ---
 

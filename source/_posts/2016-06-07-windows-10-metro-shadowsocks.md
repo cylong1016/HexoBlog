@@ -4,8 +4,8 @@ date: 2016-06-07 17:04:55
 categories:
     - Windows
 tags:
-    - windows
-    - shadowsocks
+    - Windows
+    - Shadowsocks
     - 翻墙
 ---
 ---

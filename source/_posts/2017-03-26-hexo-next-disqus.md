@@ -4,9 +4,9 @@ date: 2017-03-26 22:36:12
 categories:
   - Hexo
 tags:
-  - hexo
+  - Hexo
   - 插件
-  - next
+  - Next
 ---
 ---
 

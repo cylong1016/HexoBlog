@@ -5,8 +5,8 @@ updated: 2020-10-15 18:46:48
 categories:
     - LeetCode
 tags:
-    - leetcode
-    - java
+    - LeetCode
+    - Java
     - 学习笔记
     - 树
     - 二叉树

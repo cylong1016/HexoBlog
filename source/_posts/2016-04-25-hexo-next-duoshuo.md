@@ -3,9 +3,9 @@ title: Hexo 集成多说评论 + 多说分享 + 美化多说
 categories:
     - Hexo
 tags:
-    - hexo
+    - Hexo
     - 插件
-    - next
+    - Next
 date: 2016-04-25 19:27:11
 ---
 ---

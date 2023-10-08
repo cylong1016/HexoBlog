@@ -5,8 +5,8 @@ updated: 2020-09-18 23:16:31
 categories:
     - LeetCode
 tags:
-    - leetcode
-    - java
+    - LeetCode
+    - Java
     - 学习笔记
     - 数组
     - 指针

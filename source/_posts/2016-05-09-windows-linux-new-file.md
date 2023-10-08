@@ -3,10 +3,10 @@ title: Windows 使用 cmd(命令提示符)创建文件
 categories:
   - Windows
 tags:
-  - windows
+  - Windows
   - cmd
-  - linux
-  - shell
+  - Linux
+  - Shell
 date: 2016-05-09 18:48:52
 ---
 ---

@@ -3,7 +3,7 @@ title: .gitignore 的使用
 categories:
   - Git
 tags:
-  - git
+  - Git
   - gitignore
 date: 2016-05-19 18:16:49
 ---

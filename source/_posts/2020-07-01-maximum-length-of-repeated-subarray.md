@@ -5,8 +5,8 @@ updated: 2020-07-01 00:46:55
 categories:
     - LeetCode
 tags:
-    - leetcode
-    - java
+    - LeetCode
+    - Java
     - 学习笔记
     - 动态规划
     - 滑动窗口

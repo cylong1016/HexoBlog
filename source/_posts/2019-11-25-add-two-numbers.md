@@ -5,8 +5,8 @@ updated: 2019-11-25 15:17:27
 categories:
     - LeetCode
 tags:
-    - leetcode
-    - java
+    - LeetCode
+    - Java
     - 学习笔记
     - 链表
     - 单向链表

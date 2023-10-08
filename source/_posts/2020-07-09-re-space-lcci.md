@@ -5,8 +5,8 @@ updated: 2020-07-09 15:31:11
 categories:
     - LeetCode
 tags:
-    - leetcode
-    - java
+    - LeetCode
+    - Java
     - 学习笔记
     - 程序员面试金典
     - 动态规划
