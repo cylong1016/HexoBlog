@@ -9,5 +9,5 @@ Disallow: /fonts/
 Disallow: /lib/
 Disallow: /fancybox/
 
-Sitemap: http://www.cylong.com/sitemap.xml
-Sitemap: http://www.cylong.com/baidusitemap.xml
+Sitemap: https://www.cylong.com/sitemap.xml
+Sitemap: https://www.cylong.com/baidusitemap.xml

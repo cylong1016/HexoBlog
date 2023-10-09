@@ -63,8 +63,8 @@ robots.txt 可以告诉搜索引擎你网站的哪些页面可以被抓取，哪
     Disallow: /lib/
     Disallow: /fancybox/
 
-    Sitemap: http://www.cylong.com/sitemap.xml
-    Sitemap: http://www.cylong.com/baidusitemap.xml
+    Sitemap: https://www.cylong.com/sitemap.xml
+    Sitemap: https://www.cylong.com/baidusitemap.xml
 {% endcode %}
 
 
@@ -88,8 +88,8 @@ Sitemap 上面放置了网站上需要搜索引擎抓取的所有页面的链接
 
 3. 配置成功后，在你执行 `hexo -g` 的时候，在 public 文件夹【也就是你的站点根目录】就会出现 sitemap.xml 和 baidusitemap.xml。然后在 robots.txt 中添加如下代码：
 {% code robots.txt %}
-    Sitemap: http://www.cylong.com/sitemap.xml
-    Sitemap: http://www.cylong.com/baidusitemap.xml
+    Sitemap: https://www.cylong.com/sitemap.xml
+    Sitemap: https://www.cylong.com/baidusitemap.xml
 {% endcode %}
 
 4. 第三步中搜索引擎在抓取到 robots.txt 的时候会自动抓取站点地图。你还可以手动提交给 Google 和百度，都是带有提示的傻瓜式操作，相信大家都能解决吧(●'◡'●)
