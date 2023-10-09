@@ -23,8 +23,8 @@ OpenAI 不断改进和扩展 ChatGPT，以提供更准确、有用和安全的�
 
 # 前期准备
 
-1. 国外梯子。
-2. 一个能收验证码的国外手机号，如果没有的话可以通过 [SMS-Activate][1] 注册一个（收费，但是很便宜）
+1. 国外梯子，没有的话可以参考 [站在 Shadowsocks 的肩膀上发现精彩的世界][6]
+2. 国外手机号，没有的话可以通过 [SMS-Activate][1] 购买一个
 
 <!-- more -->
 
@@ -74,3 +74,4 @@ OpenAI 不断改进和扩展 ChatGPT，以提供更准确、有用和安全的�
 [3]: https://v2ex.com/t/900126 "OpenAI 推出超神 ChatGPT 注册攻略来了 - V2EX"
 [4]: https://cloud.tencent.com/developer/article/2192253 "最近很火的 ChatGPT，带你注册体验全攻略 - 腾讯云开发者社区"
 [5]: https://readdevdocs.com/blog/tech/%E5%A6%82%E4%BD%95%E7%BC%96%E7%A8%8B%E8%B0%83%E7%94%A8OpenAI%E7%9A%84ChatGPT%20API%E6%8E%A5%E5%8F%A3.html "如何编程调用 OpenAI 的 ChatGPT API 接口 | Read dev Docs 博客"
+[6]: /blog/2016/05/26/shadowsocks/ "站在 Shadowsocks 的肩膀上发现精彩的世界 - 笑话人生"
