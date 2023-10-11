@@ -1,7 +1,8 @@
 ---
 layout: about
-title: 关于
+title: 关于我与博客
 date: 2016-04-19 22:52:53
+---
 ---
 
 # 关于我
@@ -15,10 +16,12 @@ date: 2016-04-19 22:52:53
     * 2017年8月-2020年12月就职于华为技术有限公司南京研究所，技术开发工程师。
     * 2020年12月开始就职于阿里巴巴，技术开发工程师。
 
-# 联系我
+## 联系我
 
 * <span class="fa fa-envelope"></span> 邮箱：chenyunlong1016@gmail.com
 * <span class="fab fa-weixin"></span> 微信：cylong1016
+
+---
 
 # 关于博客
 
