@@ -1,12 +1,8 @@
 # hexo robots.txt
 User-agent: *
 Allow: /
-Allow: /archives/
 
-Disallow: /js/
-Disallow: /css/
-Disallow: /fonts/
-Disallow: /lib/
+Disallow: /vendors/
 Disallow: /fancybox/
 
 Sitemap: https://www.cylong.com/sitemap.xml
