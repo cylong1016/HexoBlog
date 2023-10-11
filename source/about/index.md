@@ -1,6 +1,6 @@
 ---
 layout: about
-title: 关于我与博客
+title: 关于我和博客
 date: 2016-04-19 22:52:53
 ---
 ---
