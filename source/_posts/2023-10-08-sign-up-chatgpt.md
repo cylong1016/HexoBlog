@@ -42,7 +42,7 @@ OpenAI 不断改进和扩展 ChatGPT，以提供更准确、有用和安全的�
 # 注册短信服务
 
 1. 打开 [SMS-Activate][1] 右上角注册登录，登录后右上角充值
-{% asset_img SMS-Activate充值.png SMS-Activate充值 %}
+{% asset_img SMS-Activate充值.png 1080 863 SMS-Activate充值 %}
 2. 往下拉选择支付宝，最低充值2$（吐槽一下，之前没有最低充值额度的，估计是发现了商机😒）
 {% asset_img SMS-Activate支付宝充值.jpg SMS-Activate支付宝充值 %}
 3. 左侧服务选择搜索 `OpenAI`
