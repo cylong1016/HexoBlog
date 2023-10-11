@@ -1,6 +1,7 @@
 ---
 title: 使用 Eclipse 根据 WSDL 生成 Java 代码
 date: 2016-07-01 17:39:06
+updated: 2016-07-01 17:39:06
 categories:
     - Java
 tags:

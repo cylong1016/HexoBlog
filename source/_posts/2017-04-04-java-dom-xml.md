@@ -1,6 +1,7 @@
 ---
 title: Java 通过 DOM 方式解析、创建 XML
 date: 2017-04-04 23:49:23
+updated: 2017-04-04 23:49:23
 categories:
     - Java
 tags:
@@ -12,7 +13,7 @@ tags:
 
 # DOM 简介
 
-DOM（Document Object Model) 是 W3C 处理 XML 的标准 API，不仅 Java 其他很多语言，比如 Javascript、PHP等等语言都实现了该标准。Java 类库支持 DOM 操作【也就是说不需要下载依赖其他包】。DOM 以树状结构组织节点和信息的集合，这种结构允许开发人员对 XML 文档进行增删改查。为了分析该树状结构，我们需要加载整个 XML 文档进行构造分析，所以消耗资源比较大，建议在操作小文件的时候使用。
+DOM（Document Object Model） 是 W3C 处理 XML 的标准 API，不仅 Java 其他很多语言，比如 Javascript、PHP等等语言都实现了该标准。Java 类库支持 DOM 操作【也就是说不需要下载依赖其他包】。DOM 以树状结构组织节点和信息的集合，这种结构允许开发人员对 XML 文档进行增删改查。为了分析该树状结构，我们需要加载整个 XML 文档进行构造分析，所以消耗资源比较大，建议在操作小文件的时候使用。
 
 <!-- more -->
 
