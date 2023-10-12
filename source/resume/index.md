@@ -87,3 +87,4 @@ comments: false
 
 * [个人简历.pdf](/resume/个人简历.pdf)
 * [社招面试总结](/resume/summary)
+* [项目面试整理](/resume/detail)
