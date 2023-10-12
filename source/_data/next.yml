@@ -176,5 +176,19 @@ avatar:
 follow_me:
   #Twitter: https://twitter.com/username || fab fa-twitter
   #Telegram: https://t.me/channel_name || fab fa-telegram
-  #WeChat: /images/wechat_channel.jpg || fab fa-weixin
+  小红书: https://www.xiaohongshu.com/user/profile/5fba43f2000000000101df9d || fas fa-heart
   RSS: /atom.xml || fa fa-rss
+
+# Reward (Donate)
+# Front-matter variable (unsupport animation).
+reward_settings:
+  # If true, reward will be displayed in every article by default.
+  enable: true
+  animation: false
+  comment: <span class="fa fa-donate"></span> 分享精彩，留下足迹
+
+reward:
+  alipay: /images/alipay.jpg
+  wechatpay: /images/wechatpay.jpg
+  #paypal: /images/paypal.png
+  #bitcoin: /images/bitcoin.png
