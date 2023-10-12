@@ -23,7 +23,7 @@ updated: 2023-10-12 13:51:29
 
 1. 点击进入 [Shadowsocks][1]（**此链接是我的推广链接，因为种种原因，Shadowsocks 官网常常换，所以我的推广链接也会不断更新的，官网链接也以此为准。**你点击后会直接进入首页，通过这个链接购买服务后我也会获得一些好处啦，嘿嘿 🤭），进入首页后选择 `购买服务`。
 2. 之后选择你想要购买的服务，点击现在订购。我选择的是 `Shadowsocks 普通版`。需要注意的是，虽然显示的价格是美元，但是在后面支付的时候会自动转化为人民币。
-{% asset_img Shadowsocks-basic.png 970 506 Shadowsocks普通版 %}
+{% asset_img Shadowsocks-basic.png Shadowsocks普通版 %}
 3. 界面上选择你的付款年限，然后点击继续。
 4. 在结账页面，你需要填写各种信息，需要认真填写，这也是在创建账号。
 5. Shadowsocks 支持 Alipay 支付宝国际版。之后付款就可以了，现在大约是 104 块钱一年。我买的时候，订购服务时显示的还是人民币，99块钱一年。虽然贵了一点点，不过还是可以接受的。
@@ -83,7 +83,7 @@ Shadowsocks 的客户端一直在不断的更新迭代，以下教程可能更�
     sudo apt-get install shadowsocks-qt5
 {% endcode %}
 4. 之后就可以在应用列表里搜索到 Shadowsocks-qt5 了
-{% asset_img search-shadowsocks.png 1015 541 搜索应用列表 %}
+{% asset_img search-shadowsocks.png 搜索应用列表 %}
 5. 打开图形化界面，点击 `文件 -> 从 gui-config.json 导入链接`，接着就会像下图一样。
 {% asset_img Shadowsocks-Qt5-GUI.png Shadowsocks-Qt5 图形界面 %}
 6. 上图的 jp01 和 us01 都是后来配置好的，导入 gui-config.json 后还是有些需要自己配置。双击某一条连接，像我如下这样配置（默认有的配置就不要改了）：
@@ -106,10 +106,10 @@ Shadowsocks 的客户端一直在不断的更新迭代，以下教程可能更�
 最近也是人品爆表，抽奖抽到了个 IPad mini 2，自然就研究了下如何在 IOS 中试用 Shadowsocks 了。官方推荐的客户端是 `shadowrocket`，App Store 里卖6块钱（现在已经下架了，只能通过国外账号下载了）。我找到的是 `Lifi客户端-Shadowsocks and ShadowsocksR VPN`，也是在 App Store 里下载，不过是免费的。两者的配置方式基本一样，都可以扫码配置。在 Shadowsocks 官网里 `客户中心 -> 我的产品与服务` 里就可以找到各个节点的二维码。
 
 1. Lifi 配置，在应用里选择 `设置 -> 从二维码导入` 就会打开扫码界面，之后配置一下代理名称，打开系统 VPN 就可以了，非常简单（我觉得有张图挺好看的，于是强行加了张图(^_^)）
-{% asset_img Shadowsocks-IOS.png 1024 768 Shadowsocks IOS %}
+{% asset_img Shadowsocks-IOS.png Shadowsocks IOS %}
 
 2. Shadowrocket 配置，打开应用，点击左上角的扫码图标就可以打开扫码页面：
-{% asset_img Shadowrocket.png 1024 768 Shadowrocket %}
+{% asset_img Shadowrocket.png Shadowrocket %}
 
 看评论说 `Lifi客户端-Shadowsocks and ShadowsocksR VPN` 是拿的 Potatso 源码？我也不知道是否真实，有了解的小伙伴欢迎联系我。不过在我一天的试用中发现这个客户端一直掉线，而且舍友 IOS 10 也没法使用，于是我俩都换成了 `shadowrocket`，IOS 10 可以用，不过也是一直掉线啊，而且有时候还闪退 (╯‵□′)╯︵┻━┻！如果用 Shadowrocket 的小伙伴发现QQ聊天的时候没法接收和发送图片，可以在应用的 `Settings -> Global Routing`中选择 Proxy 就好了。大家可以先试一下免费的 Lifi，如果不好用再换成收费的那个 Shadowrocket 吧。有更好的客户端也欢迎在下面讨论。
 
