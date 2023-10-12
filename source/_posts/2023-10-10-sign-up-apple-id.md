@@ -30,17 +30,17 @@ tags:
 # 参考
 > [国内如何注册 ChatGPT 账号 | 笑话人生][5]
 > [手把手教你注册国外apple ID（超简单） | 知乎][3]
-> [如何创建海外 Apple ID？ | imToken Fans][4]
+> [如何创建海外 Apple ID | imToken Fans][4]
 
 ---
 
 > 文章标题：<a href='{{ permalink }}' title='{{ title }}' >{{ title }}</a>
 > 文章作者：[cylong](/about/ "cylong")
 > 文章链接：<a href='{{ permalink }}' title='{{ title }}' >{{ permalink }}</a>
-> 有问题或者建议欢迎在下方评论。欢迎转载、引用，但希望标明出处，感激不尽(●'◡'●)
+> 有问题或者建议欢迎在下方评论。转载、引用请标明出处，感激不尽 <span class="far fa-laugh-beam"></span>
 
 [1]: https://appleid.apple.com/account "创建你的 Apple ID"
 [2]: https://www.meiguodizhi.com/ "美国地址生成器"
 [3]: https://zhuanlan.zhihu.com/p/373675995 "手把手教你注册国外apple ID（超简单） | 知乎"
-[4]: https://imtoken.fans/t/topic/243 "如何创建海外 Apple ID？ | imToken Fans"
+[4]: https://imtoken.fans/t/topic/243 "如何创建海外 Apple ID | imToken Fans"
 [5]: /blog/2023/10/08/sign-up-chatgpt/ "国内如何注册 ChatGPT 账号 | 笑话人生"
