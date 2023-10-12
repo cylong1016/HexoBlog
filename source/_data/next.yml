@@ -141,10 +141,10 @@ links_settings:
 # links
 links:
   Xthon's Blog: http://xthon.cn/
-  Disinuo的博客: http://disinuo.me/
-  一颗鹅掌球: https://agneszing.com/
-  Jane: http://liaodanqi.me/
-  lsySummer: http://www.lsysummer.com/
+  # Disinuo的博客: http://disinuo.me/
+  # 一颗鹅掌球: https://agneszing.com/
+  # Jane: http://liaodanqi.me/
+  # lsySummer: http://www.lsysummer.com/
 
 # Table of Contents in the Sidebar
 # Front-matter variable (unsupport wrap expand_all).
