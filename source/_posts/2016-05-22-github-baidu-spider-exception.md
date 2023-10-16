@@ -27,11 +27,11 @@ updated: 2017-04-12 22:38:23
 {% asset_img spider-test.png百度爬虫抓取错误 %}
 {% asset_img exception.png 百度爬虫抓取错误 %}
 
-后来才发现，原来是 GitHub 禁止百度爬虫抓取，原因是百度的抓取太猛烈，给 GitHub 的用户造成了可用性问题，而且会一直禁用下去。。。 【我该吐槽 GitHub 呢？还是百度呢？大家心知肚明就好。（╯－＿－）╯╧╧】
+后来才发现，原来是 GitHub 禁止百度爬虫抓取，原因是百度的抓取太猛烈，给 GitHub 的用户造成了可用性问题，而且会一直禁用下去。我该吐槽 GitHub 呢？还是百度呢？大家心知肚明就好。（╯－＿－）╯╧╧
 
 # 解决
 
-我想了想，既然 GitHub 不让百度抓取，那么我干脆把博客部署到其他地方吧。于是找到了国内的 [CODING][4] 【之前可能有很多小伙伴使用的是 [Gitcafe][5]，不过已经被 CODING 收购了，2016-05-31 号就会停止服务】。CODING 中也提供和 GitHub 相同的 Pages 服务。下面是具体步骤：
+我想了想，既然 GitHub 不让百度抓取，那么我干脆把博客部署到其他地方吧。于是找到了国内的 [CODING][4] ，之前可能有很多小伙伴使用的是 [Gitcafe][5]，不过已经被 CODING 收购了，2016-05-31 号就会停止服务。CODING 中也提供和 GitHub 相同的 Pages 服务。下面是具体步骤：
 
 1. 注册登录 [CODING][4]。
 2. 创建新项目，项目的后缀必须是和你的个性后缀一样。
@@ -57,6 +57,7 @@ DNSPod 设置：
 
 > [解决 GitHub Pages 禁止百度爬虫的方法与可行性分析 | 咀嚼之味][3]
 > [解决百度爬虫无法抓取github pages | Lippi-浮生志][7]
+> [Hexo 同时托管到 coding.net 与 GitHub | shomy][9]
 
 ---
 
@@ -73,3 +74,4 @@ DNSPod 设置：
 [6]: https://www.dnspod.cn/ "DNSPod-免费智能DNS解析服务商"
 [7]: http://www.ezlippi.com/blog/2016/02/baidu-spider-forbidden.html "解决百度爬虫无法抓取github pages | Lippi-浮生志"
 [8]: /blog/2016/04/25/hexo-faq/#配置-SSH-公钥免去部署的时候输入密码 "配置 SSH 公钥免去部署的时候输入密码"
+[9]: https://segmentfault.com/a/1190000004548638 "Hexo 同时托管到 coding.net 与 GitHub | shomy"
