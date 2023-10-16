@@ -12,7 +12,7 @@
 * [Disqus][] 提供评论服务
 * [LiveRe][] 提供评论服务
 * [百度统计][] 提供统计功能
-* [Google Analytics][] 提供 Google 分析
+* [Google Analytics][] 提供网站监测与数据分析
 * [不蒜子][] 提供站点计数功能，包括总访问量，单页面访问量
 
 [Hexo]: https://hexo.io/zh-cn/ "Hexo"
