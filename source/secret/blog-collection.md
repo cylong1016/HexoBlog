@@ -11,5 +11,7 @@ updated: 2023-10-16 23:32:49
 > [Hexo 搭建个人博客系列：进阶设置篇 | 个人日记](https://yearito.cn/posts/hexo-advanced-settings.html)
 > [分享设计与科技生活 | 张洪Heo](https://blog.zhheo.com/)
 > [Yika\`s Blog](https://www.yikakia.com/)
+> [南贺神社 | 你写程序有写诗一样的感觉吗](https://ceaser.wang/)
+> [BladeCode | Life's a struggle!](https://incoder.org/)
 
 ---
