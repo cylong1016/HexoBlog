@@ -208,9 +208,4 @@ public ArrayList<ArrayList<Integer>> levelTraverse(TreeNode root) {
 
 ---
 
-> 文章标题：<a href='{{ permalink }}' title='{{ title }}' >{{ title }}</a>
-> 文章作者：[cylong](http://www.cylong.com/about/ "cylong")
-> 文章链接：<a href='{{ permalink }}' title='{{ title }}' >{{ permalink }}</a>
-> 有问题或者建议欢迎在下方评论。欢迎转载、引用，但希望标明出处，感激不尽(●'◡'●)
-
 [1]: https://blog.csdn.net/My_Jobs/article/details/43451187 "二叉树遍历（前序、中序、后序、层次遍历、深度优先、广度优先）"

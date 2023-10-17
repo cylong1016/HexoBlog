@@ -12,7 +12,7 @@ updated: 2016-05-09 18:48:52
 ---
 ---
 
-最近在研究 [.gitignore 的使用][1]，于是想创建一个 `.gitignore` 文件做测试，`右键->新建->文本文档` 再输入文件名后，惊讶的发现，Windows 竟然提示： 请键入文件名！【不得不去吐槽！】。看样子 Windows 是把 gitignore 当成文件名的后缀了。没办法，只好打开 cmd(命令提示符)去创建文件了。
+最近在研究 [.gitignore][1] 的使用，于是想创建一个 `.gitignore` 文件做测试，`右键->新建->文本文档` 再输入文件名后，惊讶的发现，Windows 竟然提示： 请键入文件名！【不得不去吐槽！】。看样子 Windows 是把 gitignore 当成文件名的后缀了。没办法，只好打开 cmd(命令提示符)去创建文件了。
 
 <!-- more -->
 
@@ -56,10 +56,4 @@ updated: 2016-05-09 18:48:52
 
 ---
 
-> 文章标题：<a href='{{ permalink }}' title='{{ title }}' >{{ title }}</a>
-> 文章作者：[cylong](http://www.cylong.com/about/ "cylong")
-> 文章链接：<a href='{{ permalink }}' title='{{ title }}' >{{ permalink }}</a>
-> 有问题或者建议欢迎在下方评论。欢迎转载、引用，但希望标明出处，感激不尽(●'◡'●)
-
-
-[1]: http://www.cylong.com/blog/2016/05/19/gitignore/ ".gitignore 的使用"
+[1]: /blog/2016/05/19/gitignore/ ".gitignore 的使用"

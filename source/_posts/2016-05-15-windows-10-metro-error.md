@@ -31,11 +31,5 @@ updated: 2016-05-15 00:19:26
 
 ---
 
-> 文章标题：<a href='{{ permalink }}' title='{{ title }}' >{{ title }}</a>
-> 文章作者：[cylong](http://www.cylong.com/about/ "cylong")
-> 文章链接：<a href='{{ permalink }}' title='{{ title }}' >{{ permalink }}</a>
-> 有问题或者建议欢迎在下方评论。欢迎转载、引用，但希望标明出处，感激不尽(●'◡'●)
-
-
 [1]: http://www.ithome.com/html/win10/166832.htm "Win10应用商店、应用打不开或闪退的解决方法 - IT之家"
 [2]: http://www.cylong.com/blog/2016/06/07/windows-10-metro-shadowsocks/ "Windows 10 Metro 应用使用本地 Shadowsocks 代理"

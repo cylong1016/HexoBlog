@@ -102,11 +102,6 @@ Staff obj = mapper.readValue(jsonInString, Staff.class);
 
 ---
 
-> 文章标题：<a href='{{ permalink }}' title='{{ title }}' >{{ title }}</a>
-> 文章作者：[cylong](http://www.cylong.com/about/ "cylong")
-> 文章链接：<a href='{{ permalink }}' title='{{ title }}' >{{ permalink }}</a>
-> 有问题或者建议欢迎在下方评论。欢迎转载、引用，但希望标明出处，感激不尽(●'◡'●)
-
 [1]: https://www.mkyong.com/java/jackson-2-convert-java-object-to-from-json/ "Jackson 2 – Convert Java Object to / from JSON"
 [2]: http://www.json.org/json-zh.html "JSON 中文文档"
 [3]: http://wiki.jikexueyuan.com/project/json/ "JSON 教程 - 极客学院"

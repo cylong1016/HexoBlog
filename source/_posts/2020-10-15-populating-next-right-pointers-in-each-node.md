@@ -154,10 +154,5 @@ public Node connect(Node root) {
 
 ---
 
-> 文章标题：<a href='{{ permalink }}' title='{{ title }}' >{{ title }}</a>
-> 文章作者：[cylong](http://www.cylong.com/about/ "cylong")
-> 文章链接：<a href='{{ permalink }}' title='{{ title }}' >{{ permalink }}</a>
-> 有问题或者建议欢迎在下方评论。欢迎转载、引用，但希望标明出处，感激不尽(●'◡'●)
-
 [1]: https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/ "填充每个节点的下一个右侧节点指针 | 力扣（LeetCode）"
 [2]: https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/solution/tian-chong-mei-ge-jie-dian-de-xia-yi-ge-you-ce-2-4/ "填充每个节点的下一个右侧节点指针 | 题解（LeetCode）"

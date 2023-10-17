@@ -112,11 +112,6 @@ Sitemap 上面放置了网站上需要搜索引擎抓取的所有页面的链接
 
 ---
 
-> 文章标题：<a href='{{ permalink }}' title='{{ title }}' >{{ title }}</a>
-> 文章作者：[cylong](http://www.cylong.com/about/ "cylong")
-> 文章链接：<a href='{{ permalink }}' title='{{ title }}' >{{ permalink }}</a>
-> 有问题或者建议欢迎在下方评论。欢迎转载、引用，但希望标明出处，感激不尽(●'◡'●)
-
 [1]: https://www.google.com/webmasters/ "Google 网站站长"
 [2]: http://zhanzhang.baidu.com/ "百度站长平台"
 [3]: /blog/2016/05/22/github-baidu-spider-exception/ "解决 Github Pages 禁止百度爬虫抓取的问题"

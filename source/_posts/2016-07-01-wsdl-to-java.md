@@ -36,10 +36,5 @@ tags:
 
 ---
 
-> 文章标题：<a href='{{ permalink }}' title='{{ title }}' >{{ title }}</a>
-> 文章作者：[cylong](http://www.cylong.com/about/ "cylong")
-> 文章链接：<a href='{{ permalink }}' title='{{ title }}' >{{ permalink }}</a>
-> 有问题或者建议欢迎在下方评论。欢迎转载、引用，但希望标明出处，感激不尽(●'◡'●)
-
 [1]: http://www.eclipse.org/downloads/eclipse-packages/ "Eclipse IDE for Java EE Developers"
 [2]: http://andybang1981.blog.163.com/blog/static/177927368201426001589/ "使用Eclipse生成Web Service Client - andybang1981的日志"

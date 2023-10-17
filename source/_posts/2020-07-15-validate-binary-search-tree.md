@@ -146,10 +146,5 @@ public static class TreeNode {
 
 ---
 
-> 文章标题：<a href='{{ permalink }}' title='{{ title }}' >{{ title }}</a>
-> 文章作者：[cylong](http://www.cylong.com/about/ "cylong")
-> 文章链接：<a href='{{ permalink }}' title='{{ title }}' >{{ permalink }}</a>
-> 有问题或者建议欢迎在下方评论。欢迎转载、引用，但希望标明出处，感激不尽(●'◡'●)
-
 [1]: https://leetcode-cn.com/problems/validate-binary-search-tree/ "验证二叉搜索树 | 力扣（LeetCode）"
 [2]: https://leetcode-cn.com/problems/validate-binary-search-tree/solution/yan-zheng-er-cha-sou-suo-shu-by-leetcode-solution/ "验证二叉搜索树 | 题解（LeetCode）"

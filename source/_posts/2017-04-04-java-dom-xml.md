@@ -165,11 +165,6 @@ document.getDocumentElement().normalize();
 
 ---
 
-> 文章标题：<a href='{{ permalink }}' title='{{ title }}' >{{ title }}</a>
-> 文章作者：[cylong](http://www.cylong.com/about/ "cylong")
-> 文章链接：<a href='{{ permalink }}' title='{{ title }}' >{{ permalink }}</a>
-> 有问题或者建议欢迎在下方评论。欢迎转载、引用，但希望标明出处，感激不尽(●'◡'●)
-
 [1]: http://stackoverflow.com/questions/13786607/normalization-in-dom-parsing-with-java-how-does-it-work
 [2]: https://github.com/cylong1016/CodeJava/blob/master/src/cylong/xml/ParserXML.java
 [3]: https://www.mkyong.com/java/how-to-read-xml-file-in-java-dom-parser/

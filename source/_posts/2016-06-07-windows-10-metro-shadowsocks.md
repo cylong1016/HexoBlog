@@ -52,11 +52,6 @@ HKEY_CURRENT_USER\Software\Classes\Local Settings\Software\Microsoft\Windows\Cur
 
 ---
 
-> 文章标题：<a href='{{ permalink }}' title='{{ title }}' >{{ title }}</a>
-> 文章作者：[cylong](http://www.cylong.com/about/ "cylong")
-> 文章链接：<a href='{{ permalink }}' title='{{ title }}' >{{ permalink }}</a>
-> 有问题或者建议欢迎在下方评论。欢迎转载、引用，但希望标明出处，感激不尽(●'◡'●)
-
 [1]: http://www.cylong.com/blog/2016/05/15/windows-10-metro-error/ "Windows 10 Metro 应用闪退、无法打开修复方法"
 [2]: https://plus.google.com/u/0/107096807950211631844/posts/CdTT2becCRm "Microsoft Edge 浏览器用上 shadowsocks 代理翻墙方法"
 [3]: http://www.cylong.com/about/#联系我 "骚扰我"

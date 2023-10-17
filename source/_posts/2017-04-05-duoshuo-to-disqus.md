@@ -61,11 +61,6 @@ java -jar DuoshuoToDisqus.jar C:\duoshuo.json
 
 ---
 
-> 文章标题：<a href='{{ permalink }}' title='{{ title }}' >{{ title }}</a>
-> 文章作者：[cylong](http://www.cylong.com/about/ "cylong")
-> 文章链接：<a href='{{ permalink }}' title='{{ title }}' >{{ permalink }}</a>
-> 有问题或者建议欢迎在下方评论。欢迎转载、引用，但希望标明出处，感激不尽(●'◡'●)
-
 [1]: http://dev.duoshuo.com/docs/500fc3cdb17b12d24b00000a "多说评论格式"
 [2]: https://help.disqus.com/customer/portal/articles/472150-custom-xml-import-format "Custom XML Import Format"
 [3]: https://github.com/cylong1016/DuoshuoToDisqus "工具源码地址"

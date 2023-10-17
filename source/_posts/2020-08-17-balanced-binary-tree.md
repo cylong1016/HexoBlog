@@ -108,11 +108,6 @@ public int height(TreeNode node) {
 
 ---
 
-> 文章标题：<a href='{{ permalink }}' title='{{ title }}' >{{ title }}</a>
-> 文章作者：[cylong](http://www.cylong.com/about/ "cylong")
-> 文章链接：<a href='{{ permalink }}' title='{{ title }}' >{{ permalink }}</a>
-> 有问题或者建议欢迎在下方评论。欢迎转载、引用，但希望标明出处，感激不尽(●'◡'●)
-
 [1]: https://leetcode-cn.com/problems/balanced-binary-tree/ "平衡二叉树 | 力扣（LeetCode）"
 [2]: https://leetcode-cn.com/problems/balanced-binary-tree/solution/ping-heng-er-cha-shu-by-leetcode-solution/ "平衡二叉树 | 题解（LeetCode）"
 [3]: /blog/2020/07/28/maximum-depth-of-binary-tree/

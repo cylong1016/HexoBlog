@@ -297,11 +297,6 @@ CSS 设置：请参考上面的自定义CSS
 
 ---
 
-> 文章标题：<a href='{{ permalink }}' title='{{ title }}' >{{ title }}</a>
-> 文章作者：[cylong](http://www.cylong.com/about/ "cylong")
-> 文章链接：<a href='{{ permalink }}' title='{{ title }}' >{{ permalink }}</a>
-> 有问题或者建议欢迎在下方评论。欢迎转载、引用，但希望标明出处，感激不尽(●'◡'●)
-
 [1]: http://www.cylong.com/blog/2016/04/19/hexo-git/ "Hexo + Git 搭建免费的个人博客"
 [2]: http://theme-next.iissnan.com/third-party-services.html "第三方服务集成 - NexT 使用文档"
 [3]: http://www.w3school.com.cn/css/index.asp "CSS 教程 - W3School"

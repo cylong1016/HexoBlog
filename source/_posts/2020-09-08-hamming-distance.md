@@ -84,10 +84,5 @@ public int hammingDistance(int x, int y) {
 
 ---
 
-> 文章标题：<a href='{{ permalink }}' title='{{ title }}' >{{ title }}</a>
-> 文章作者：[cylong](http://www.cylong.com/about/ "cylong")
-> 文章链接：<a href='{{ permalink }}' title='{{ title }}' >{{ permalink }}</a>
-> 有问题或者建议欢迎在下方评论。欢迎转载、引用，但希望标明出处，感激不尽(●'◡'●)
-
 [1]: https://leetcode-cn.com/problems/hamming-distance/ "汉明距离 | 力扣（LeetCode）"
 [2]: https://leetcode-cn.com/problems/hamming-distance/solution/yi-ming-ju-chi-by-leetcode/ "汉明距离 | 题解（LeetCode）"

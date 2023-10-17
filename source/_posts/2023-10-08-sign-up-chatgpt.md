@@ -75,11 +75,6 @@ OpenAI 不断改进和扩展 ChatGPT，以提供更准确、有用和安全的�
 
 ---
 
-> 文章标题：<a href='{{ permalink }}' title='{{ title }}' >{{ title }}</a>
-> 文章作者：[cylong](/about/ "cylong")
-> 文章链接：<a href='{{ permalink }}' title='{{ title }}' >{{ permalink }}</a>
-> 有问题或者建议欢迎在下方评论。转载、引用请标明出处，感激不尽 <span class="far fa-laugh-beam"></span>
-
 [1]: https://sms-activate.org/ "SMS-Activate是在线接收短信的虚拟号码服务"
 [2]: https://openai.com/ "OpenAI"
 [3]: https://v2ex.com/t/900126 "OpenAI 推出超神 ChatGPT 注册攻略来了 | V2EX"

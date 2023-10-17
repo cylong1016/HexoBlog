@@ -58,11 +58,6 @@ Google Chrome 浏览器上的一个代理扩展程序，可以轻松快捷地管
 
 ---
 
-> 文章标题：<a href='{{ permalink }}' title='{{ title }}' >{{ title }}</a>
-> 文章作者：[cylong](http://www.cylong.com/about/ "cylong")
-> 文章链接：<a href='{{ permalink }}' title='{{ title }}' >{{ permalink }}</a>
-> 有问题或者建议欢迎在下方评论。欢迎转载、引用，但希望标明出处，感激不尽(●'◡'●)
-
 [1]: /blog/2016/05/26/shadowsocks/ "站在 Shadowsocks 的肩膀上发现精彩的世界 | 笑话人生"
 [2]: http://www.google.cn/chrome/browser/desktop/index.html "Chrome（桌面版）"
 [3]: https://github.com/FelisCatus/SwitchyOmega/releases "FelisCatus/SwitchyOmega | GitHub"

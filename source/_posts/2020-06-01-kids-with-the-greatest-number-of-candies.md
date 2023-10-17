@@ -77,11 +77,6 @@ public List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {
 
 ---
 
-> 文章标题：<a href='{{ permalink }}' title='{{ title }}' >{{ title }}</a>
-> 文章作者：[cylong](http://www.cylong.com/about/ "cylong")
-> 文章链接：<a href='{{ permalink }}' title='{{ title }}' >{{ permalink }}</a>
-> 有问题或者建议欢迎在下方评论。欢迎转载、引用，但希望标明出处，感激不尽(●'◡'●)
-
 [1]: https://leetcode-cn.com/problems/kids-with-the-greatest-number-of-candies/ "拥有最多糖果的孩子 | 力扣（LeetCode）"
 [2]: https://leetcode-cn.com/problems/kids-with-the-greatest-number-of-candies/solution/yong-you-zui-duo-tang-guo-de-hai-zi-by-leetcode-so/ "拥有最多糖果的孩子 | 题解（LeetCode）"
 [3]: /blog/2019/03/18/lambda/ "Java 8 的 Lambda 表达式和 Stream API"
