@@ -13,5 +13,6 @@ updated: 2023-10-16 23:32:49
 > [Yika\`s Blog](https://www.yikakia.com/)
 > [南贺神社 | 你写程序有写诗一样的感觉吗](https://ceaser.wang/)
 > [BladeCode | Life's a struggle!](https://incoder.org/)
+> [Hexo-NexT](https://hexo-next.readthedocs.io/zh_CN/latest/)
 
 ---
