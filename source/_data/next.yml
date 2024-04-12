@@ -45,7 +45,7 @@ codeblock:
 # Multiple Comment System Support
 comments:
   # Available values: tabs | buttons
-  style: tabs
+  style: buttons
   # Choose a comment system to be displayed by default.
   # Available values: changyan | disqus | disqusjs | gitalk | livere | valine
   active: disqus
@@ -56,10 +56,10 @@ comments:
   nav:
     disqus:
       text: Disqus 评论
-      order: -1
+      order: 1
     livere:
       text: LiveRe 评论
-      order: -2
+      order: 2
 
 # Disqus
 disqus:
