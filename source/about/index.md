@@ -7,14 +7,14 @@ date: 2016-04-19 22:52:53
 
 # 关于我
 
-* **<span class="fas fa-user-alt"></span> 简介：**爱生活 | 爱户外的程序员 <span class="fa fa-bug"></span>
-* **<span class="fas fa-heart"></span> 兴趣：**做饭、整理、收纳 | 公益、爬山、徒步、跑步、旅游 | 游戏、电影、音乐、动漫、读书
-* **<span class="fas fa-share-alt"></span> 社区：**[小红书][20] | [两步路][24] | [微博][7] | [知乎][6] | [抖音][25] | [Twitter][9] | [Facebook][8] | [GithHub][23] | [V2EX][10]（欢迎 [点此][13] 注册）
+* **<span class="fas fa-user-alt"></span> 简介：**爱生活、爱户外的程序员 <span class="fa fa-bug"></span>
+* **<span class="fas fa-heart"></span> 兴趣：**公益、旅游、户外 | 做饭、整理、收纳 | 游戏、电影、音乐、动漫
+* **<span class="fas fa-share-alt"></span> 社区：**[小红书][20] | [两步路][24] | [GithHub][23] | [V2EX][10]（欢迎 [点此][13] 注册）
 * **<span class="fab fa-steam"></span> 游戏：**Steam：[笑话人生][19] | 三国杀经典版：[灬笑话人生][21]
 * **<span class="fas fa-address-card"></span> 履历：**
-    * 2013年9月-2017年7月就读于 [南京大学软件学院][1]。
-    * 2017年8月-2020年12月就职于华为技术有限公司南京研究所，技术开发工程师。
-    * 2020年12月开始就职于阿里巴巴，技术开发工程师。
+    * 2013年9月 - 2017年7月就读于 **南京大学软件学院**。
+    * 2017年8月 - 2020年12月就职于 **华为（南京）**，Java 后端开发工程师。
+    * 2020年12月开始就职于 **阿里巴巴/蚂蚁集团（杭州）**，Java 后端开发工程师。
 
 ## 联系我
 
@@ -25,9 +25,9 @@ date: 2016-04-19 22:52:53
 
 # 关于博客
 
-我的个人博客创建于2016年04月17日，意识到自身存在许多不足之处，对知识掌握的也不够扎实，因此决定搭建一个自己的博客来积攒知识、巩固知识，并提升自身的能力。亡羊补牢，为时未晚，持续努力，或许机会就在不远的将来！
+我的博客创建于2016年04月17日，意识到自身存在许多不足之处，对知识掌握的也不够扎实，因此决定搭建一个自己的博客来积攒知识、巩固知识，并提升自身的能力。亡羊补牢，为时未晚，持续努力，或许机会就在不远的将来！
 
-博客使用 Hexo + Git 搭建，采用 NexT 主题，托管在 [GitHub | HexoBlog][2]，经过忙碌的3天，成功完成了博客的初步建设。如果你对博客的搭建感兴趣，可以参考以下链接获取搭建教程：
+博客使用 Hexo + Git 搭建，采用 NexT 主题，托管在 [GitHub | HexoBlog][2]，经过忙碌的 3 天，成功完成了博客的初步建设。如果你对博客的搭建感兴趣，可以参考以下链接获取搭建教程：
 
 > [Hexo + Git 搭建免费的个人博客 | 笑话人生][5]
 > [Hexo 使用总结 & 常见问题][22]
@@ -78,5 +78,5 @@ date: 2016-04-19 22:52:53
 [21]: http://web.sanguosha.com/ "三国杀官方正版"
 [22]: /blog/2016/04/25/hexo-faq/ "Hexo 使用总结 & 常见问题 | 笑话人生"
 [23]: https://github.com/cylong1016 "cylong（陈云龙）"
-[24]: https://www.2bulu.com/spaceindex/index.htm?userId=47617540 "笑话人生 | 两步路户外"
+[24]: https://www.2bulu.com/spaceindex/index.htm?userId=jNrw9rBTOyOrYBQNMuHtzA== "笑话人生 | 两步路户外"
 [25]: https://www.douyin.com/user/MS4wLjABAAAAzGViZDLj--kcxnx69U9vVQhSE74rIKdjjHf2AzQICH1EFwGJ5AN8mFC-QI9bZN8j "笑话人生的主页 | 抖音"

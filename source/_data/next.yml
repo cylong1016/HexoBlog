@@ -16,10 +16,14 @@ footer:
 social:
   Email: /about/#联系我 || fa fa-envelope
   GitHub: https://github.com/cylong1016 || fab fa-github
-  Twitter: https://twitter.com/cylong1016 || fab fa-twitter
-  Facebook: https://www.facebook.com/cylong1016 || fab fa-facebook
+  # Twitter: https://twitter.com/cylong1016 || fab fa-twitter
+  # Facebook: https://www.facebook.com/cylong1016 || fab fa-facebook
   小红书: https://www.xiaohongshu.com/user/profile/5fba43f2000000000101df9d || fas fa-heart
   微博: http://weibo.com/cyl19941016 || fab fa-weibo
+  # 两步路: https://www.2bulu.com/spaceindex/index.htm?userId=jNrw9rBTOyOrYBQNMuHtzA== || fas fa-heart
+  # 知乎: https://www.zhihu.com/people/cylong1016 || fas fa-heart
+  # 抖音: https://www.douyin.com/user/MS4wLjABAAAAzGViZDLj--kcxnx69U9vVQhSE74rIKdjjHf2AzQICH1EFwGJ5AN8mFC-QI9bZN8j || fas fa-heart
+  # V2EX: https://www.v2ex.com/member/cylong || fas fa-heart
 
 # scheme: Muse
 # scheme: Mist
