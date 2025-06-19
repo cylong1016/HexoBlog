@@ -14,6 +14,7 @@ updated: 2023-10-16 23:32:49
 > [分享设计与科技生活 | 张洪Heo](https://blog.zhheo.com/)
 > [Yika\`s Blog](https://www.yikakia.com/)
 > [南贺神社 | 你写程序有写诗一样的感觉吗](https://ceaser.wang/)
+> [南贺神社 | 世界的尽头](https://ceaser.wang/2024/04/20/life/theEndOfTheWorld/)
 > [BladeCode | Life's a struggle!](https://incoder.org/)
 > [Hexo-NexT](https://hexo-next.readthedocs.io/zh_CN/latest/)
 
