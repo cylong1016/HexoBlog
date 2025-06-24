@@ -26,5 +26,7 @@ updated: 2025-06-20 02:43:49
 > [星海 | Life’s A Struggle!](https://incoder.org/)
 > [罗拉哟 ｜ 众里寻她千百度，那人不在灯火阑珊处](https://www.luola.me/)
 > [罗拉哟 ｜ JetBrain IDEA 全家桶激活](https://www.luola.me/130.html)
+> [小荷蜻蜓 | 小荷才露尖尖角，早有蜻蜓立上头](http://blog.reactshare.cn/)
+> [maray | 余璜的技术博客](https://blog.csdn.net/maray)
 
 ---
