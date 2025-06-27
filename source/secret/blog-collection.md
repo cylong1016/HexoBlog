@@ -28,5 +28,6 @@ updated: 2025-06-20 02:43:49
 > [罗拉哟 ｜ JetBrain IDEA 全家桶激活](https://www.luola.me/130.html)
 > [小荷蜻蜓 | 小荷才露尖尖角，早有蜻蜓立上头](http://blog.reactshare.cn/)
 > [maray | 余璜的技术博客](https://blog.csdn.net/maray)
+> [廖雪峰的官方网站](https://liaoxuefeng.com/)
 
 ---
