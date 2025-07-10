@@ -141,7 +141,11 @@ class Solution {
 # 来源
 
 > [994. 腐烂的橘子 | 力扣（LeetCode）][1]
+> [994. 腐烂的橘子 | 题解 | Krahets][2]
+> [994. 腐烂的橘子 | 题解 | 灵茶山艾府][3]
 
 ---
 
 [1]: https://leetcode.cn/problems/rotting-oranges/description/ "994. 腐烂的橘子 | 力扣（LeetCode）"
+[2]: https://leetcode.cn/problems/rotting-oranges/solutions/3712941/bfszhu-shi-fei-chang-qing-xi-ban-ben-by-jzug4/ "994. 腐烂的橘子 | 题解 | Bravo"
+[3]: https://leetcode.cn/problems/rotting-oranges/solutions/2773461/duo-yuan-bfsfu-ti-dan-pythonjavacgojsrus-yfmh/ "994. 腐烂的橘子 | 题解 | 灵茶山艾府"

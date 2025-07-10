@@ -177,6 +177,7 @@ public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
 
 # 力扣的一些浪漫留言
 
+* 当我在我的路上走过一遍依然没有遇见你时，那么我会接着来到你走过的路走一遍，如果我们心有灵犀，那么我们终将相遇。 - 局部降雨
 * 我走过你走过的路，只为和你相拥。 - Flow
 * 错的人就算走过了对方的路也还是会错过。 - 小虎
 * 我住长江头，君住长江尾，日夜思君不见君，共饮一江水。君奔长江头，我赴长江尾，辗转轮回未谋面，邂逅时好美！ - 瓦罗兰的文艺复兴
@@ -184,12 +185,12 @@ public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
 
 # 来源
 
-> [48. 旋转图像 | 力扣（LeetCode）][1]
-> [48. 旋转图像 | 题解 | Krahets][2]
-> [48. 旋转图像 | 题解 | 灵茶山艾府][3]
+> [160. 相交链表 | 力扣（LeetCode）][1]
+> [160. 相交链表 | 题解 | Krahets][2]
+> [160. 相交链表 | 题解 | 灵茶山艾府][3]
 
 ---
 
-[1]: https://leetcode.cn/problems/rotate-image/description/ "48. 旋转图像 | 力扣（LeetCode）"
-[2]: https://leetcode.cn/problems/intersection-of-two-linked-lists/solutions/12624/intersection-of-two-linked-lists-shuang-zhi-zhen-l/?envType=study-plan-v2&envId=top-100-liked "48. 旋转图像 | 题解 | Krahets"
-[3]: https://leetcode.cn/problems/intersection-of-two-linked-lists/solutions/2958778/tu-jie-yi-zhang-tu-miao-dong-xiang-jiao-m6tg1/?envType=study-plan-v2&envId=top-100-liked "48. 旋转图像 | 题解 | 灵茶山艾府"
+[1]: https://leetcode.cn/problems/intersection-of-two-linked-lists/description/ "160. 相交链表 | 力扣（LeetCode）"
+[2]: https://leetcode.cn/problems/intersection-of-two-linked-lists/solutions/12624/intersection-of-two-linked-lists-shuang-zhi-zhen-l/ "160. 相交链表 | 题解 | Krahets"
+[3]: https://leetcode.cn/problems/intersection-of-two-linked-lists/solutions/2958778/tu-jie-yi-zhang-tu-miao-dong-xiang-jiao-m6tg1/ "160. 相交链表 | 题解 | 灵茶山艾府"
