@@ -1,5 +1,5 @@
 ---
-title: 旋转图像
+title: 矩阵原地旋转：分层遍历与坐标映射实现（LeetCode 48）
 date: 2025-06-27 20:42:48
 updated: 2025-06-27 20:42:48
 categories:

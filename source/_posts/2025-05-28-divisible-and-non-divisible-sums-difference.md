@@ -1,5 +1,5 @@
 ---
-title: 分类求和并作差
+title: 整除性质解数字和差值：数学优化实现（LeetCode 2894）
 date: 2025-05-28 00:19:46
 updated: 2025-05-28 00:19:46
 categories:

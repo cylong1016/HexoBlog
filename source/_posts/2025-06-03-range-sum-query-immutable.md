@@ -1,5 +1,5 @@
 ---
-title: 区域和检索 - 数组不可变
+title: 前缀和解法实现区间和查询（LeetCode 303）
 date: 2025-06-03 23:20:55
 updated: 2025-06-03 23:20:55
 categories:

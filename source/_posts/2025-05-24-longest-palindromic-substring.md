@@ -1,5 +1,5 @@
 ---
-title: 最长回文子串
+title: 动态规划和中心扩散法求解最长回文子串（LeetCode 5）
 date: 2025-05-24 12:02:04
 updated: 2025-05-24 12:02:04
 categories:

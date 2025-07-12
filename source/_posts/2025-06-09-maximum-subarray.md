@@ -1,5 +1,5 @@
 ---
-title: 最大子数组和
+title: 动态规划求解最大子数组和（LeetCode 53）
 date: 2025-06-09 22:40:57
 updated: 2025-06-09 22:40:57
 categories:
@@ -66,7 +66,7 @@ public int maxSubArray(int[] nums) {
 
 # 前缀和
 
-参考前缀和的定义：[303. 区域和检索 - 数组不可变 | 笑话人生][3]
+参考前缀和的定义：[前缀和解法实现区间和查询（LeetCode 303） | 笑话人生][3]
 
 利用前缀和的思想，由于子数组的元素和等于两个前缀和的差，遍历数组计算前缀和，同时维护当前最小前缀和。最大子数组和即为当前前缀和与最小前缀和的差值的最大值。
 
@@ -150,4 +150,4 @@ public int maxSubArray(int[] nums) {
 
 [1]: https://leetcode.cn/problems/maximum-subarray/description/ "53. 最大子数组和 | 力扣（LeetCode）"
 [2]: https://leetcode.cn/problems/maximum-subarray/solutions/2533977/qian-zhui-he-zuo-fa-ben-zhi-shi-mai-mai-abu71/?envType=study-plan-v2&envId=top-100-liked "53. 最大子数组和 | 题解 | 灵茶山艾府"
-[3]: /blog/2025/06/03/range-sum-query-immutable/ "303. 区域和检索 - 数组不可变 | 笑话人生"
+[3]: /blog/2025/06/03/range-sum-query-immutable/ "前缀和解法实现区间和查询（LeetCode 303） | 笑话人生"

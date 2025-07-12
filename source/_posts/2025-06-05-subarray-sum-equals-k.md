@@ -1,5 +1,5 @@
 ---
-title: 和为 K 的子数组
+title: 前缀和 + 哈希表解和为 K 的子数组问题（LeetCode 560）
 date: 2025-06-05 23:43:23
 updated: 2025-06-05 23:43:23
 categories:
@@ -66,8 +66,8 @@ public int subarraySum(int[] nums, int k) {
 
 在做这道题之前，我们先看之前做过的两道题：
 
-1. [303. 区域和检索 - 数组不可变 | 笑话人生][2]
-2. [1. 两数之和 | 笑话人生][3]
+1. [前缀和解法实现区间和查询（LeetCode 303） | 笑话人生][2]
+2. [两数之和 | 笑话人生][3]
 
 ## 思路
 
@@ -144,6 +144,6 @@ public int subarraySum(int[] nums, int k) {
 ---
 
 [1]: https://leetcode.cn/problems/subarray-sum-equals-k/description/ "560. 和为 K 的子数组 | 力扣（LeetCode）"
-[2]: /blog/2025/06/03/range-sum-query-immutable/ "303. 区域和检索 - 数组不可变 | 笑话人生"
-[3]: /blog/2019/11/06/two-sum/ "1. 两数之和 | 笑话人生"
+[2]: /blog/2025/06/03/range-sum-query-immutable/ "前缀和解法实现区间和查询（LeetCode 303） | 笑话人生"
+[3]: /blog/2019/11/06/two-sum/ "两数之和 | 笑话人生"
 [4]: https://leetcode.cn/problems/subarray-sum-equals-k/solutions/1/qian-zhui-he-ha-xi-biao-cong-liang-ci-bi-4mwr/?envType=study-plan-v2&envId=top-100-liked "560. 和为 K 的子数组 | 题解 | 灵茶山艾府"

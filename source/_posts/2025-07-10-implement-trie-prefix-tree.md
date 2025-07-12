@@ -1,5 +1,5 @@
 ---
-title: 实现 Trie (前缀树)
+title: 前缀树（Trie）实现：插入、搜索与前缀匹配操作（LeetCode 208）
 date: 2025-07-10 23:06:58
 updated: 2025-07-10 23:06:58
 categories:

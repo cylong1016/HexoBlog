@@ -1,5 +1,5 @@
 ---
-title: 完全二叉树的节点个数
+title: 利用完全二叉树特性递归统计节点数（LeetCode 222）
 date: 2025-02-06 22:10:56
 updated: 2025-02-06 22:10:56
 categories:

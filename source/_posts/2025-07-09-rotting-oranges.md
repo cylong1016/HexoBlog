@@ -1,5 +1,5 @@
 ---
-title: 腐烂的橘子
+title: 多源 BFS 解决腐烂橘子问题（LeetCode 994）
 date: 2025-07-09 21:44:07
 updated: 2025-07-09 21:44:07
 categories:
