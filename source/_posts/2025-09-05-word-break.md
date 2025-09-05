@@ -156,7 +156,7 @@ public boolean wordBreak(String s, List<String> wordDict) {
         // 优化 1：只检查可能的分割点
         // 计算起始检查位置，避免检查长度超过最大单词长度的子串
         int start = Math.max(0, i - maxWordLength);
-        // 优化 2：从后向前检查，优先匹配较长的单词
+        // 优化 2：从后向前检查，优先匹配较短的单词
         // 从 i-1 开始向前检查，一旦找到匹配的单词就可以提前退出循环
         for (int j = i - 1; j >= start; j--) {
             if (dp[j] && wordDictSet.contains(s.substring(j, i))) {
