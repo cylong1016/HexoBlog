@@ -126,7 +126,7 @@ Shadowsocks 的客户端一直在不断的更新迭代，以下教程可能更�
 
 ---
 
-[1]: https://portal.shadowsocks.au/aff.php?aff=8883 "Shadowsocks"
+[1]: https://secure.shadowsocks.au/aff.php?aff=8883 "Shadowsocks"
 [2]: https://portal.shadowsocks.au/clientarea.php "客户中心 | Shadowsocks"
 [3]: https://github.com/shadowsocks "客户端 | Shadowsocks"
 [4]: https://github.com/shadowsocks/shadowsocks-windows/releases/download/3.0/Shadowsocks-3.0.zip "Shadowsocks-3.0.zip"
